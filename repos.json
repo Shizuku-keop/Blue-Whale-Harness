@@ -29468,5 +29468,21 @@
   "_lists": [
    "plugin"
   ]
- }
+ },
+ {
+ "repo": "Lxiayu/DshCockpit",
+ "name": "DshCockpit",
+ "category": "ui",
+ "language": "JavaScript",
+ "license": "MIT",
+ "stars": 8,
+ "compat": "unknown",
+ "desc_en": "Electron desktop cockpit for dsh web: tray-resident background tasks, token/cost tracking with budget alarms, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, full-text session search",
+ "desc_zh": "dsh web 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索",
+ "sourceNote": "作者投稿",
+ "featured": false,
+ "_lists": [
+  "plugin"
+ ]
+}
 ]

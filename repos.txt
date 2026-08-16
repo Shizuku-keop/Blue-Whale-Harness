@@ -1813,3 +1813,4 @@ Samge0/dsh-plugin-qcc
 JinkaiLiu/dsh-autonomy
 qidiai/dsh-contrib-topology
 yugbin/dsh-prompt-order-fix
+Lxiayu/DshCockpit
