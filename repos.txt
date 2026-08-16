@@ -1802,6 +1802,5 @@ Francis-Xavier-code/dsh-balance-plugin
 xiaobright/dsh-anchored-standard
 988hj7tczd-oss/harness-desktop
 988hj7tczd-oss/dsh-computer-use
-988hj7tczd-oss/awesome-dsh-plugin
 cocofhu/anime-find
 p2coder/dsh-task-control
