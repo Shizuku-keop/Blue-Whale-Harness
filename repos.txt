@@ -1805,3 +1805,4 @@ xiaobright/dsh-anchored-standard
 988hj7tczd-oss/awesome-dsh-plugin
 cocofhu/anime-find
 p2coder/dsh-task-control
+zhangbo-cn/dsh-voice-input-plugin
