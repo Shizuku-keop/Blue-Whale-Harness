@@ -1810,3 +1810,5 @@ wallpap/dsh-compact-activity
 Apageoflove/DSH-changeproof
 Apageoflove/DSH-arena
 Samge0/dsh-plugin-qcc
+Isilsolme/dsh-splash-launcher
+Isilsolme/dsh-anthropic-fonts

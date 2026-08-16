@@ -29468,5 +29468,37 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "Isilsolme/dsh-splash-launcher",
+  "name": "dsh-splash-launcher",
+  "category": "utility",
+  "language": "C#",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "One-click Windows launcher for the DeepSeek Harness (dsh) Web GUI with a stroke-by-stroke startup animation.",
+  "desc_zh": "DSH Web GUI 的 Windows 一键启动器：无边框描边动画 + 后台拉起 dsh web，关窗自动停服务。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "Isilsolme/dsh-anthropic-fonts",
+  "name": "dsh-anthropic-fonts",
+  "category": "ui",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Switch the DSH web interface to Anthropic Sans Web Text and model conversation to Anthropic Serif Web Text.",
+  "desc_zh": "给 DSH Web 界面换上 Anthropic 字体：界面用 Anthropic Sans，对话用 Anthropic Serif，代码用 Anthropic Mono。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
