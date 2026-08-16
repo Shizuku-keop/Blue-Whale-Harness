@@ -1820,3 +1820,6 @@ Isilsolme/dsh-splash-launcher
 Isilsolme/dsh-anthropic-fonts
 sjh9714/dsh-movein
 sjh9714/dsh-win32
+
+jiangsuyuan/dsh-guard-mode
+jiangsuyuan/dsh-deepseek-meter
