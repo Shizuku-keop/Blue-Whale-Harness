@@ -14,11 +14,11 @@
 
 ## 分类索引
 
-- **llm** — 161 个仓库，★91934
+- **llm** — 162 个仓库，★91937
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 566 个仓库，★15361
+- **tools** — 565 个仓库，★15358
 - **session** — 227 个仓库，★15120
 - **ui** — 177 个仓库，★6093
 - **uncategorized** — 1 个仓库，★2189
@@ -31,7 +31,7 @@
 
 > 按分类分组，组内按 STAR 倒序。点击仓库名跳转原项目。
 
-### llm（161）
+### llm（162）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -96,6 +96,7 @@
 | [Toukaiteio/dsh-effort-tweak](https://github.com/Toukaiteio/dsh-effort-tweak) | dsh-effort-tweak — DSH 插件（模型） | A DeepSeek Harness plugin that allows you to change the reasoning effort of custom models  | 3 | TypeScript | yes |
 | [omdsh-dev/dsh-pet-corner](https://github.com/omdsh-dev/dsh-pet-corner) | dsh-pet-corner — DSH 插件（模型） | DSH Pet Corner: a floating pet, keyless pet-image proxy, favorites, and plugin-owned setti | 3 | TypeScript | yes |
 | [dongsheng123132/dsh-cost](https://github.com/dongsheng123132/dsh-cost) | dsh-cost — DSH 插件（模型） | Evidence-first token cost ledger and budget checks for DeepSeek Harness | 3 | JavaScript | yes |
+| [WSL043/dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) | 在 DSH 里直接使用 ChatGPT 订阅的 Codex 模型，支持订阅搜索、普通 Codex 与 Spark 独立额度显示。 | Use Codex models from a ChatGPT subscription in DSH, with subscription search and separate | 3 | JavaScript | yes |
 | [ang-XWBWZ/dsh-approval-ai](https://github.com/ang-XWBWZ/dsh-approval-ai) | DeepSeek Harness（DSH）的 AI 审批应答器，走统一 LLM 路由并带 fail-closed 策略检查。 | AI approval answerer for DeepSeek Harness (DSH) using the unified LLM route with fail-clos | 3 | TypeScript | yes |
 | [TQSY114514/dsh-ui-appearance](https://github.com/TQSY114514/dsh-ui-appearance) | DeepSeek Harness 的外观定制插件：主题色板、背景图、透明度/模糊、毛玻璃效果 | Appearance customization plugin for DeepSeek Harness: theme color palette, background imag | 3 | TypeScript | yes |
 | [ch1bug/dsh-mimo-agent-tools](https://github.com/ch1bug/dsh-mimo-agent-tools) | 面向 DeepSeek Harness 智能体的小米 MiMo 搜索 + 多模态工具：mimo_search/vision/audio/video/asr/tts | Xiaomi MiMo search + multimodal tools for DeepSeek Harness agents: mimo_search/vision/audi | 3 | JavaScript | yes |
@@ -800,7 +801,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（566）
+### tools（565）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1015,7 +1016,6 @@
 | [ZgblKylin/dsh-terminal](https://github.com/ZgblKylin/dsh-terminal) | dsh-terminal — DSH 插件（工具） | Integrate terminal plugin for DeepSeek Harness | 3 | TypeScript | yes |
 | [hrhgit/deepseek-harness-plugin-manager](https://github.com/hrhgit/deepseek-harness-plugin-manager) | deepseek-harness-plugin-manager — DSH 插件（工具） | Web plugin manager for DeepSeek Harness (DSH): inspect, search, group, enable, and disable | 3 | TypeScript | yes |
 | [dongsheng123132/dsh-cad-review](https://github.com/dongsheng123132/dsh-cad-review) | dsh-cad-review — DSH 插件（工具） | Evidence-first ASCII DXF inspection and deterministic CAD rule review for DeepSeek Harness | 3 | JavaScript | yes |
-| [WSL043/dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) | dsh-codex-subscription — DSH 插件（工具） | Cache-aware ChatGPT / Codex subscription plugin for DeepSeek Harness | 3 | JavaScript | yes |
 | [isolat-3k/dsh-kanban](https://github.com/isolat-3k/dsh-kanban) | 一个Hermes风格的看板插件，在deepseek harness上使用 | dsh-kanban — DSH plugin (tools) | 3 | JavaScript | yes |
 | [clearkurt/dsh-win-terminal-inspector](https://github.com/clearkurt/dsh-win-terminal-inspector) | 针对 DSH 持久 / PTY shell 的 Windows（win32）终端检查 | Windows (win32) terminal inspection for DSH persistent/PTY shells | 3 | JavaScript | yes |
 | [Luke-Yong/dsh-plugin-knowledge-graph](https://github.com/Luke-Yong/dsh-plugin-knowledge-graph) | DeepSeek Harness 的知识图谱插件 dsh-plugin-knowledge-graph | dsh-plugin-knowledge-graph for Deepseek Harness | 3 | TypeScript | yes |

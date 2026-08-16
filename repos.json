@@ -7882,13 +7882,13 @@
  {
   "repo": "WSL043/dsh-codex-subscription",
   "name": "dsh-codex-subscription",
-  "category": "tools",
+  "category": "llm",
   "language": "JavaScript",
   "license": "MIT",
   "stars": 3,
   "compat": "unknown",
-  "desc_en": "Cache-aware ChatGPT / Codex subscription plugin for DeepSeek Harness",
-  "desc_zh": "dsh-codex-subscription — DSH 插件（工具）",
+  "desc_en": "Use Codex models from a ChatGPT subscription in DSH, with subscription search and separate standard/Spark quota displays.",
+  "desc_zh": "在 DSH 里直接使用 ChatGPT 订阅的 Codex 模型，支持订阅搜索、普通 Codex 与 Spark 独立额度显示。",
   "sourceNote": "新增",
   "featured": false,
   "_lists": [
