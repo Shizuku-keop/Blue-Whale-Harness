@@ -649,7 +649,7 @@ fishxcode/dsh-plugin-deepseek-balance
 cakeni/harness-pet
 LKRCharon/dsh-egress-guard
 318197375/dsh-bottom-stats
-reshuibuduo/tmcra-deepseek-harness-memory
+reshuibuduo/TMCRA-Agent-Memory
 dmsobtl/dsh-test-workbench
 hellosky983/dsh-qrcode
 hellosky983/dsh-skillradar
