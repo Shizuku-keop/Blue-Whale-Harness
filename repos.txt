@@ -1818,3 +1818,6 @@ jasonrale/dsh-archive-manager
 lukaiwuyi/dsh-frontend-tools
 Isilsolme/dsh-splash-launcher
 Isilsolme/dsh-anthropic-fonts
+
+jiangsuyuan/dsh-guard-mode
+jiangsuyuan/dsh-deepseek-meter

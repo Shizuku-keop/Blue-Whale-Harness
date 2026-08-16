@@ -89230,5 +89230,88 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-16T10:56:58.950Z"
+  },
+  "jiangsuyuan/dsh-guard-mode": {
+    "repo": "jiangsuyuan/dsh-guard-mode",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "sandbox",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "@deepseek-ai/cordis",
+      "@deepseek-ai/dsh-pwsh-sandbox",
+      "@deepseek-ai/dsh-tools",
+      "@deepseek-ai/dsh-user-approval",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "TypeScript",
+    "intent": "Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time human approval on hit)",
+    "intentEn": "Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time human approval on hit)",
+    "intentZh": "安全防呆模式:FullAccess 全部能力 + 危险命令黑名单拦截,命中转单次人工批准",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "TypeScript",
+      "tsdown",
+      "@deepseek-ai/cordis",
+      "@deepseek-ai/dsh-pwsh-sandbox"
+    ],
+    "keyDeps": [],
+    "entry": "lib/index.js",
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-08-15T12:08:38Z",
+    "updated_at": "2026-08-15T12:34:57Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-16T11:59:37.601Z"
+  },
+  "jiangsuyuan/dsh-deepseek-meter": {
+    "repo": "jiangsuyuan/dsh-deepseek-meter",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "ui",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "@deepseek-ai/cordis",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "TypeScript",
+    "intent": "DeepSeek official usage & balance collapsible pill (my key + account totals)",
+    "intentEn": "DeepSeek official usage & balance collapsible pill (my key + account totals)",
+    "intentZh": "DeepSeek 官方用量·余额可折叠胶囊(我的 key + 账号合计)",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "TypeScript",
+      "react",
+      "tsdown",
+      "@deepseek-ai/cordis"
+    ],
+    "keyDeps": [],
+    "entry": "lib/index.js",
+    "stars": 3,
+    "forks": 0,
+    "created_at": "2026-08-14T13:46:20Z",
+    "updated_at": "2026-08-15T13:25:14Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-16T11:59:37.601Z"
   }
 }
