@@ -1818,3 +1818,5 @@ jasonrale/dsh-archive-manager
 lukaiwuyi/dsh-frontend-tools
 Isilsolme/dsh-splash-launcher
 Isilsolme/dsh-anthropic-fonts
+sjh9714/dsh-movein
+sjh9714/dsh-win32
