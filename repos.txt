@@ -1810,3 +1810,4 @@ wallpap/dsh-compact-activity
 Apageoflove/DSH-changeproof
 Apageoflove/DSH-arena
 Samge0/dsh-plugin-qcc
+jasonrale/dsh-archive-manager

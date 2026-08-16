@@ -29468,5 +29468,20 @@
   "_lists": [
    "plugin"
   ]
+ }, {
+  "repo": "jasonrale/dsh-archive-manager",
+  "name": "dsh-archive-manager",
+  "category": "session",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Archived-session manager for DeepSeek Harness WebUI — view, reopen, unarchive, or permanently delete archived sessions",
+  "desc_zh": "DeepSeek Harness WebUI 归档会话管理插件：查看归档、继续对话、恢复归档、彻底删除",
+  "sourceNote": "新增",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
