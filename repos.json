@@ -10328,22 +10328,6 @@
   ]
  },
  {
-  "repo": "reshuibuduo/tmcra-deepseek-harness-memory",
-  "name": "tmcra-deepseek-harness-memory",
-  "category": "session",
-  "language": "TypeScript",
-  "license": "Apache-2.0",
-  "stars": 1,
-  "compat": "unknown",
-  "desc_en": "TMCRA Agent 长期记忆系统的 DeepSeek Harness 接入插件：自动延续跨对话项目记忆，并沉淀项目知识与工作经验。",
-  "desc_zh": "TMCRA Agent 长期记忆系统的 DeepSeek Harness 接入插件：自动延续跨对话项目记忆，并沉淀项目知识与工作经验。",
-  "sourceNote": "auto",
-  "featured": false,
-  "_lists": [
-   "plugin"
-  ]
- },
- {
   "repo": "dmsobtl/dsh-test-workbench",
   "name": "dsh-test-workbench",
   "category": "orchestration",
@@ -29470,20 +29454,20 @@
   ]
  },
  {
- "repo": "Lxiayu/DshCockpit",
- "name": "DshCockpit",
- "category": "ui",
- "language": "JavaScript",
- "license": "MIT",
- "stars": 8,
- "compat": "unknown",
- "desc_en": "Electron desktop cockpit for dsh web: tray-resident background tasks, token/cost tracking with budget alarms, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, full-text session search",
- "desc_zh": "dsh web 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索",
- "sourceNote": "作者投稿",
- "featured": false,
- "_lists": [
-  "plugin"
- ]
+  "repo": "Lxiayu/DshCockpit",
+  "name": "DshCockpit",
+  "category": "ui",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 8,
+  "compat": "unknown",
+  "desc_en": "Electron desktop cockpit for dsh web: tray-resident background tasks, token/cost tracking with budget alarms, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, full-text session search",
+  "desc_zh": "dsh web 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索",
+  "sourceNote": "作者投稿",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  },
  {
   "repo": "jasonrale/dsh-archive-manager",
@@ -29512,6 +29496,70 @@
   "desc_en": "Bridge web/Electron/Tauri/Node applications to DeepSeek Harness agents in real time — expose frontend tools to AI over loopback WebSocket, with read-only/write classification for human approval",
   "desc_zh": "桥接 Web/Electron/Tauri/Node 应用到 DeepSeek Harness 智能体，通过本地 WebSocket 将前端工具暴露给 AI，支持只读/写入分类的人工审批机制",
   "sourceNote": "作者投稿",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "JinkaiLiu/dsh-autonomy",
+  "name": "dsh-autonomy",
+  "category": "session",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "Switch between Chat and Agent without leaving your DeepSeek Harness session.",
+  "desc_zh": "无需离开当前 DeepSeek Harness 会话即可在 Chat 与 Agent 模式间切换。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "qidiai/dsh-contrib-topology",
+  "name": "dsh-contrib-topology",
+  "category": "ui",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "DSH plugin that renders a live dependency-topology graph of the running agent — plugin/service nodes, depends-on/provides/contains/disabled edges, and fiber lifecycle phases.",
+  "desc_zh": "渲染运行中 agent 的实时依赖拓扑图：插件/服务节点、depends-on/provides/contains/disabled 边与 fiber 生命周期阶段。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "yugbin/dsh-prompt-order-fix",
+  "name": "dsh-prompt-order-fix",
+  "category": "llm",
+  "language": "TypeScript",
+  "license": "NONE",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalidation from unstable same-order section ordering across restarts.",
+  "desc_zh": "为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "reshuibuduo/TMCRA-Agent-Memory",
+  "name": "TMCRA-Agent-Memory",
+  "category": "session",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stars": 5,
+  "compat": "unknown",
+  "desc_en": "Scope-isolated, graph-based long-term memory engine for AI agents, with a DeepSeek Harness technical preview.",
+  "desc_zh": "作用域隔离、基于图结构的 AI 智能体长期记忆引擎，含 DeepSeek Harness 技术预览接入。",
+  "sourceNote": "PR 替换",
   "featured": false,
   "_lists": [
    "plugin"

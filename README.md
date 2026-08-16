@@ -4,23 +4,23 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1803** 个仓库 ｜ 真·DSH 插件 **1673** 个
+> 自动生成于 2026-08-16 ｜ 共 **1809** 个仓库 ｜ 真·DSH 插件 **1679** 个
 
 ## 统计
 
-- 仓库总数：**1803**
-- 真·DSH 插件：**1673**
+- 仓库总数：**1809**
+- 真·DSH 插件：**1679**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
-- **llm** — 162 个仓库，★91937
+- **llm** — 163 个仓库，★91937
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 569 个仓库，★15366
-- **session** — 227 个仓库，★15120
-- **ui** — 178 个仓库，★6093
+- **tools** — 570 个仓库，★15366
+- **session** — 229 个仓库，★15126
+- **ui** — 180 个仓库，★6103
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
 - **sandbox** — 9 个仓库，★191
@@ -31,7 +31,7 @@
 
 > 按分类分组，组内按 STAR 倒序。点击仓库名跳转原项目。
 
-### llm（162）
+### llm（163）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -197,6 +197,7 @@
 | [jasper-zsh/dsh-plugin-file-manager](https://github.com/jasper-zsh/dsh-plugin-file-manager) | 面向 DeepSeek Harness（DSH） Web 界面的会话文件管理器插件。它在会话标题栏增加“文件”入口，打开后展示该会话工作区的文件树、Git 状态，并支持直接预览文本 | A session file-manager plugin for the DeepSeek Harness (DSH) web UI. It adds a 'Files' ent | 0 | TypeScript | yes |
 | [chenhaolove89/dsh-ccswitch-import](https://github.com/chenhaolove89/dsh-ccswitch-import) | DeepSeek Harness 插件：从 CCSWITCH 批量导入模型供应商 + visual_describe 视觉描述工具 | DeepSeek Harness plugin: bulk-import model providers from CCSWITCH + a visual_describe vis | 0 | JavaScript | yes |
 | [Arnoldkevin/prismrelay-mcp](https://github.com/Arnoldkevin/prismrelay-mcp) | 以视觉为先的本地 MCP，通过 Agnes AI（BYOK）为纯文本智能体提供图像理解 | Vision-first local MCP that gives text-only Agents image understanding through Agnes AI (B | 0 | TypeScript | yes |
+| [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 
 ### utility（342）
 
@@ -801,7 +802,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（569）
+### tools（570）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1374,8 +1375,9 @@
 | [2006spy/dsh-token-billing](https://github.com/2006spy/dsh-token-billing) | DSH 实时 token 计费插件：官网人民币价直接计费、高峰/错峰自动切换、价格实时跟随官网、可视化自定义模型价格。 | Real-time token billing plugin for DSH: bill at the official CNY price, auto-switch peak/o | 0 | JavaScript | yes |
 | [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) | DSH 输入框语音控制插件：在 composer 工具行放一个极简线性麦克风按钮，点按进入持续监听，语音实时流入草稿，随时发送。 | DeepSeek Harness composer voice-control plugin: a minimal linear mic button in the compose | 0 | TypeScript | yes |
 | [Samge0/dsh-plugin-qcc](https://github.com/Samge0/dsh-plugin-qcc) | 将企查查企业数据源接入 DSH 会话的动态 Cordis 插件——5 个 agent 工具（认证、企业搜索、知识搜索）及设置页二维码登录。 | Dynamic Cordis plugin that brings the Qichacha (企查查) enterprise data source into a DSH ses | 0 | JavaScript | yes |
+| [lukaiwuyi/dsh-frontend-tools](https://github.com/lukaiwuyi/dsh-frontend-tools) | 桥接 Web/Electron/Tauri/Node 应用到 DeepSeek Harness 智能体，通过本地 WebSocket 将前端工具暴露给 AI，支持只读/写入分类的人 | Bridge web/Electron/Tauri/Node applications to DeepSeek Harness agents in real time — expo | 0 | TypeScript | yes |
 
-### session（227）
+### session（229）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1442,6 +1444,7 @@
 | [609476965/dsh-LorebookMD](https://github.com/609476965/dsh-LorebookMD) | DSH 由 lorebook 驱动的虚构写作插件：导入 Tavern/SillyTavern 角色卡与世界书，保存本地 Markdown 设置，生成…… | DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & wor | 5 | TypeScript | yes |
 | [limbo947/DSH-recall-plugin](https://github.com/limbo947/DSH-recall-plugin) | DSH 消息撤回插件：回到发送该消息时的状态 | A DSH message-recall plugin: revert to the state when that message was sent. | 5 | JavaScript | yes |
 | [jiezeng2004-design/dsh-chatgpt-bridge](https://github.com/jiezeng2004-design/dsh-chatgpt-bridge) | 让 ChatGPT 创建、查看、继续并控制 DeepSeek Harness（DSH）智能体会话的 MCP 桥接。 | MCP bridge that lets ChatGPT create, view, continue, and control DeepSeek Harness (DSH) ag | 5 | JavaScript | yes |
+| [reshuibuduo/TMCRA-Agent-Memory](https://github.com/reshuibuduo/TMCRA-Agent-Memory) | 作用域隔离、基于图结构的 AI 智能体长期记忆引擎，含 DeepSeek Harness 技术预览接入。 | Scope-isolated, graph-based long-term memory engine for AI agents, with a DeepSeek Harness | 5 | Python | yes |
 | [jiesou/dsh-stream-rules](https://github.com/jiesou/dsh-stream-rules) | 按需注入规则，不浪费上下文。 | Inject rules on demand without wasting context. | 4 | TypeScript | yes |
 | [GooodWei/context-vista](https://github.com/GooodWei/context-vista) | 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配，compact指令效果，同时支持估算费用消耗， | context-vista — DSH plugin (session) | 4 | JavaScript | yes |
 | [LingLambda/dsh-undo](https://github.com/LingLambda/dsh-undo) | dsh-undo — DSH 插件（会话） | Context undo/redo plugin for DeepSeek Harness (dsh): roll the model context back to the la | 4 | TypeScript | yes |
@@ -1578,7 +1581,6 @@
 | [TT-Wang/dsh-slice-agent-loop](https://github.com/TT-Wang/dsh-slice-agent-loop) | 可直接接入的 DeepSeek Harness 智能体循环，其上下文引擎是有界切片而非不断增长的转录 | A drop-in DeepSeek Harness agent loop whose context engine is a bounded slice instead of a | 1 | TypeScript | yes |
 | [kam74515-boop/dsh-everything-oauth](https://github.com/kam74515-boop/dsh-everything-oauth) | 将本地 Codex / Grok / Claude / OpenCode / CC Switch 登录导入 DeepSeek Harness | Import local Codex / Grok / Claude / OpenCode / CC Switch logins into DeepSeek Harness | 1 | JavaScript | yes |
 | [forrestsweet/dsh-agent-replay](https://github.com/forrestsweet/dsh-agent-replay) | DeepSeek Harness 会话回放与脱敏分享插件：将真实 Agent 轨迹导出为独立交互 HTML，用于文档、演示和问题反馈。 | A DeepSeek Harness session-replay and desensitized-sharing plugin that exports real agent  | 1 | TypeScript | yes |
-| [reshuibuduo/tmcra-deepseek-harness-memory](https://github.com/reshuibuduo/tmcra-deepseek-harness-memory) | TMCRA Agent 长期记忆系统的 DeepSeek Harness 接入插件：自动延续跨对话项目记忆，并沉淀项目知识与工作经验。 | A DeepSeek Harness integration plugin for the TMCRA Agent long-term memory system: automat | 1 | TypeScript | yes |
 | [NinjaSln-labs/dsh-plugins](https://github.com/NinjaSln-labs/dsh-plugins) | DSH 插件合集：DeepSeek Harness 社区插件（会话健康、知识……） | DSH plugin collection: DeepSeek Harness community plugins (session-health, knowledge, ...) | 1 | TypeScript | yes |
 | [dmsobtl/dsh-session-analyst](https://github.com/dmsobtl/dsh-session-analyst) | DSH 插件：Agent 会话质量分析 —— 工具成功率、token 效率、冗余调用检测、跨会话回归对比。PS：上传文件有点问题，等我重新整理下 | DSH plugin: agent session-quality analysis — tool success rate, token efficiency, redundan | 1 | TypeScript | yes |
 | [reshuibuduo/dsh-tmcra-memory](https://github.com/reshuibuduo/dsh-tmcra-memory) | TMCRA Agent 长期记忆系统的 DeepSeek Harness 接入插件：跨对话延续项目记忆，自动沉淀项目知识与工作经验。 | A DeepSeek Harness integration plugin for the TMCRA Agent long-term memory system: continu | 1 | TypeScript | yes |
@@ -1594,6 +1596,8 @@
 | [Hyperionjust/Primordial-soup-](https://github.com/Hyperionjust/Primordial-soup-) | 首个基于碰撞的记忆系统：它不检索旧想法——而是把旧卡片砸成新的。 | The first collision-based memory system: it doesn't retrieve old ideas — it smashes old ca | 1 | Python | no |
 | [TIZ36/evo-memory](https://github.com/TIZ36/evo-memory) | 基于 CLP 的智能体记忆插件 | agent memory plugin based on CLP | 1 | TypeScript | yes |
 | [addxing/function-testing](https://github.com/addxing/function-testing) | 面向各类 AI 编程代理的功能测试用例生成 Skill。它可以根据 PRD、Git 提交记录或用户故事生成功能测试用例，并输出 Excel 风格测试报告 A skill for g | A skill for generating functional test cases for various AI coding agents. It can generate | 1 | JavaScript | yes |
+| [JinkaiLiu/dsh-autonomy](https://github.com/JinkaiLiu/dsh-autonomy) | 无需离开当前 DeepSeek Harness 会话即可在 Chat 与 Agent 模式间切换。 | Switch between Chat and Agent without leaving your DeepSeek Harness session. | 1 | TypeScript | yes |
+| [jasonrale/dsh-archive-manager](https://github.com/jasonrale/dsh-archive-manager) | DeepSeek Harness WebUI 归档会话管理插件：查看归档、继续对话、恢复归档、彻底删除。 | Archived-session manager for DeepSeek Harness WebUI — view, reopen, unarchive, or permanen | 1 | JavaScript | yes |
 | [wangxiang0605qvq/dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) | dsh-auto-compact — DSH 插件（会话） | dsh-auto-compact — a DSH plugin (session). | 0 | JavaScript | yes |
 | [Amengclass/dsh-memory](https://github.com/Amengclass/dsh-memory) | dsh-memory — DSH 插件（会话） | Persistent, model-editable memory/notes store for DeepSeek Harness. Adds memory_set/get/de | 0 | JavaScript | yes |
 | [csiroqa/dsh-archive-viewer](https://github.com/csiroqa/dsh-archive-viewer) | dsh-archive-viewer — DSH 插件（会话） | DSH archive enhancements: periodic archive, LLM summaries, session notes. | 0 | TypeScript | yes |
@@ -1607,7 +1611,7 @@
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 | [p2coder/dsh-task-control](https://github.com/p2coder/dsh-task-control) | 为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。 | Pause, resume and cancel long-running DSH tasks with safe and forced pause modes. | 0 | JavaScript | yes |
 
-### ui（178）
+### ui（180）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1644,6 +1648,7 @@
 | [01Virex/dsh-status-rotator](https://github.com/01Virex/dsh-status-rotator) | 替换 DSH 状态显示的 web 插件。 | Web plugin replacing the DSH status display. | 9 | JavaScript | yes |
 | [gxpppp/dsh-search-mcp](https://github.com/gxpppp/dsh-search-mcp) | dsh-search-mcp — DSH 插件（界面） | Replace dsh's built-in web search with search MCP servers (Tavily/Brave/Exa/Perplexity/Duc | 9 | JavaScript | yes |
 | [1841220388zzzcccxxx-star/dsh-git-graph](https://github.com/1841220388zzzcccxxx-star/dsh-git-graph) | Embedded git repository graph visualizer for the DeepSeek Harness Web GUI | 嵌入式 Git 仓库图谱可视 | An embedded git repository graph visualizer for the DeepSeek Harness Web GUI (commit histo | 9 | HTML | yes |
+| [Lxiayu/DshCockpit](https://github.com/Lxiayu/DshCockpit) | dsh web 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索。 | Electron desktop cockpit for dsh web: tray-resident background tasks, token/cost tracking  | 9 | JavaScript | yes |
 | [lhh010/dsh-ui-progress](https://github.com/lhh010/dsh-ui-progress) | 会话进度条：todos 进度/实时 token 速率 | Session progress bar: todos progress + live token rate | 8 | TypeScript | yes |
 | [lhh010/dsh-paste-input](https://github.com/lhh010/dsh-paste-input) | Ctrl+V 粘贴/拖拽/选文件增强 | Paste/drag/drop file input enhancement | 8 | JavaScript | yes |
 | [gameswu/dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) | DSH 壁纸插件 | DSH wallpaper plugin | 8 | TypeScript | yes |
@@ -1781,6 +1786,7 @@
 | [frankq007/dsh-plugin-devecocli](https://github.com/frankq007/dsh-plugin-devecocli) | DeepSeek Harness 的鸿蒙（HarmonyOS）开发工具：设备/模拟器管理、UI 自动化、构建与部署、日志、lint、签名与离线… | HarmonyOS development tools for DeepSeek Harness: device/emulator management, UI automatio | 1 | JavaScript | yes |
 | [drscrewdriver/inferglow](https://github.com/drscrewdriver/inferglow) | go 语言实现的ai 基座+ tui +server系统 | inferglow — DSH plugin (ui) | 1 | Go | no |
 | [Loong-wql/Build-HOS-mcp](https://github.com/Loong-wql/Build-HOS-mcp) | 适用于Codex的鸿蒙应用开发插件（HarmonyOS application development plugin ） | A HarmonyOS application development plugin for Codex (HarmonyOS application development pl | 1 | JavaScript | no |
+| [qidiai/dsh-contrib-topology](https://github.com/qidiai/dsh-contrib-topology) | 渲染运行中 agent 的实时依赖拓扑图：插件/服务节点、depends-on/provides/contains/disabled 边与 fiber 生命周期阶段。 | DSH plugin that renders a live dependency-topology graph of the running agent — plugin/ser | 1 | TypeScript | yes |
 | [liceses/dsh-web-text-drop](https://github.com/liceses/dsh-web-text-drop) | DSH Web GUI 文本文件拖拽导入插件:把 md / txt / log / 代码等文本文件拖进页面, 按内容长度自动处理 —— 短内容直接进输入框,长内容复制到工作区并粘贴 | DSH Web GUI text-file drag-and-drop import plugin: drag md / txt / log / code text files i | 0 | TypeScript | yes |
 | [winyh/dsh-growth](https://github.com/winyh/dsh-growth) | DeepSeek Harness 的增长获取与用户增长分析：AARRR、留存、MRR、实验与单位经济 | Growth acquisition and user growth analysis for DeepSeek Harness: AARRR, retention, MRR, e | 0 | TypeScript | yes |
 | [xjackzenvey/Dsh-UI-Enhance](https://github.com/xjackzenvey/Dsh-UI-Enhance) | Deepseek Harness 增强工具 | DeepSeek Harness enhancement tool. | 0 | TypeScript | yes |

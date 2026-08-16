@@ -32298,80 +32298,6 @@
   "featured": false,
   "analyzed_at": "2026-08-15T03:47:12.450Z"
  },
- "reshuibuduo/tmcra-deepseek-harness-memory": {
-  "repo": "reshuibuduo/tmcra-deepseek-harness-memory",
-  "lists": [
-   "plugin"
-  ],
-  "dshCategory": "session",
-  "isDshPlugin": true,
-  "dshSignals": [
-   "cordis.patch.yml",
-   "@deepseek-ai/dsh-atomic-write",
-   "@deepseek-ai/schemastery",
-   "@deepseek-ai/cordis",
-   "@deepseek-ai/dsh-agent",
-   "@deepseek-ai/dsh-agent-loop",
-   "@deepseek-ai/dsh-agent-loop-testkit",
-   "@deepseek-ai/dsh-attachment",
-   "@deepseek-ai/dsh-brand",
-   "@deepseek-ai/dsh-code-runtime",
-   "@deepseek-ai/dsh-credentials",
-   "@deepseek-ai/dsh-invariants",
-   "@deepseek-ai/dsh-llm",
-   "@deepseek-ai/dsh-scope",
-   "@deepseek-ai/dsh-session",
-   "@deepseek-ai/dsh-session-persistence",
-   "@deepseek-ai/dsh-settings",
-   "@deepseek-ai/dsh-system-prompt",
-   "@deepseek-ai/dsh-timeout",
-   "@deepseek-ai/dsh-tools",
-   "@deepseek-ai/dsh-typert-protocol",
-   "@deepseek-ai/dsh-user-approval",
-   "keyword-plugin",
-   "keyword-dsh",
-   "readme-mentions-dsh"
-  ],
-  "manifestType": "cordis.patch.yml",
-  "language": "TypeScript",
-  "intent": "A DeepSeek Harness integration plugin for the TMCRA Agent long-term memory system: automatically continues cross-conversation project memory and accumulates project knowledge and work experience.",
-  "intentEn": "A DeepSeek Harness integration plugin for the TMCRA Agent long-term memory system: automatically continues cross-conversation project memory and accumulates project knowledge and work experience.",
-  "intentZh": "TMCRA Agent 长期记忆系统的 DeepSeek Harness 接入插件：自动延续跨对话项目记忆，并沉淀项目知识与工作经验。",
-  "zhSource": "native",
-  "enSource": "hy3",
-  "needsReview": false,
-  "techStack": [
-   "TypeScript",
-   "dsh-tools",
-   "dsh-session",
-   "typescript",
-   "vite",
-   "esm",
-   "ts-build"
-  ],
-  "keyDeps": [
-   "@deepseek-ai/dsh-atomic-write",
-   "@deepseek-ai/schemastery"
-  ],
-  "entry": "dist/index.mjs",
-  "stars": 1,
-  "forks": 0,
-  "created_at": "2026-08-14T03:19:09Z",
-  "updated_at": "2026-08-14T10:35:50Z",
-  "license": "Apache-2.0",
-  "open_issues": 0,
-  "topics": [
-   "agent-memory",
-   "deepseek-harness",
-   "dsh-plugin",
-   "long-term-memory",
-   "tmcra"
-  ],
-  "cloned": true,
-  "compat": "unknown",
-  "featured": false,
-  "analyzed_at": "2026-08-15T03:47:12.452Z"
- },
  "dmsobtl/dsh-test-workbench": {
   "repo": "dmsobtl/dsh-test-workbench",
   "lists": [
@@ -88901,5 +88827,330 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-16T04:29:54.204Z"
+ },
+ "JinkaiLiu/dsh-autonomy": {
+  "repo": "JinkaiLiu/dsh-autonomy",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Switch between Chat and Agent without leaving your DeepSeek Harness session.",
+  "intentEn": "Switch between Chat and Agent without leaving your DeepSeek Harness session.",
+  "intentZh": "无需离开当前 DeepSeek Harness 会话即可在 Chat 与 Agent 模式间切换。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent",
+   "autonomy",
+   "chat-mode",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
+ },
+ "qidiai/dsh-contrib-topology": {
+  "repo": "qidiai/dsh-contrib-topology",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "DSH plugin that renders a live dependency-topology graph of the running agent — plugin/service nodes, depends-on/provides/contains/disabled edges, and fiber lifecycle phases.",
+  "intentEn": "DSH plugin that renders a live dependency-topology graph of the running agent — plugin/service nodes, depends-on/provides/contains/disabled edges, and fiber lifecycle phases.",
+  "intentZh": "渲染运行中 agent 的实时依赖拓扑图：插件/服务节点、depends-on/provides/contains/disabled 边与 fiber 生命周期阶段。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "dsh-plugin-desktop",
+   "dsh-plugin-market",
+   "dsh-plugin-verify",
+   "dsh-plugins"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
+ },
+ "yugbin/dsh-prompt-order-fix": {
+  "repo": "yugbin/dsh-prompt-order-fix",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "llm",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalidation from unstable same-order section ordering across restarts.",
+  "intentEn": "Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalidation from unstable same-order section ordering across restarts.",
+  "intentZh": "为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "NONE",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
+ },
+ "Lxiayu/DshCockpit": {
+  "repo": "Lxiayu/DshCockpit",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Electron desktop cockpit for dsh web: tray-resident background tasks, token/cost tracking with budget alarms, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, full-text session search.",
+  "intentEn": "Electron desktop cockpit for dsh web: tray-resident background tasks, token/cost tracking with budget alarms, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, full-text session search.",
+  "intentZh": "dsh web 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 9,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-dashboard",
+   "ai-agent",
+   "auto-update",
+   "budget-tracker",
+   "cockpit",
+   "cost-tracking",
+   "deepseek",
+   "deepseek-harness",
+   "desktop-app",
+   "dsh",
+   "dsh-plugin",
+   "electron",
+   "llm-cost",
+   "local-first",
+   "quick-ask",
+   "scheduled-tasks",
+   "session-search",
+   "token-usage",
+   "tray-app",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
+ },
+ "jasonrale/dsh-archive-manager": {
+  "repo": "jasonrale/dsh-archive-manager",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Archived-session manager for DeepSeek Harness WebUI — view, reopen, unarchive, or permanently delete archived sessions.",
+  "intentEn": "Archived-session manager for DeepSeek Harness WebUI — view, reopen, unarchive, or permanently delete archived sessions.",
+  "intentZh": "DeepSeek Harness WebUI 归档会话管理插件：查看归档、继续对话、恢复归档、彻底删除。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "cordis",
+   "cordis-plugin",
+   "deepseek-harness",
+   "dsh-plugin",
+   "dsh-plugins",
+   "session-management",
+   "session-management-dashboard"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
+ },
+ "lukaiwuyi/dsh-frontend-tools": {
+  "repo": "lukaiwuyi/dsh-frontend-tools",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Bridge web/Electron/Tauri/Node applications to DeepSeek Harness agents in real time — expose frontend tools to AI over loopback WebSocket, with read-only/write classification for human approval.",
+  "intentEn": "Bridge web/Electron/Tauri/Node applications to DeepSeek Harness agents in real time — expose frontend tools to AI over loopback WebSocket, with read-only/write classification for human approval.",
+  "intentZh": "桥接 Web/Electron/Tauri/Node 应用到 DeepSeek Harness 智能体，通过本地 WebSocket 将前端工具暴露给 AI，支持只读/写入分类的人工审批机制。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-tools",
+   "ai-agent",
+   "copilotkit",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "frontend-tools",
+   "plugin",
+   "web-ui",
+   "websocket"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
+ },
+ "reshuibuduo/TMCRA-Agent-Memory": {
+  "repo": "reshuibuduo/TMCRA-Agent-Memory",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "Python",
+  "intent": "Scope-isolated, graph-based long-term memory engine for AI agents, with a DeepSeek Harness technical preview.",
+  "intentEn": "Scope-isolated, graph-based long-term memory engine for AI agents, with a DeepSeek Harness technical preview.",
+  "intentZh": "作用域隔离、基于图结构的 AI 智能体长期记忆引擎，含 DeepSeek Harness 技术预览接入。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "Python",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-16T09:31:38.000Z",
+  "updated_at": "2026-08-16T09:31:38.000Z",
+  "license": "Apache-2.0",
+  "open_issues": 0,
+  "topics": [
+   "agent-memory",
+   "ai-agents",
+   "claude-code",
+   "codex-plugin",
+   "deepseek-harness",
+   "dsh-plugin",
+   "long-term-memory",
+   "longmemeval",
+   "memory-graph",
+   "openai-codex"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T09:31:38.000Z"
  }
 }
