@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1798** 个仓库 ｜ 真·DSH 插件 **1668** 个
+> 自动生成于 2026-08-16 ｜ 共 **1803** 个仓库 ｜ 真·DSH 插件 **1673** 个
 
 ## 统计
 
-- 仓库总数：**1798**
-- 真·DSH 插件：**1668**
+- 仓库总数：**1803**
+- 真·DSH 插件：**1673**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,13 +18,13 @@
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 566 个仓库，★15358
+- **tools** — 569 个仓库，★15366
 - **session** — 227 个仓库，★15120
-- **ui** — 177 个仓库，★6093
+- **ui** — 178 个仓库，★6093
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
 - **sandbox** — 9 个仓库，★191
-- **preset** — 1 个仓库，★3
+- **preset** — 2 个仓库，★4
 - **skin** — 2 个仓库，★1
 
 ## 插件清单
@@ -801,7 +801,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（566）
+### tools（569）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -944,6 +944,7 @@
 | [yuqingsh/dsh-image-subagent](https://github.com/yuqingsh/dsh-image-subagent) | (无描述) | (no description) | 5 | JavaScript | yes |
 | [Vim0x3c/dsh-session-manager](https://github.com/Vim0x3c/dsh-session-manager) | (无描述) | (no description) | 5 | TypeScript | yes |
 | [cokiscarazo-rgb/dsh-session-management](https://github.com/cokiscarazo-rgb/dsh-session-management) | (无描述) | (no description) | 5 | JavaScript | yes |
+| [Apageoflove/DSH-changeproof](https://github.com/Apageoflove/DSH-changeproof) | 变更证明：dsh 改代码前生成回退包（涉及文件/commit/关键代码块），改后逐项对账，随时查看验证状态。 | Change-proof verification: plan a rollback package before edits, verify the actual changes | 5 | TypeScript | yes |
 | [gfhdhytghd/Hypr-Agent-Protal](https://github.com/gfhdhytghd/Hypr-Agent-Protal) | Hyprland 的 Computer Use MCP | Computer Use MCP for Hyprland | 4 | Python | no |
 | [scotthuang/agent-knock-knock](https://github.com/scotthuang/agent-knock-knock) | OpenClaw 插件：共享 tmux 控制本地 Codex/Claude Code | OpenClaw plugin: control local Codex/Claude Code via shared tmux | 4 | TypeScript | no |
 | [omdsh-dev/dsh-tool-csv](https://github.com/omdsh-dev/dsh-tool-csv) | CSV 解析/查询/统计/转换工具 | CSV parse/query/stat/transform tool | 4 | TypeScript | yes |
@@ -1099,6 +1100,7 @@
 | [FlowerWater1019/Angelina-dsh-plugin](https://github.com/FlowerWater1019/Angelina-dsh-plugin) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [Noelune/dsh-agent-relay](https://github.com/Noelune/dsh-agent-relay) | (无描述) | (no description) | 3 | JavaScript | yes |
 | [OoWJZZoO/dsh-read-image](https://github.com/OoWJZZoO/dsh-read-image) | (无描述) | (no description) | 3 | JavaScript | yes |
+| [Apageoflove/DSH-arena](https://github.com/Apageoflove/DSH-arena) | 本地优先的实验与评估工作台：同题多候选模型对比，成绩单/帕累托前沿/建议胜者/审计告警，数据全在本地，总开关+每模型独立开关控耗。 | Local-first experiment and evaluation workbench: run one task across candidate models, com | 3 | TypeScript | yes |
 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | 通过 cc-connect 远程使用 DSH | Use DSH remotely via cc-connect | 2 | Go | yes |
 | [renat3u/dsh-paseo](https://github.com/renat3u/dsh-paseo) | DSH 的 paseo 插件扩展支持 | paseo plugin extension support for DSH | 2 | JavaScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
@@ -1371,6 +1373,7 @@
 | [988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) | Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具 | Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with | 0 | JavaScript | yes |
 | [2006spy/dsh-token-billing](https://github.com/2006spy/dsh-token-billing) | DSH 实时 token 计费插件：官网人民币价直接计费、高峰/错峰自动切换、价格实时跟随官网、可视化自定义模型价格。 | Real-time token billing plugin for DSH: bill at the official CNY price, auto-switch peak/o | 0 | JavaScript | yes |
 | [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) | DSH 输入框语音控制插件：在 composer 工具行放一个极简线性麦克风按钮，点按进入持续监听，语音实时流入草稿，随时发送。 | DeepSeek Harness composer voice-control plugin: a minimal linear mic button in the compose | 0 | TypeScript | yes |
+| [Samge0/dsh-plugin-qcc](https://github.com/Samge0/dsh-plugin-qcc) | 将企查查企业数据源接入 DSH 会话的动态 Cordis 插件——5 个 agent 工具（认证、企业搜索、知识搜索）及设置页二维码登录。 | Dynamic Cordis plugin that brings the Qichacha (企查查) enterprise data source into a DSH ses | 0 | JavaScript | yes |
 
 ### session（227）
 
@@ -1604,7 +1607,7 @@
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 | [p2coder/dsh-task-control](https://github.com/p2coder/dsh-task-control) | 为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。 | Pause, resume and cancel long-running DSH tasks with safe and forced pause modes. | 0 | JavaScript | yes |
 
-### ui（177）
+### ui（178）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1785,6 +1788,7 @@
 | [penguinpanda/sebastian-kitchen-board](https://github.com/penguinpanda/sebastian-kitchen-board) | Sebastian 是面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的家庭厨房与生活 | Sebastian is a family kitchen & life assistant for [DeepSeek Harness](https://github.com/d | 0 | JavaScript | yes |
 | [JueMing2049/deepseek-skin-studio](https://github.com/JueMing2049/deepseek-skin-studio) | DSH 换肤工作室：一张图一套皮肤；书签/CDP/原生三通道注入 + 可视化工坊 + 13 套内置主题 + DSH-SKIN-SPEC 导出。 | DSH skin studio: turn one image into a Web UI skin; bookmark/CDP/native injection, visual  | 0 | JavaScript | yes |
 | [988hj7tczd-oss/harness-desktop](https://github.com/988hj7tczd-oss/harness-desktop) | 开箱即用的 DeepSeek Harness 桌面客户端（npm / Homebrew / Releases / Gitee 镜像，支持 macOS / Windows / Lin | Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirr | 0 | TypeScript | no |
+| [wallpap/dsh-compact-activity](https://github.com/wallpap/dsh-compact-activity) | DSH Web UI 插件：把连续的思考/工具调用消息折叠成一行可展开的单行披露，展开时保留官方组件。 | DSH Web UI plugin: folds consecutive thinking/tool-call messages into a single collapsed o | 0 | TypeScript | yes |
 
 ### uncategorized（1）
 
@@ -1876,7 +1880,7 @@
 | [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) | 为 DeepSeek Harness（dsh）即插即用的 dsh web Profile，新增 **自检** 沙箱模式 | A drop-in dsh web profile that adds the **Self Checking** sandbox mode to DeepSeek Harness | 1 | JavaScript | yes |
 | [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。 | dsh-shell-termux — DSH plugin (sandbox) | 0 | TypeScript | yes |
 
-### preset（1）
+### preset（2）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|

@@ -88657,5 +88657,249 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-16T03:17:53.749Z"
+ },
+ "HaoyanZhang123/deepseek-harness-live-preset-switch": {
+  "repo": "HaoyanZhang123/deepseek-harness-live-preset-switch",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "preset",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Live agent-preset switching at turn boundaries for DeepSeek Harness",
+  "intentEn": "Live agent-preset switching at turn boundaries for DeepSeek Harness",
+  "intentZh": "DeepSeek Harness 对话中实时切换预设",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-16T04:29:54.204Z",
+  "updated_at": "2026-08-16T04:29:54.204Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-presets",
+   "deepseek-harness",
+   "dsh-plugin",
+   "hot-switch",
+   "ui",
+   "ui-design"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T04:29:54.204Z"
+ },
+ "wallpap/dsh-compact-activity": {
+  "repo": "wallpap/dsh-compact-activity",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DSH Web UI plugin: folds consecutive thinking/tool-call messages into a single collapsed one-line disclosure, keeping official components when expanded.",
+  "intentEn": "DSH Web UI plugin: folds consecutive thinking/tool-call messages into a single collapsed one-line disclosure, keeping official components when expanded.",
+  "intentZh": "DSH Web UI 插件：把连续的思考/工具调用消息折叠成一行可展开的单行披露，展开时保留官方组件。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T04:29:54.204Z",
+  "updated_at": "2026-08-16T04:29:54.204Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "deepseek-harness-plugin",
+   "dsh",
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T04:29:54.204Z"
+ },
+ "Apageoflove/DSH-changeproof": {
+  "repo": "Apageoflove/DSH-changeproof",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Change-proof verification: plan a rollback package before edits, verify the actual changes against it, and track verification status.",
+  "intentEn": "Change-proof verification: plan a rollback package before edits, verify the actual changes against it, and track verification status.",
+  "intentZh": "变更证明：dsh 改代码前生成回退包（涉及文件/commit/关键代码块），改后逐项对账，随时查看验证状态。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-16T04:29:54.204Z",
+  "updated_at": "2026-08-16T04:29:54.204Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-tools",
+   "changed-line-coverage",
+   "changeproof",
+   "code-verification",
+   "cordis",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "javascript",
+   "jest",
+   "llm-agent",
+   "nodejs",
+   "pytest",
+   "quality-gate",
+   "react",
+   "test-coverage",
+   "test-impact-analysis",
+   "typescript",
+   "verification",
+   "vitest"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T04:29:54.204Z"
+ },
+ "Apageoflove/DSH-arena": {
+  "repo": "Apageoflove/DSH-arena",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Local-first experiment and evaluation workbench: run one task across candidate models, compare the matrix, Pareto frontier, winner, and audit alerts.",
+  "intentEn": "Local-first experiment and evaluation workbench: run one task across candidate models, compare the matrix, Pareto frontier, winner, and audit alerts.",
+  "intentZh": "本地优先的实验与评估工作台：同题多候选模型对比，成绩单/帕累托前沿/建议胜者/审计告警，数据全在本地，总开关+每模型独立开关控耗。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 3,
+  "forks": 0,
+  "created_at": "2026-08-16T04:29:54.204Z",
+  "updated_at": "2026-08-16T04:29:54.204Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "ai-agent",
+   "arena",
+   "benchmarking",
+   "cordis",
+   "deepseek",
+   "deepseek-harness",
+   "developer-tools",
+   "dsh",
+   "dsh-plugin",
+   "evaluation",
+   "experiment",
+   "llm",
+   "local-first",
+   "plugin",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T04:29:54.204Z"
+ },
+ "Samge0/dsh-plugin-qcc": {
+  "repo": "Samge0/dsh-plugin-qcc",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "cordis-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Dynamic Cordis plugin that brings the Qichacha (企查查) enterprise data source into a DSH session — 5 agent tools (auth, company search, knowledge search) plus a settings-page QR login.",
+  "intentEn": "Dynamic Cordis plugin that brings the Qichacha (企查查) enterprise data source into a DSH session — 5 agent tools (auth, company search, knowledge search) plus a settings-page QR login.",
+  "intentZh": "将企查查企业数据源接入 DSH 会话的动态 Cordis 插件——5 个 agent 工具（认证、企业搜索、知识搜索）及设置页二维码登录。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T04:29:54.204Z",
+  "updated_at": "2026-08-16T04:29:54.204Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "agent-tools",
+   "company-data",
+   "cordis-plugin",
+   "deepseek-harness",
+   "qichacha"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T04:29:54.204Z"
  }
 }

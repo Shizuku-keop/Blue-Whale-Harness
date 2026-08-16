@@ -29420,5 +29420,53 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "HaoyanZhang123/deepseek-harness-live-preset-switch",
+  "name": "deepseek-harness-live-preset-switch",
+  "category": "preset",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "Live agent-preset switching at turn boundaries for DeepSeek Harness",
+  "desc_zh": "DeepSeek Harness 对话中实时切换预设",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "wallpap/dsh-compact-activity",
+  "name": "dsh-compact-activity",
+  "category": "ui",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "DSH Web UI plugin: folds consecutive thinking/tool-call messages into a single collapsed one-line disclosure, keeping official components when expanded.",
+  "desc_zh": "DSH Web UI 插件：把连续的思考/工具调用消息折叠成一行可展开的单行披露，展开时保留官方组件。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "Samge0/dsh-plugin-qcc",
+  "name": "dsh-plugin-qcc",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Dynamic Cordis plugin that brings the Qichacha (企查查) enterprise data source into a DSH session — 5 agent tools (auth, company search, knowledge search) plus a settings-page QR login.",
+  "desc_zh": "将企查查企业数据源接入 DSH 会话的动态 Cordis 插件——5 个 agent 工具（认证、企业搜索、知识搜索）及设置页二维码登录。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
