@@ -29468,5 +29468,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "lukaiwuyi/dsh-frontend-tools",
+  "name": "dsh-frontend-tools",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Bridge web/Electron/Tauri/Node applications to DeepSeek Harness agents in real time — expose frontend tools to AI over loopback WebSocket, with read-only/write classification for human approval",
+  "desc_zh": "桥接 Web/Electron/Tauri/Node 应用到 DeepSeek Harness 智能体，通过本地 WebSocket 将前端工具暴露给 AI，支持只读/写入分类的人工审批机制",
+  "sourceNote": "作者投稿",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
