@@ -1816,3 +1816,5 @@ yugbin/dsh-prompt-order-fix
 Lxiayu/DshCockpit
 jasonrale/dsh-archive-manager
 lukaiwuyi/dsh-frontend-tools
+Isilsolme/dsh-splash-launcher
+Isilsolme/dsh-anthropic-fonts
