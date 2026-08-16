@@ -29596,5 +29596,69 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "sjh9714/dsh-movein",
+    "name": "dsh-movein",
+    "category": "utility",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 3,
+    "compat": "unknown",
+    "desc_en": "Move your whole Claude Code setup into DeepSeek Harness with one command (skills, slash commands, MCP, hooks, subagents, permission rules); dry-run inventory by default, plus doctor checkup and auto-backup in v0.5",
+    "desc_zh": "一条命令把 Claude Code 配置整套搬进 DSH（技能、斜杠命令、MCP、hooks、子代理、权限规则），默认 dry run 出搬家清单，v0.5 新增 doctor 体检与自动备份",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "sjh9714/dsh-win32",
+    "name": "dsh-win32",
+    "category": "utility",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 5,
+    "compat": "unknown",
+    "desc_en": "Get DSH Minimal mode working on Windows: persistent Git Bash PTY in one command, usable inside sandbox too",
+    "desc_zh": "让 DSH 极简模式在 Windows 上真正可用：一行装好持久 Git Bash PTY，沙箱内也能用",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "jiangsuyuan/dsh-guard-mode",
+    "name": "dsh-guard-mode",
+    "category": "sandbox",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 2,
+    "compat": "unknown",
+    "desc_en": "Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time human approval on hit)",
+    "desc_zh": "安全防呆模式:FullAccess 全部能力 + 危险命令黑名单拦截,命中转单次人工批准",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "jiangsuyuan/dsh-deepseek-meter",
+    "name": "dsh-deepseek-meter",
+    "category": "ui",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 3,
+    "compat": "unknown",
+    "desc_en": "DeepSeek official usage & balance collapsible pill (my key + account totals)",
+    "desc_zh": "DeepSeek 官方用量·余额可折叠胶囊(我的 key + 账号合计)",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

@@ -4,26 +4,26 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1811** 个仓库 ｜ 真·DSH 插件 **1681** 个
+> 自动生成于 2026-08-16 ｜ 共 **1815** 个仓库 ｜ 真·DSH 插件 **1685** 个
 
 ## 统计
 
-- 仓库总数：**1811**
-- 真·DSH 插件：**1681**
+- 仓库总数：**1815**
+- 真·DSH 插件：**1685**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
 - **llm** — 163 个仓库，★91937
-- **utility** — 343 个仓库，★25750
+- **utility** — 345 个仓库，★25758
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
 - **tools** — 570 个仓库，★15366
 - **session** — 229 个仓库，★15126
-- **ui** — 181 个仓库，★6103
+- **ui** — 182 个仓库，★6106
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
-- **sandbox** — 9 个仓库，★191
+- **sandbox** — 10 个仓库，★193
 - **preset** — 2 个仓库，★4
 - **skin** — 2 个仓库，★1
 
@@ -199,7 +199,7 @@
 | [Arnoldkevin/prismrelay-mcp](https://github.com/Arnoldkevin/prismrelay-mcp) | 以视觉为先的本地 MCP，通过 Agnes AI（BYOK）为纯文本智能体提供图像理解 | Vision-first local MCP that gives text-only Agents image understanding through Agnes AI (B | 0 | TypeScript | yes |
 | [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 
-### utility（343）
+### utility（345）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -342,6 +342,7 @@
 | [xiongjiamu/dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) | DeepSeek Harness（dsh）的 AtomGit 插件包：atomgit-skills 工作流 + ag 命令行 + 平台托管的 GitCode MCP 工具 | AtomGit plugin bundle for DeepSeek Harness (dsh): atomgit-skills workflows + ag CLI + plat | 5 | JavaScript | yes |
 | [YTxue/dsh-skill-manager-ytxue](https://github.com/YTxue/dsh-skill-manager-ytxue) | DSH Web 插件：设置侧栏中的技能管理器——列出/启用/停用、文件夹批量导入并提示冲突、状态驱动的单向安装。 | DSH web plugin: skill manager in the Settings sidebar - list/enable/disable, folder batch  | 5 | JavaScript | yes |
 | [Relistencode/dsh-extension-hub](https://github.com/Relistencode/dsh-extension-hub) | 管理 DSH 技能与 MCP 服务：命令行 + 设置页界面，支持中英文、Claude/Codex 导入与更新检查。 | Manage DSH skills and MCP servers: CLI + settings-page UI with zh/en i18n, Claude/Codex im | 5 | JavaScript | yes |
+| [sjh9714/dsh-win32](https://github.com/sjh9714/dsh-win32) | 让 DSH 极简模式在 Windows 上真正可用：一行装好持久 Git Bash PTY，沙箱内也能用 | Get DSH Minimal mode working on Windows: persistent Git Bash PTY in one command, usable in | 5 | TypeScript | yes |
 | [xiaohai-78/Top](https://github.com/xiaohai-78/Top) | dsh-external 插件生态每日榜单 | Daily leaderboard for the dsh-external plugin ecosystem | 4 |  | yes |
 | [Void0312Aurora/dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) | 跨平台 Electron 桌面壳（托盘常驻） | Cross-platform Electron desktop shell (tray-resident) | 4 | TypeScript | yes |
 | [havingautism/dsh-notebooks](https://github.com/havingautism/dsh-notebooks) | (无描述) | (no description) | 4 | JavaScript | yes |
@@ -428,6 +429,7 @@
 | [LCYLYM/dsh-attachments](https://github.com/LCYLYM/dsh-attachments) | 跨平台 DSH WebUI 多媒体输入与工作区附件 | Cross-platform DSH WebUI multimedia input and workspace attachments | 3 | JavaScript | yes |
 | [invalidnaaaame/dsh-side-workspace](https://github.com/invalidnaaaame/dsh-side-workspace) | DSH 插件：Codex 式旁挂对话（/side、/btw）、集成式右侧工作区（Side/Subagents/Goal）以及 ChatGPT 式置顶提示。 | DSH plugin: Codex-style side conversations (/side, /btw), an integrated right workspace (S | 3 | TypeScript | yes |
 | [cheshireez/dsh-skill-hub](https://github.com/cheshireez/dsh-skill-hub) | DeepSeek Harness（dsh）Web GUI 技能中枢：浏览/搜索完整本地技能目录、启用/禁用、查看正文、排查诊断、新建技能，基于官方 ctx.skills 注册表。  | DeepSeek Harness (dsh) Web GUI skill hub: browse/search the full local skill catalog, enab | 3 | TypeScript | yes |
+| [sjh9714/dsh-movein](https://github.com/sjh9714/dsh-movein) | 一条命令把 Claude Code 配置整套搬进 DSH（技能、斜杠命令、MCP、hooks、子代理、权限规则），默认 dry run 出搬家清单，v0.5 新增 doctor 体 | Move your whole Claude Code setup into DeepSeek Harness with one command (skills, slash co | 3 | JavaScript | yes |
 | [SnowCrescenter-tech/dsh-launcher](https://github.com/SnowCrescenter-tech/dsh-launcher) | DSH 一键启动器（Windows 便携免安装） | One-click portable DSH launcher (Windows) | 2 | PowerShell | yes |
 | [dbydd/dsh-onlyne](https://github.com/dbydd/dsh-onlyne) | dsh-onlyne — DSH 插件（其他） | IM gateway for DeepSeek Harness agents — send and receive QQ, WeChat, Feishu and Telegram  | 2 | TypeScript | yes |
 | [Jesse-njx/dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | dsh-chatnode-wechat — DSH 插件（其他） | Chat with, monitor, and approve your DSH agents from WeChat — an iLink gateway + conversat | 2 | TypeScript | yes |
@@ -1612,7 +1614,7 @@
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 | [p2coder/dsh-task-control](https://github.com/p2coder/dsh-task-control) | 为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。 | Pause, resume and cancel long-running DSH tasks with safe and forced pause modes. | 0 | JavaScript | yes |
 
-### ui（181）
+### ui（182）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1721,6 +1723,7 @@
 | [VanillaCreamer/dsh-plugin-visual-composer](https://github.com/VanillaCreamer/dsh-plugin-visual-composer) | DeepSeek Harness Web UI 的可视化 Cordis 插件树编辑器。 | Visual Cordis plugin-tree composer for the DeepSeek Harness Web UI. | 3 | TypeScript | yes |
 | [kxSenlin/dsh-whale-font](https://github.com/kxSenlin/dsh-whale-font) | 把 DeepSeek Harness 对话里的主语人称「我/你/I/me」渲染成 DeepSeek 蓝鲸图标（DSH 插件） | A DSH plugin that renders the subject pronouns '我/你/I/me' in DeepSeek Harness chats as Dee | 3 | Python | yes |
 | [invalidnaaaame/dsh-scroll-timeline](https://github.com/invalidnaaaame/dsh-scroll-timeline) | DSH Web 插件：聊天侧边栏的 ChatGPT 风格滚动时间线——磁吸悬浮、点击跳转到用户消息。衍生自 v…… | DSH web plugin: ChatGPT-style scroll timeline on the chat sidebar — magnetic mountain hove | 3 | TypeScript | yes |
+| [jiangsuyuan/dsh-deepseek-meter](https://github.com/jiangsuyuan/dsh-deepseek-meter) | DeepSeek 官方用量·余额可折叠胶囊(我的 key + 账号合计) | DeepSeek official usage & balance collapsible pill (my key + account totals) | 3 | TypeScript | yes |
 | [renat3u/tonghuashun-webui](https://github.com/renat3u/tonghuashun-webui) | 仿同花顺的webui插件 | A web UI plugin styled after Tonghuashun (Flush). | 2 | TypeScript | yes |
 | [qyw233/dsh-deeplink](https://github.com/qyw233/dsh-deeplink) | 深链插件：?session=/?workspace= 直接打开 | Deep-link plugin: open session/workspace directly | 2 | JavaScript | yes |
 | [omdsh-dev/ex-setting](https://github.com/omdsh-dev/ex-setting) | DSH 设置扩展 | DSH settings extension | 2 | TypeScript | yes |
@@ -1874,7 +1877,7 @@
 | [dshiq04/dsh-deepseek-balance](https://github.com/dshiq04/dsh-deepseek-balance) | 面向deepseek harness的余额查看插件 | A balance-viewing plugin for DeepSeek Harness. | 0 | JavaScript | yes |
 | [Zenjibad/dsh-lan-uuid-fix](https://github.com/Zenjibad/dsh-lan-uuid-fix) | dsh 捆绑包：在不安全来源上 polyfill crypto.randomUUID，使 DeepSeek Harness Web UI 可在明文 HTTP 局域网上工作 | dsh bundle: polyfill crypto.randomUUID on insecure origins so the DeepSeek Harness Web UI  | 0 | JavaScript | yes |
 
-### sandbox（9）
+### sandbox（10）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1885,6 +1888,7 @@
 | [zhangzujian/dsh-same-mode-sandbox-noop](https://github.com/zhangzujian/dsh-same-mode-sandbox-noop) | dsh-same-mode-sandbox-noop — DSH 插件（沙箱） | DSH compatibility plugin for redundant same-mode sandbox escalation requests | 3 | JavaScript | yes |
 | [SeverusZh/dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) | dsh-yolo-mode——一个由 LLM 驱动的 DeepSeek Harness 沙箱提权自动批准插件（内置预设 + 自定义权限级别…… | dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalatio | 3 | JavaScript | yes |
 | [1475505/dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) | 将千星沙箱（原神千星奇域）知识库接入 Deepseek Harness 的插件 | dsh-plugin-miliastra-toolbox — DSH plugin (sandbox) | 2 | TypeScript | yes |
+| [jiangsuyuan/dsh-guard-mode](https://github.com/jiangsuyuan/dsh-guard-mode) | 安全防呆模式:FullAccess 全部能力 + 危险命令黑名单拦截,命中转单次人工批准 | Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time  | 2 | TypeScript | yes |
 | [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) | 为 DeepSeek Harness（dsh）即插即用的 dsh web Profile，新增 **自检** 沙箱模式 | A drop-in dsh web profile that adds the **Self Checking** sandbox mode to DeepSeek Harness | 1 | JavaScript | yes |
 | [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。 | dsh-shell-termux — DSH plugin (sandbox) | 0 | TypeScript | yes |
 
