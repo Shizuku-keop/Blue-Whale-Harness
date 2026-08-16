@@ -89387,5 +89387,44 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-16T15:16:52.212Z"
+  },
+  "Happy2Git/dsh-compass": {
+    "repo": "Happy2Git/dsh-compass",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "ui",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "TypeScript",
+    "intent": "Right-side context-and-files panel for the web UI: directory tree with git badges, live injected docs with compaction history, read-only git graph with workspace diffs, drag panel files into the conversation, session-log export; installs on official master source builds since v0.13.0",
+    "intentEn": "Right-side context-and-files panel for the web UI: directory tree with git badges, live injected docs with compaction history, read-only git graph with workspace diffs, drag panel files into the conversation, session-log export; installs on official master source builds since v0.13.0",
+    "intentZh": "Web 界面右侧上下文文件面板：带 git 徽章的目录树、实时注入文档与压缩历史流水、只读提交图与工作区 diff、面板文件拖入对话、会话日志导出；v0.13.0 起可装在官方 master 源码构建上",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "TypeScript",
+      "@deepseek-ai/cordis"
+    ],
+    "keyDeps": [],
+    "entry": "lib/index.js",
+    "stars": 1,
+    "forks": 0,
+    "created_at": "2026-08-15T14:24:50Z",
+    "updated_at": "2026-08-16T18:55:51Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "dsh-plugin"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-17T00:00:00.000Z"
   }
 }
