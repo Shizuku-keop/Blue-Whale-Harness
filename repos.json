@@ -29388,5 +29388,37 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "Apageoflove/DSH-changeproof",
+  "name": "DSH-changeproof",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 5,
+  "compat": "unknown",
+  "desc_en": "Change-proof verification: plan a rollback package before edits, verify the actual changes against it, and track verification status.",
+  "desc_zh": "变更证明：dsh 改代码前生成回退包（涉及文件/commit/关键代码块），改后逐项对账，随时查看验证状态。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "Apageoflove/DSH-changeproof",
+  "name": "DSH-changeproof",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 5,
+  "compat": "unknown",
+  "desc_en": "Change-proof verification: plan a rollback package before edits, verify the actual changes against it, and track verification status.",
+  "desc_zh": "变更证明：dsh 改代码前生成回退包（涉及文件/commit/关键代码块），改后逐项对账，随时查看验证状态。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
