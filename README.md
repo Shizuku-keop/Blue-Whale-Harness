@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1797** 个仓库 ｜ 真·DSH 插件 **1666** 个
+> 自动生成于 2026-08-16 ｜ 共 **1798** 个仓库 ｜ 真·DSH 插件 **1668** 个
 
 ## 统计
 
-- 仓库总数：**1797**
-- 真·DSH 插件：**1666**
+- 仓库总数：**1798**
+- 真·DSH 插件：**1668**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 565 个仓库，★15358
+- **tools** — 566 个仓库，★15358
 - **session** — 227 个仓库，★15120
 - **ui** — 177 个仓库，★6093
 - **uncategorized** — 1 个仓库，★2189
@@ -801,7 +801,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（565）
+### tools（566）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1369,7 +1369,8 @@
 | [yauntyour/DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) | DSH 多模态输入插件：为不同类型的文件（图片 / 视频 / 音频 / 文本）配置独立的处理模型链，在文件进入会话模型之前，先用预设模型把它处理成 Prompt Tokens（文本 | DSH multimodal input plugin: configures an independent processing model chain for each fil | 0 | TypeScript | yes |
 | [Junius-Q/dsh-for-obsidian](https://github.com/Junius-Q/dsh-for-obsidian) | 在 Obsidian 中使用 DeepSeek Harness（dsh）——一个仿 Claudian 风格的本地 AI 智能体，处理你的 vault。 | Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interfac | 0 | TypeScript | yes |
 | [988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) | Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具 | Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with | 0 | JavaScript | yes |
-| [988hj7tczd-oss/awesome-dsh-plugin](https://github.com/988hj7tczd-oss/awesome-dsh-plugin) | DeepSeek Harness 插件精选列表（awesome list）。 | A curated list of plugins for DeepSeek Harness (dsh). | 0 | Python | no |
+| [2006spy/dsh-token-billing](https://github.com/2006spy/dsh-token-billing) | DSH 实时 token 计费插件：官网人民币价直接计费、高峰/错峰自动切换、价格实时跟随官网、可视化自定义模型价格。 | Real-time token billing plugin for DSH: bill at the official CNY price, auto-switch peak/o | 0 | JavaScript | yes |
+| [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) | DSH 输入框语音控制插件：在 composer 工具行放一个极简线性麦克风按钮，点按进入持续监听，语音实时流入草稿，随时发送。 | DeepSeek Harness composer voice-control plugin: a minimal linear mic button in the compose | 0 | TypeScript | yes |
 
 ### session（227）
 

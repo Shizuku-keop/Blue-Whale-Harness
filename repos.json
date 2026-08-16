@@ -29310,20 +29310,6 @@
   ]
  },
  {
-  "repo": "988hj7tczd-oss/awesome-dsh-plugin",
-  "name": "awesome-dsh-plugin",
-  "category": "tools",
-  "language": "Python",
-  "license": "CC0-1.0",
-  "stars": 0,
-  "compat": "unknown",
-  "desc_en": "A curated list of plugins for DeepSeek Harness (dsh).",
-  "desc_zh": "DeepSeek Harness 插件精选列表（awesome list）。",
-  "sourceNote": "PR 收录",
-  "featured": false,
-  "_lists": []
- },
- {
   "repo": "iiwish/dsh-testkit",
   "name": "dsh-testkit",
   "category": "tools",
@@ -29365,6 +29351,38 @@
   "compat": "unknown",
   "desc_en": "DeepSeek Harness anime-search plugin: search anime across multiple sources in-chat, show Bangumi ratings and details in cards, and copy magnet links.",
   "desc_zh": "DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "2006spy/dsh-token-billing",
+  "name": "dsh-token-billing",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Real-time token billing plugin for DSH: bill at the official CNY price, auto-switch peak/off-peak (Beijing time), prices auto-follow the official site, visual custom model pricing.",
+  "desc_zh": "DSH 实时 token 计费插件：官网人民币价直接计费、高峰/错峰自动切换、价格实时跟随官网、可视化自定义模型价格。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "Zhangbo-cn/dsh-voice-input-plugin",
+  "name": "dsh-voice-input-plugin",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "DeepSeek Harness composer voice-control plugin: a minimal linear mic button in the composer tool row; tap to start continuous monitoring with speech streaming live into the draft, send anytime.",
+  "desc_zh": "DSH 输入框语音控制插件：在 composer 工具行放一个极简线性麦克风按钮，点按进入持续监听，语音实时流入草稿，随时发送。",
   "sourceNote": "PR 收录",
   "featured": false,
   "_lists": [

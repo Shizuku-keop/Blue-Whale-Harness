@@ -88441,53 +88441,6 @@
   "featured": false,
   "analyzed_at": "2026-08-16T01:58:12.948Z"
  },
- "988hj7tczd-oss/awesome-dsh-plugin": {
-  "repo": "988hj7tczd-oss/awesome-dsh-plugin",
-  "lists": [],
-  "dshCategory": "tools",
-  "isDshPlugin": false,
-  "dshSignals": [
-   "readme-mentions-dsh",
-   "awesome-list"
-  ],
-  "manifestType": "none",
-  "language": "Python",
-  "intent": "A curated list of plugins for DeepSeek Harness (dsh).",
-  "intentEn": "A curated list of plugins for DeepSeek Harness (dsh).",
-  "intentZh": "DeepSeek Harness 插件精选列表（awesome list）。",
-  "zhSource": "native",
-  "enSource": "native",
-  "needsReview": false,
-  "techStack": [
-   "python"
-  ],
-  "keyDeps": [],
-  "entry": null,
-  "stars": 0,
-  "forks": 0,
-  "created_at": "2026-08-16",
-  "updated_at": "2026-08-16",
-  "license": "CC0-1.0",
-  "open_issues": 0,
-  "topics": [
-   "ai-agent",
-   "awesome",
-   "awesome-list",
-   "curated-list",
-   "deepseek",
-   "deepseek-harness",
-   "dsh",
-   "dsh-plugin",
-   "llm",
-   "plugin-list",
-   "plugins",
-   "resources"
-  ],
-  "cloned": false,
-  "compat": "unknown",
-  "featured": false,
-  "analyzed_at": "2026-08-16T01:58:12.948Z"
- },
  "iiwish/dsh-testkit": {
   "repo": "iiwish/dsh-testkit",
   "lists": [
@@ -88620,5 +88573,89 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-16T02:28:09.102Z"
+ },
+ "2006spy/dsh-token-billing": {
+  "repo": "2006spy/dsh-token-billing",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Real-time token billing plugin for DSH: bill at the official CNY price, auto-switch peak/off-peak (Beijing time), prices auto-follow the official site, visual custom model pricing.",
+  "intentEn": "Real-time token billing plugin for DSH: bill at the official CNY price, auto-switch peak/off-peak (Beijing time), prices auto-follow the official site, visual custom model pricing.",
+  "intentZh": "DSH 实时 token 计费插件：官网人民币价直接计费、高峰/错峰自动切换、价格实时跟随官网、可视化自定义模型价格。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T03:17:53.749Z",
+  "updated_at": "2026-08-16T03:17:53.749Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "billing",
+   "token",
+   "deepseek-harness"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T03:17:53.749Z"
+ },
+ "Zhangbo-cn/dsh-voice-input-plugin": {
+  "repo": "Zhangbo-cn/dsh-voice-input-plugin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "DeepSeek Harness composer voice-control plugin: a minimal linear mic button in the composer tool row; tap to start continuous monitoring with speech streaming live into the draft, send anytime.",
+  "intentEn": "DeepSeek Harness composer voice-control plugin: a minimal linear mic button in the composer tool row; tap to start continuous monitoring with speech streaming live into the draft, send anytime.",
+  "intentZh": "DSH 输入框语音控制插件：在 composer 工具行放一个极简线性麦克风按钮，点按进入持续监听，语音实时流入草稿，随时发送。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T03:17:53.749Z",
+  "updated_at": "2026-08-16T03:17:53.749Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "voice",
+   "speech",
+   "deepseek-harness"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T03:17:53.749Z"
  }
 }
