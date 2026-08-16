@@ -24641,7 +24641,7 @@
   "lists": [
    "plugin"
   ],
-  "dshCategory": "tools",
+  "dshCategory": "llm",
   "isDshPlugin": true,
   "dshSignals": [
    "cordis.patch.yml",
@@ -24661,9 +24661,9 @@
   ],
   "manifestType": "cordis.patch.yml",
   "language": "JavaScript",
-  "intent": "Cache-aware ChatGPT / Codex subscription plugin for DeepSeek Harness",
-  "intentEn": "Cache-aware ChatGPT / Codex subscription plugin for DeepSeek Harness",
-  "intentZh": "dsh-codex-subscription — DSH 插件（工具）",
+  "intent": "Use Codex models from a ChatGPT subscription in DSH, with subscription search and separate standard/Spark quota displays.",
+  "intentEn": "Use Codex models from a ChatGPT subscription in DSH, with subscription search and separate standard/Spark quota displays.",
+  "intentZh": "在 DSH 里直接使用 ChatGPT 订阅的 Codex 模型，支持订阅搜索、普通 Codex 与 Spark 独立额度显示。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
