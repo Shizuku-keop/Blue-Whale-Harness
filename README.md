@@ -4,23 +4,23 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1809** 个仓库 ｜ 真·DSH 插件 **1679** 个
+> 自动生成于 2026-08-16 ｜ 共 **1811** 个仓库 ｜ 真·DSH 插件 **1681** 个
 
 ## 统计
 
-- 仓库总数：**1809**
-- 真·DSH 插件：**1679**
+- 仓库总数：**1811**
+- 真·DSH 插件：**1681**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
 - **llm** — 163 个仓库，★91937
-- **utility** — 342 个仓库，★25750
+- **utility** — 343 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
 - **tools** — 570 个仓库，★15366
 - **session** — 229 个仓库，★15126
-- **ui** — 180 个仓库，★6103
+- **ui** — 181 个仓库，★6103
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
 - **sandbox** — 9 个仓库，★191
@@ -199,7 +199,7 @@
 | [Arnoldkevin/prismrelay-mcp](https://github.com/Arnoldkevin/prismrelay-mcp) | 以视觉为先的本地 MCP，通过 Agnes AI（BYOK）为纯文本智能体提供图像理解 | Vision-first local MCP that gives text-only Agents image understanding through Agnes AI (B | 0 | TypeScript | yes |
 | [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 
-### utility（342）
+### utility（343）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -545,6 +545,7 @@
 | [zimai233/dsh-adhd-copilot](https://github.com/zimai233/dsh-adhd-copilot) | DeepSeek Harness 的 ADHD 行为辅导技能。引导读者完成任务执行——拆分为微步骤、管理过载… | ADHD behavioral coaching skill for DeepSeek Harness. Guides readers through task execution | 0 | JavaScript | yes |
 | [walnut-a/dsh-user-message-navigation](https://github.com/walnut-a/dsh-user-message-navigation) | DSH User Message Minimap（用户消息导航轨）— 长对话中的用户指令快速导航插件 | DSH User Message Minimap — a quick-navigation plugin for user commands in long conversatio | 0 | TypeScript | yes |
 | [ReachGa0/dsh-desktop](https://github.com/ReachGa0/dsh-desktop) | DeepSeek Harness（dsh web）的 Electron 桌面壳——在独立窗口中运行 harness，无需终端或浏览器 | Electron desktop shell for DeepSeek Harness (dsh web) — run the harness in a standalone wi | 0 | JavaScript | yes |
+| [Isilsolme/dsh-splash-launcher](https://github.com/Isilsolme/dsh-splash-launcher) | DSH Web GUI 的 Windows 一键启动器：无边框描边动画 + 后台拉起 dsh web，关窗自动停服务。 | One-click Windows launcher for the DeepSeek Harness (dsh) Web GUI with a stroke-by-stroke  | 0 | C# | yes |
 
 ### skills（49）
 
@@ -1400,7 +1401,7 @@
 | [cpj-dev/dsh-plugin-cc](https://github.com/cpj-dev/dsh-plugin-cc) | 将 DeepSeek Harness 接入 Claude Code，用于审查、点评、委派与会话导入。 | Bridge Deepseek-harness into Claude Code for review, critique, delegation, and session imp | 21 | JavaScript | yes |
 | [hellodigua/dsh-share](https://github.com/hellodigua/dsh-share) | DSH 对话分享插件 | DSH conversation sharing plugin | 19 | JavaScript | yes |
 | [feiyang-dev/dsh-usage-plugin](https://github.com/feiyang-dev/dsh-usage-plugin) | DeepSeek Harness 用量与消耗插件（dsh-usage）—— 每次调用的 token 用量/缓存命中统计、峰谷计费、余额查询、CSV/JSON/PNG 导出，可经桌面 | A DeepSeek Harness usage and consumption plugin (dsh-usage) — per-call token usage / cache | 15 | JavaScript | yes |
-| [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) | DeepSeek Harness 结构化记忆引擎。离线语义搜索、实体-属性-时间轴、autoDream 自我巩固、可人工编辑的 Markdown 存储。 | Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-timeline, autoDream self-consolidation, and human-editable Markdown storage. | 14 | JavaScript | yes |
+| [modusensus/dsh-mneme](https://github.com/modusensus/dsh-mneme) | DeepSeek Harness 结构化记忆引擎。离线语义搜索、实体-属性-时间轴、autoDream 自我巩固、可人工编辑的 Markdown 存储。 | Structured memory engine for DeepSeek Harness. Offline semantic search, entity-attribute-t | 14 | JavaScript | yes |
 | [Ghost011118/dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) | dsh-balance-meter — DSH 插件（会话） | DeepSeek account balance and session cost readout for the DeepSeek Harness Web GUI | 14 | JavaScript | yes |
 | [Tyan66666/billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) | billion-context-dsh — DSH 插件（会话） | Model-driven context management (Active Context Pruning / ACP) for the DeepSeek Harness —  | 13 | TypeScript | yes |
 | [feibi-mochi/deepseek-harness-wallet](https://github.com/feibi-mochi/deepseek-harness-wallet) | Balance monitoring, per-session spend & token tracking, low-balance alerts, and an officia | Balance monitoring, per-session spend and token tracking, low-balance alerts, and an offic | 13 | JavaScript | yes |
@@ -1611,7 +1612,7 @@
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 | [p2coder/dsh-task-control](https://github.com/p2coder/dsh-task-control) | 为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。 | Pause, resume and cancel long-running DSH tasks with safe and forced pause modes. | 0 | JavaScript | yes |
 
-### ui（180）
+### ui（181）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1795,6 +1796,7 @@
 | [JueMing2049/deepseek-skin-studio](https://github.com/JueMing2049/deepseek-skin-studio) | DSH 换肤工作室：一张图一套皮肤；书签/CDP/原生三通道注入 + 可视化工坊 + 13 套内置主题 + DSH-SKIN-SPEC 导出。 | DSH skin studio: turn one image into a Web UI skin; bookmark/CDP/native injection, visual  | 0 | JavaScript | yes |
 | [988hj7tczd-oss/harness-desktop](https://github.com/988hj7tczd-oss/harness-desktop) | 开箱即用的 DeepSeek Harness 桌面客户端（npm / Homebrew / Releases / Gitee 镜像，支持 macOS / Windows / Lin | Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirr | 0 | TypeScript | no |
 | [wallpap/dsh-compact-activity](https://github.com/wallpap/dsh-compact-activity) | DSH Web UI 插件：把连续的思考/工具调用消息折叠成一行可展开的单行披露，展开时保留官方组件。 | DSH Web UI plugin: folds consecutive thinking/tool-call messages into a single collapsed o | 0 | TypeScript | yes |
+| [Isilsolme/dsh-anthropic-fonts](https://github.com/Isilsolme/dsh-anthropic-fonts) | 给 DSH Web 界面换上 Anthropic 字体：界面用 Anthropic Sans，对话用 Anthropic Serif，代码用 Anthropic Mono。 | Switch the DSH web interface to Anthropic Sans Web Text and model conversation to Anthropi | 0 | JavaScript | yes |
 
 ### uncategorized（1）
 
