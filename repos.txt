@@ -1805,3 +1805,4 @@ xiaobright/dsh-anchored-standard
 cocofhu/anime-find
 p2coder/dsh-task-control
 2006spy/dsh-token-billing
+zhangbo-cn/dsh-voice-input-plugin
