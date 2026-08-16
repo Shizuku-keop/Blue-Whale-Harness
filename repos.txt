@@ -1814,3 +1814,4 @@ JinkaiLiu/dsh-autonomy
 qidiai/dsh-contrib-topology
 yugbin/dsh-prompt-order-fix
 Lxiayu/DshCockpit
+jasonrale/dsh-archive-manager
