@@ -29660,5 +29660,37 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "OK-wx/dsh-ocgo-lite",
+    "name": "dsh-ocgo-lite",
+    "category": "ui",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 4,
+    "compat": "unknown",
+    "desc_en": "OpenCode Go usage bar for DeepSeek Harness: quota rings (rolling/weekly/monthly), real-time DSH-session token & cost stats with live official pricing, per-model and current-session scope switching, one-click API key copy.",
+    "desc_zh": "OpenCode Go 用量常驻条：套餐余量圆环（滚动/周/月）+ token/花费实时统计（官方实时定价），支持本次会话/全部范围与按模型联动，一键复制 API Key。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "Happy2Git/dsh-compass",
+    "name": "dsh-compass",
+    "category": "ui",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 1,
+    "compat": "unknown",
+    "desc_en": "Right-side context-and-files panel for the web UI: directory tree with git badges, live injected docs with compaction history, read-only git graph with workspace diffs, drag panel files into the conversation, session-log export; installs on official master source builds since v0.13.0",
+    "desc_zh": "Web 界面右侧上下文文件面板：带 git 徽章的目录树、实时注入文档与压缩历史流水、只读提交图与工作区 diff、面板文件拖入对话、会话日志导出；v0.13.0 起可装在官方 master 源码构建上",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]
