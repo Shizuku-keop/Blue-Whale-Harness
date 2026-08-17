@@ -1826,3 +1826,4 @@ jiangsuyuan/dsh-deepseek-meter
 OK-wx/dsh-ocgo-lite
 Happy2Git/dsh-compass
 mlosun/dsh-docs-panel
+yiqizhuapangxiema/harness-plugin-store-optimized
