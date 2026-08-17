@@ -29692,5 +29692,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "pandarayc/dsh-release-guard",
+    "name": "dsh-release-guard",
+    "category": "orchestration",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Canary-release safety net for DeepSeek Harness: preset health checks, canary routing decisions, supervisor monitoring, and auto-rollback.",
+    "desc_zh": "DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制与自动回滚。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

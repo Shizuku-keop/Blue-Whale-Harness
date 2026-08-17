@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-17 ｜ 共 **1817** 个仓库 ｜ 真·DSH 插件 **1687** 个
+> 自动生成于 2026-08-17 ｜ 共 **1818** 个仓库 ｜ 真·DSH 插件 **1688** 个
 
 ## 统计
 
-- 仓库总数：**1817**
-- 真·DSH 插件：**1687**
+- 仓库总数：**1818**
+- 真·DSH 插件：**1688**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -17,7 +17,7 @@
 - **llm** — 163 个仓库，★91937
 - **utility** — 345 个仓库，★25758
 - **skills** — 49 个仓库，★23452
-- **orchestration** — 197 个仓库，★16017
+- **orchestration** — 198 个仓库，★16017
 - **tools** — 570 个仓库，★15366
 - **session** — 229 个仓库，★15126
 - **ui** — 184 个仓库，★6111
@@ -603,7 +603,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### orchestration（197）
+### orchestration（198）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -804,6 +804,7 @@
 | [lispking/git-skills](https://github.com/lispking/git-skills) | git-skills — DSH 插件（编排） | A powerful Claude Code Git assistant skill that provides intelligent branch management, co | 0 | unknown | no |
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
+| [pandarayc/dsh-release-guard](https://github.com/pandarayc/dsh-release-guard) | DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制（防抖）与自动回滚，坏包不再拖垮宿主。 | Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary r | 0 | JavaScript | yes |
 
 ### tools（570）
 
