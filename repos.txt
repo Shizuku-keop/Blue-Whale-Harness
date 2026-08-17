@@ -1823,3 +1823,4 @@ sjh9714/dsh-win32
 
 jiangsuyuan/dsh-guard-mode
 jiangsuyuan/dsh-deepseek-meter
+OK-wx/dsh-ocgo-lite

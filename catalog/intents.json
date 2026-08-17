@@ -89387,5 +89387,51 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-16T15:16:52.212Z"
+  },
+  "OK-wx/dsh-ocgo-lite": {
+    "repo": "OK-wx/dsh-ocgo-lite",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "ui",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "@deepseek-ai/cordis",
+      "keyword-plugin",
+      "dsh-plugin-topic",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "JavaScript",
+    "intent": "OpenCode Go usage bar for DeepSeek Harness: quota rings (rolling/weekly/monthly), real-time DSH-session token & cost stats with live official pricing, per-model and current-session scope switching, one-click API key copy.",
+    "intentEn": "OpenCode Go usage bar for DeepSeek Harness: quota rings (rolling/weekly/monthly), real-time DSH-session token & cost stats with live official pricing, per-model and current-session scope switching, one-click API key copy.",
+    "intentZh": "OpenCode Go 用量常驻条：套餐余量圆环（滚动/周/月）+ token/花费实时统计（官方实时定价），支持本次会话/全部范围与按模型联动，一键复制 API Key。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "JavaScript",
+      "esm"
+    ],
+    "keyDeps": [
+      "@deepseek-ai/cordis"
+    ],
+    "entry": "lib/index.js",
+    "stars": 4,
+    "forks": 0,
+    "created_at": "2026-08-15T19:43:32Z",
+    "updated_at": "2026-08-16T14:38:58Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "dsh-plugin",
+      "deepseek-harness",
+      "opencode-go-usage"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-16T14:40:00.000Z"
   }
 }
