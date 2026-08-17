@@ -1825,3 +1825,4 @@ jiangsuyuan/dsh-guard-mode
 jiangsuyuan/dsh-deepseek-meter
 OK-wx/dsh-ocgo-lite
 Happy2Git/dsh-compass
+mlosun/dsh-docs-panel

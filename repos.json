@@ -29692,5 +29692,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "mlosun/dsh-docs-panel",
+    "name": "dsh-docs-panel",
+    "category": "tools",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 1,
+    "compat": "unknown",
+    "desc_en": "Your own Markdown notes, readable from any workspace: a slide-out docs panel for the DSH WebUI.",
+    "desc_zh": "DSH WebUI 里的「随身手册」：全局 Markdown 笔记，任何工作区随时可读。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

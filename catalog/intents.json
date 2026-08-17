@@ -89472,5 +89472,45 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-17T00:00:00.000Z"
+  },
+  "mlosun/dsh-docs-panel": {
+    "repo": "mlosun/dsh-docs-panel",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "tools",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "JavaScript",
+    "intent": "A DSH WebUI plugin that brings your own Markdown notes into a slide-out reading panel: clean light/dark rendering, draggable width, floating outline, and open-in-editor (Chrome/VS Code, macOS).",
+    "intentEn": "A DSH WebUI plugin that brings your own Markdown notes into a slide-out reading panel: clean light/dark rendering, draggable width, floating outline, and open-in-editor (Chrome/VS Code, macOS).",
+    "intentZh": "DSH WebUI 里的「随身手册」：全局 Markdown 笔记，任何工作区随时可读——右侧滑出阅读面板、亮暗主题渲染、拖拽调宽、悬浮大纲、一键转 Chrome/VS Code 继续编辑。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "JavaScript",
+      "esm"
+    ],
+    "keyDeps": [],
+    "entry": "lib/index.js",
+    "stars": 1,
+    "forks": 0,
+    "created_at": "2026-08-16T11:10:08Z",
+    "updated_at": "2026-08-16T16:59:00Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "dsh-plugin",
+      "dsh-plugins"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-17T08:00:00.000Z"
   }
 }
