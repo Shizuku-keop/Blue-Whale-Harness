@@ -89835,5 +89835,45 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-18T00:00:00.000Z"
+  },
+  "wtiaw/dsh-ccswitch-importer": {
+    "repo": "wtiaw/dsh-ccswitch-importer",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "utility",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "@deepseek-ai/cordis",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "JavaScript",
+    "intent": "Import CCSwitch Codex profiles (providers, models, endpoints, API keys) into DeepSeek Harness and configure per-model reasoning effort on the Settings Models page.",
+    "intentEn": "Import CCSwitch Codex profiles (providers, models, endpoints, API keys) into DeepSeek Harness and configure per-model reasoning effort on the Settings Models page.",
+    "intentZh": "把 CCSwitch 的 Codex 配置（provider/模型/endpoint/API Key）导入 DeepSeek Harness，并在「设置 → 模型」页按模型配置推理等级（reasoning effort）。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "JavaScript",
+      "React",
+      "esm",
+      "@deepseek-ai/cordis"
+    ],
+    "keyDeps": [],
+    "entry": "dist/index.mjs",
+    "stars": 1,
+    "forks": 0,
+    "created_at": "2026-08-18T11:40:43Z",
+    "updated_at": "2026-08-18T11:50:57Z",
+    "license": "Apache-2.0",
+    "open_issues": 0,
+    "topics": [],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-18T00:00:00.000Z"
   }
 }
