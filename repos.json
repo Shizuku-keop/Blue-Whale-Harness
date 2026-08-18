@@ -29820,5 +29820,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "wtiaw/dsh-ccswitch-importer",
+    "name": "dsh-ccswitch-importer",
+    "category": "utility",
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "stars": 1,
+    "compat": "unknown",
+    "desc_en": "Import CCSwitch Codex profiles into DeepSeek Harness and configure per-model reasoning effort on the Models page.",
+    "desc_zh": "一键导入 CCSwitch Codex 配置到 DeepSeek Harness，并在「设置 → 模型」页按模型配置推理等级。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]
