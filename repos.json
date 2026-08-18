@@ -29756,5 +29756,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "yiqizhuapangxiema/harness-plugin-store-optimized",
+    "name": "harness-plugin-store-optimized",
+    "category": "tools",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 2,
+    "compat": "unknown",
+    "desc_en": "Optimized Harness plugin store: graphical browse, search and one-click install of DSH plugins, with ratings, dependency topology, audit logs and quality gates; this fork adds configurable download dir, bundle-level conflict detection, pnpm auto-detection, and upstream bug fixes.",
+    "desc_zh": "Harness 插件商店优化版：图形化浏览/搜索/一键安装 DSH 插件，评分评论、依赖拓扑、审计日志、质量门；本 fork 新增可配置插件下载目录、bundle 层冲突检测、pnpm 自动寻路，并修复多项上游 bug。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]
