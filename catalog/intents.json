@@ -89704,5 +89704,44 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-18T00:00:00.000Z"
+  },
+  "pandarayc/dsh-release-guard": {
+    "repo": "pandarayc/dsh-release-guard",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "orchestration",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "JavaScript",
+    "intent": "Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary routing decisions, supervisor monitoring with debounce, and auto-rollback for broken canaries.",
+    "intentEn": "Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary routing decisions, supervisor monitoring with debounce, and auto-rollback for broken canaries.",
+    "intentZh": "DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制（防抖）与自动回滚，坏包不再拖垮宿主。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "JavaScript",
+      "esm"
+    ],
+    "keyDeps": [
+      "@deepseek-ai/dsh-agent-presets"
+    ],
+    "entry": "index.mjs",
+    "stars": 0,
+    "forks": 0,
+    "created_at": "2026-08-16T14:36:58Z",
+    "updated_at": "2026-08-17T10:03:53Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-17T08:00:00.000Z"
   }
 }

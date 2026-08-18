@@ -1829,3 +1829,4 @@ Oo0520/dsh-plugin-doctor
 qwert702/dsh-token-viewer
 oomol-lab/dsh-oomol
 yiqizhuapangxiema/harness-plugin-store-optimized
+pandarayc/dsh-release-guard
