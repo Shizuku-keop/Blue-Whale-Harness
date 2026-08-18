@@ -29740,5 +29740,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "oomol-lab/dsh-oomol",
+    "name": "dsh-oomol",
+    "category": "tools",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 10,
+    "compat": "unknown",
+    "desc_en": "OOMOL Connector for DeepSeek Harness: progressively discovers and executes Actions from OOMOL-managed apps, with an in-app Connections panel and Provider credentials retained by OOMOL.",
+    "desc_zh": "DeepSeek Harness 的 OOMOL Connector：渐进式发现并执行由 OOMOL 管理的应用 Actions，提供应用内 Connections 面板，Provider 凭据保留在 OOMOL。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

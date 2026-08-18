@@ -89600,5 +89600,65 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-18T00:00:00.000Z"
+  },
+  "oomol-lab/dsh-oomol": {
+    "repo": "oomol-lab/dsh-oomol",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "tools",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "@deepseek-ai/cordis",
+      "@deepseek-ai/dsh-credentials",
+      "@deepseek-ai/dsh-mcp-client",
+      "keyword-plugin",
+      "keyword-dsh",
+      "dsh-plugin-topic",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "TypeScript",
+    "intent": "OOMOL Connector for DeepSeek Harness: progressively discovers and executes Actions from OOMOL-managed apps, with an in-app Connections panel and Provider credentials retained by OOMOL.",
+    "intentEn": "OOMOL Connector for DeepSeek Harness: progressively discovers and executes Actions from OOMOL-managed apps, with an in-app Connections panel and Provider credentials retained by OOMOL.",
+    "intentZh": "DeepSeek Harness 的 OOMOL Connector：渐进式发现并执行由 OOMOL 管理的应用 Actions，提供应用内 Connections 面板，Provider 凭据保留在 OOMOL。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "TypeScript",
+      "React",
+      "esm",
+      "ts-build"
+    ],
+    "keyDeps": [
+      "@deepseek-ai/cordis",
+      "@deepseek-ai/dsh-credentials",
+      "@deepseek-ai/dsh-mcp-client"
+    ],
+    "entry": "./lib/index.js",
+    "stars": 10,
+    "forks": 0,
+    "created_at": "2026-08-16T08:39:35Z",
+    "updated_at": "2026-08-17T10:50:52Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "ai-agents",
+      "connector",
+      "deepseek",
+      "deepseek-harness",
+      "dsh-plugin",
+      "mcp",
+      "model-context-protocol",
+      "oomol",
+      "plugin",
+      "typescript"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-17T11:06:19Z"
   }
 }
