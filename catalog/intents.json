@@ -89512,5 +89512,47 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-17T08:00:00.000Z"
+  },
+  "Oo0520/dsh-plugin-doctor": {
+    "repo": "Oo0520/dsh-plugin-doctor",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "tools",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "dsh-plugin-topic",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "JavaScript",
+    "intent": "DSH plugin doctor: diagnose and manage DeepSeek Harness plugins (plugin-manager).",
+    "intentEn": "DSH plugin doctor: diagnose and manage DeepSeek Harness plugins (plugin-manager).",
+    "intentZh": "DeepSeek Harness 插件医生：诊断与管理 DSH 插件（插件管理器）。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "JavaScript",
+      "esm"
+    ],
+    "keyDeps": [],
+    "stars": 1,
+    "forks": 0,
+    "created_at": "2026-08-16T17:57:43Z",
+    "updated_at": "2026-08-17T09:11:15Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "plugin-manager"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-18T00:00:00.000Z"
   }
 }

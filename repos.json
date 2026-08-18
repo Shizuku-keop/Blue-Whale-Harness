@@ -29708,5 +29708,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "Oo0520/dsh-plugin-doctor",
+    "name": "dsh-plugin-doctor",
+    "category": "tools",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 1,
+    "compat": "unknown",
+    "desc_en": "DSH plugin doctor: diagnose and manage DeepSeek Harness plugins (plugin-manager).",
+    "desc_zh": "DeepSeek Harness 插件医生：诊断与管理 DSH 插件（插件管理器）。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

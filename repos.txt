@@ -1820,9 +1820,9 @@ Isilsolme/dsh-splash-launcher
 Isilsolme/dsh-anthropic-fonts
 sjh9714/dsh-movein
 sjh9714/dsh-win32
-
 jiangsuyuan/dsh-guard-mode
 jiangsuyuan/dsh-deepseek-meter
 OK-wx/dsh-ocgo-lite
 Happy2Git/dsh-compass
 mlosun/dsh-docs-panel
+Oo0520/dsh-plugin-doctor
