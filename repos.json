@@ -29804,5 +29804,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "Samge0/dsh-plugin-nexterm",
+    "name": "dsh-plugin-nexterm",
+    "category": "tools",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Batch fleet-maintenance plugin for DeepSeek Harness via Nexterm: bring a Nexterm-hosted SSH fleet into a DSH session through the Nexterm REST API with model-driven tools.",
+    "desc_zh": "通过 Nexterm 进行批量运维的 DeepSeek Harness 插件：借助 Nexterm REST API 把托管 SSH 集群接入 DSH 会话，提供模型驱动的运维工具。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

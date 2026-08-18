@@ -89796,5 +89796,44 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-17T16:40:00.000Z"
+  },
+  "Samge0/dsh-plugin-nexterm": {
+    "repo": "Samge0/dsh-plugin-nexterm",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "tools",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "JavaScript",
+    "intent": "Batch fleet-maintenance plugin for DeepSeek Harness via Nexterm: bring a Nexterm-hosted SSH fleet into a DSH session through the Nexterm REST API with model-driven tools (auth, fleet listing, single-host and parallel batch exec, health checks, monitoring).",
+    "intentEn": "Batch fleet-maintenance plugin for DeepSeek Harness via Nexterm: bring a Nexterm-hosted SSH fleet into a DSH session through the Nexterm REST API with model-driven tools (auth, fleet listing, single-host and parallel batch exec, health checks, monitoring).",
+    "intentZh": "通过 Nexterm 进行批量运维的 DeepSeek Harness 插件：借助 Nexterm REST API 把托管 SSH 集群接入 DSH 会话，提供登录认证、集群列表、单机/并行批量执行、健康检查与监控等模型工具。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "JavaScript",
+      "esm"
+    ],
+    "keyDeps": [],
+    "stars": 0,
+    "forks": 0,
+    "created_at": "2026-08-17T02:51:37Z",
+    "updated_at": "2026-08-17T18:16:56Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "dsh-plugin",
+      "deepseek-harness"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-18T00:00:00.000Z"
   }
 }
