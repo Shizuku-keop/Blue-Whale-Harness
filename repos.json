@@ -29788,5 +29788,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "amphilagus/dsh-literature",
+    "name": "dsh-literature",
+    "category": "tools",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 1,
+    "compat": "unknown",
+    "desc_en": "Literature search and tracking for DeepSeek Harness: Crossref + arXiv, ORCID researcher disambiguation, SCI journal catalog, and a 文献跟踪助理 agent preset.",
+    "desc_zh": "DeepSeek Harness 文献检索与定向跟踪插件：Crossref + arXiv 检索、ORCID 研究者消歧、SCI 期刊目录、全局新库，配套「文献跟踪助理」preset。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

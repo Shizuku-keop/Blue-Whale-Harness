@@ -89743,5 +89743,58 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-17T08:00:00.000Z"
+  },
+  "amphilagus/dsh-literature": {
+    "repo": "amphilagus/dsh-literature",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "tools",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "@deepseek-ai/cordis",
+      "@deepseek-ai/dsh-tools",
+      "readme-mentions-dsh",
+      "dsh-plugin-topic"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "TypeScript",
+    "intent": "Literature search and tracking for DeepSeek Harness: Crossref + arXiv search, ORCID researcher disambiguation, SCI journal catalog, a curated library, and a 文献跟踪助理 agent preset.",
+    "intentEn": "Literature search and tracking for DeepSeek Harness: Crossref + arXiv search, ORCID researcher disambiguation, SCI journal catalog, a curated library, and a 文献跟踪助理 agent preset.",
+    "intentZh": "DeepSeek Harness 文献检索与定向跟踪插件：Crossref + arXiv 检索、ORCID 研究者消歧、SCI 期刊目录、全局新库，配套「文献跟踪助理」preset。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "TypeScript",
+      "esm",
+      "ts-build"
+    ],
+    "keyDeps": [
+      "@deepseek-ai/cordis",
+      "@deepseek-ai/dsh-home-paths",
+      "@deepseek-ai/dsh-llm",
+      "@deepseek-ai/dsh-sandbox-policy",
+      "@deepseek-ai/dsh-system-prompt",
+      "@deepseek-ai/dsh-tools"
+    ],
+    "entry": "lib/index.mjs",
+    "stars": 1,
+    "forks": 0,
+    "created_at": "2026-08-17T11:37:26Z",
+    "updated_at": "2026-08-17T16:35:49Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "dsh-plugin",
+      "dsh-plugins",
+      "deepseek-harness",
+      "literature-search"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-17T16:40:00.000Z"
   }
 }

@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-17 ｜ 共 **1818** 个仓库 ｜ 真·DSH 插件 **1688** 个
+> 自动生成于 2026-08-17 ｜ 共 **1819** 个仓库 ｜ 真·DSH 插件 **1689** 个
 
 ## 统计
 
-- 仓库总数：**1818**
-- 真·DSH 插件：**1688**
+- 仓库总数：**1819**
+- 真·DSH 插件：**1689**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 345 个仓库，★25758
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 571 个仓库，★15367
+- **tools** — 572 个仓库，★15368
 - **session** — 229 个仓库，★15126
 - **ui** — 184 个仓库，★6111
 - **uncategorized** — 1 个仓库，★2189
@@ -805,7 +805,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（571）
+### tools（572）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1331,6 +1331,7 @@
 | [lmst2/dsh-asc](https://github.com/lmst2/dsh-asc) | (无描述) | (no description) | 1 | TypeScript | yes |
 | [iiwish/dsh-testkit](https://github.com/iiwish/dsh-testkit) | 面向 DeepSeek Harness 插件的生命周期一致性测试工具。 | Lifecycle conformance testing for DeepSeek Harness plugins. | 1 | TypeScript | yes |
 | [mlosun/dsh-docs-panel](https://github.com/mlosun/dsh-docs-panel) | DSH WebUI 里的「随身手册」：全局 Markdown 笔记，任何工作区随时可读——右侧滑出阅读面板、亮暗主题渲染、拖拽调宽、悬浮大纲、一键转 Chrome/VS Code  | A DSH WebUI plugin that brings your own Markdown notes into a slide-out reading panel: cle | 1 | JavaScript | yes |
+| [amphilagus/dsh-literature](https://github.com/amphilagus/dsh-literature) | DeepSeek Harness 文献检索与定向跟踪插件：Crossref/arXiv、ORCID 消歧、SCI 期刊目录、「文献跟踪助理」preset。 | DSH literature search and tracking: Crossref + arXiv, ORCID, SCI catalog, tracking preset. | 1 | TypeScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [lonelymoon87/dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | dsh-code-intel — DSH 插件（工具） | Symbol-aware code indexing and hybrid search for DeepSeek Harness. | 0 | TypeScript | yes |
 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | dsh-academic-research — DSH 插件（工具） | Evidence-grounded bilingual academic research plugin for DeepSeek Harness and OnPeople | 0 | TypeScript | yes |
