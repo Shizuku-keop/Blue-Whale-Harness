@@ -29724,5 +29724,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "qwert702/dsh-token-viewer",
+    "name": "dsh-token-viewer",
+    "category": "ui",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 2,
+    "compat": "unknown",
+    "desc_en": "CC Switch-style token consumption statistics for the DeepSeek Harness Web GUI: per-request usage log, real-consumption hero, request-time-bucketed trend chart, per-model peak/off-peak list pricing, per-project and per-model stats, account balance.",
+    "desc_zh": "DeepSeek Harness 网页端 CC Switch 风格 Token 消耗统计：按请求的用量日志、真实消耗 Hero、按请求提交时间分桶的趋势图、按模型峰谷牌价计费、项目/模型统计与账户余额。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

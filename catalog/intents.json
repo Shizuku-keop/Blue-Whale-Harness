@@ -89554,5 +89554,51 @@
     "compat": "unknown",
     "featured": false,
     "analyzed_at": "2026-08-18T00:00:00.000Z"
+  },
+  "qwert702/dsh-token-viewer": {
+    "repo": "qwert702/dsh-token-viewer",
+    "lists": [
+      "plugin"
+    ],
+    "dshCategory": "ui",
+    "isDshPlugin": true,
+    "dshSignals": [
+      "cordis.patch.yml",
+      "dsh-plugin-topic",
+      "readme-mentions-dsh"
+    ],
+    "manifestType": "cordis.patch.yml",
+    "language": "TypeScript",
+    "intent": "Live token usage & cost monitoring for DeepSeek Harness: consumed tokens for the current and all sessions, read from token-meter projections. No model calls.",
+    "intentEn": "Live token usage & cost monitoring for DeepSeek Harness: consumed tokens for the current and all sessions, read from token-meter projections. No model calls.",
+    "intentZh": "DeepSeek Harness 实时 Token 用量与成本监控：读取 token-meter 投影，展示当前会话与全部会话的消耗，不调用模型。",
+    "zhSource": "native",
+    "enSource": "native",
+    "needsReview": false,
+    "techStack": [
+      "TypeScript",
+      "esm"
+    ],
+    "keyDeps": [],
+    "stars": 2,
+    "forks": 0,
+    "created_at": "2026-08-14T07:42:31Z",
+    "updated_at": "2026-08-17T15:45:54Z",
+    "license": "MIT",
+    "open_issues": 0,
+    "topics": [
+      "cost",
+      "deepseek",
+      "deepseek-harness",
+      "developer",
+      "dsh",
+      "dsh-plugin",
+      "monitoring",
+      "token-meter"
+    ],
+    "cloned": false,
+    "compat": "unknown",
+    "featured": false,
+    "analyzed_at": "2026-08-18T00:00:00.000Z"
   }
 }
