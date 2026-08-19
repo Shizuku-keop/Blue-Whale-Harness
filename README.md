@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-18 ｜ 共 **1827** 个仓库 ｜ 真·DSH 插件 **1697** 个
+> 自动生成于 2026-08-19 ｜ 共 **1828** 个仓库 ｜ 真·DSH 插件 **1698** 个
 
 ## 统计
 
-- 仓库总数：**1827**
-- 真·DSH 插件：**1697**
+- 仓库总数：**1828**
+- 真·DSH 插件：**1698**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -25,7 +25,7 @@
 - **acp** — 65 个仓库，★268
 - **sandbox** — 10 个仓库，★193
 - **preset** — 2 个仓库，★4
-- **skin** — 2 个仓库，★1
+- **skin** — 3 个仓库，★3
 
 ## 插件清单
 
@@ -1911,10 +1911,11 @@
 | [yyh-001/dsh-companion](https://github.com/yyh-001/dsh-companion) | DeepSeek 陪伴模式插件：人设、记忆、聊得下去。 | DSH companion-mode plugin: persona, memory, conversation. | 3 | JavaScript | yes |
 | [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | DeepSeek Harness 对话中实时切换预设 | Live agent-preset switching at turn boundaries for DeepSeek Harness | 1 | TypeScript | yes |
 
-### skin（2）
+### skin（3）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
+| [OneZero-Y/dsh-tint-theme](https://github.com/OneZero-Y/dsh-tint-theme) | DeepSeek Harness（DSH）Web 界面的皮肤选择器：内置 25 套知名开源编辑器配色主题（Gruvbox、Solarized、Dracula、Catppuccin、 | A skin picker for the DeepSeek Harness (DSH) Web GUI — 25 editor color-theme families (Gru | 2 | TypeScript | yes |
 | [whyihaveyou/dsh-themes](https://github.com/whyihaveyou/dsh-themes) | 皮肤中心：151 款昼夜成对皮肤一包打尽——网格预览、搜索、DSH Web UI 内一键试穿。 | Skin Center: 151 day/night skin pairs in one package — grid previews, search, one-click tr | 1 | CSS | yes |
 | [lengduan/dsh-815-skin](https://github.com/lengduan/dsh-815-skin) | Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。 | Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdr | 0 | TypeScript | yes |
 
