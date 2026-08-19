@@ -29692,5 +29692,21 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "qwert702/dsh-auto-translate",
+    "name": "dsh-auto-translate",
+    "category": "ui",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Auto-translate for the DeepSeek Harness Web GUI: English replies get a Chinese translation below the turn, tool calls get one-line Chinese glosses — a standalone provider request that never enters the session transcript.",
+    "desc_zh": "dsh 网页端英文自动翻译：英文回复下方显示中文翻译，工具调用附一行中文注释；翻译为独立提供方请求，不进入会话上下文。",
+    "sourceNote": "PR 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]
