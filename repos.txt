@@ -1834,3 +1834,4 @@ Samge0/dsh-plugin-nexterm
 wtiaw/dsh-ccswitch-importer
 sjh9714/dsh-what-changed
 onezero-y/dsh-tint-theme
+Chael-Chael/dsh-reference-anything
