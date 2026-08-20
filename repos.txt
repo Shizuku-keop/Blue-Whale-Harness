@@ -1836,3 +1836,4 @@ sjh9714/dsh-what-changed
 onezero-y/dsh-tint-theme
 Chael-Chael/dsh-reference-anything
 scwlkq/deepseek-harness
+tmpdot/dsh-checkpoint-diff
