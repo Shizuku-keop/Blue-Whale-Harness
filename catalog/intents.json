@@ -89972,5 +89972,262 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-19T10:56:25.581Z"
+ },
+ "qwert702/dsh-continue-on-limit": {
+  "repo": "qwert702/dsh-continue-on-limit",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "keyword-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Auto-continue for the DeepSeek Harness Web GUI: when a local model hits its output-token cap and the max-tokens notice appears, the plugin automatically queues a short continue message so the reply keeps flowing — dual-source truncation detection, loop protection, and no UI.",
+  "intentEn": "Auto-continue for the DeepSeek Harness Web GUI: when a local model hits its output-token cap and the max-tokens notice appears, the plugin automatically queues a short continue message so the reply keeps flowing — dual-source truncation detection, loop protection, and no UI.",
+  "intentZh": "dsh 网页端输出上限自动继续：本地模型输出到上限出现提示时，自动发送「继续」让回复接上；双源截断检测、防死循环保护，完全无 UI。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-20T00:00:00Z",
+  "updated_at": "2026-08-20T00:00:00Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-20T23:39:40.385Z"
+ },
+ "qwert702/dsh-context-compressor": {
+  "repo": "qwert702/dsh-context-compressor",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "keyword-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "One-click context compression for the DeepSeek Harness Web GUI: a 压缩 button on the session title bar summarizes the whole conversation into a few lines, opens a new session in the same workspace seeded with the summary, and switches to it — the original session stays untouched.",
+  "intentEn": "One-click context compression for the DeepSeek Harness Web GUI: a 压缩 button on the session title bar summarizes the whole conversation into a few lines, opens a new session in the same workspace seeded with the summary, and switches to it — the original session stays untouched.",
+  "intentZh": "dsh 网页端一键上下文压缩：会话标题栏「压缩」按钮把整段对话总结成几句话，新建同工作区会话以摘要为第一条消息并自动切换，原会话原样保留。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-20T00:00:00Z",
+  "updated_at": "2026-08-20T00:00:00Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-20T23:39:40.385Z"
+ },
+ "qwert702/dsh-auto-translate": {
+  "repo": "qwert702/dsh-auto-translate",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Full-pipeline Chinese translation for the DeepSeek Harness Web GUI: live translation of model reasoning as it streams, in-place Chinese below each English reply, and one-line Chinese summaries for tool outputs and tool-call glosses — a standalone provider request that never enters the session transcript.",
+  "intentEn": "Full-pipeline Chinese translation for the DeepSeek Harness Web GUI: live translation of model reasoning as it streams, in-place Chinese below each English reply, and one-line Chinese summaries for tool outputs and tool-call glosses — a standalone provider request that never enters the session transcript.",
+  "intentZh": "dsh 网页端全链路中文翻译：思考过程实时翻译、英文回复就地中文、工具输出中文摘要与工具调用注释；翻译为独立提供方请求，不进入会话上下文。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-19T00:00:00Z",
+  "updated_at": "2026-08-19T00:00:00Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "automation",
+   "chinese",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "i18n",
+   "localization",
+   "tool-call",
+   "translation",
+   "ui"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-20T23:39:40.385Z"
+ },
+ "tmpdot/dsh-checkpoint-diff": {
+  "repo": "tmpdot/dsh-checkpoint-diff",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Checkpoint timeline diff & rollback for DeepSeek Harness — turn dsh-checkpoint-rewind checkpoints into a browsable timeline (session/project scope) with line-level file diffs between any two nodes, trace replay from session logs, and preview-style rollback (node/file, dry-run, in-process undo).",
+  "intentEn": "Checkpoint timeline diff & rollback for DeepSeek Harness — turn dsh-checkpoint-rewind checkpoints into a browsable timeline (session/project scope) with line-level file diffs between any two nodes, trace replay from session logs, and preview-style rollback (node/file, dry-run, in-process undo).",
+  "intentZh": "DeepSeek Harness 检查点时间线 diff 与回滚——把 dsh-checkpoint-rewind 的检查点变成可浏览时间线（会话/项目范围），任意两节点间逐文件行级 diff，从会话日志重放 trace，并提供预览式回滚（整节点/单文件、dry-run、进程内一次性撤销）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "zod"
+  ],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-20T00:00:00Z",
+  "license": "Apache-2.0",
+  "open_issues": 0,
+  "topics": [
+   "checkpoint",
+   "diff",
+   "dsh",
+   "dsh-plugin",
+   "visualization"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-20T23:39:40.385Z"
+ },
+ "Chael-Chael/dsh-reference-anything": {
+  "repo": "Chael-Chael/dsh-reference-anything",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic",
+   "@deepseek-ai/schemastery"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Reference Anything in DeepSeek Harness — extend the unified @ menu to cite workspace files, DSH sessions, and chat histories from ChatGPT, Claude, Gemini, DeepSeek, Grok, and Kimi.",
+  "intentEn": "Reference Anything in DeepSeek Harness — extend the unified @ menu to cite workspace files, DSH sessions, and chat histories from ChatGPT, Claude, Gemini, DeepSeek, Grok, and Kimi.",
+  "intentZh": "在 DeepSeek Harness 中「引用一切」——扩展统一的 @ 菜单，可引用工作区文件、DSH 会话，以及 ChatGPT、Claude、Gemini、DeepSeek、Grok、Kimi 的历史对话。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/schemastery",
+   "@lobehub/icons",
+   "zod"
+  ],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-16T00:00:00Z",
+  "updated_at": "2026-08-20T00:00:00Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-20T23:39:40.385Z"
+ },
+ "scwlkq/deepseek-harness": {
+  "repo": "scwlkq/deepseek-harness",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-progress/review/done/failed) with CRUD, search, drag-reorder, agent start/stop/approve/retry/reopen, round summaries, session jump, and Storage Domain persistence.",
+  "intentEn": "Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-progress/review/done/failed) with CRUD, search, drag-reorder, agent start/stop/approve/retry/reopen, round summaries, session jump, and Storage Domain persistence.",
+  "intentZh": "任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳回/重试/重开，轮次摘要、会话跳转与 Storage Domain 持久化。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-15T00:00:00Z",
+  "updated_at": "2026-08-20T00:00:00Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-20T23:39:40.385Z"
  }
 }
