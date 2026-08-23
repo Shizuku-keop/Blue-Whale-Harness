@@ -29932,5 +29932,37 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "ravenli059/dsh-login",
+  "name": "dsh-login",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Login gate for the DeepSeek Harness Web GUI: requires username and password authentication before accessing the interface when the dsh-web port is opened.",
+  "desc_zh": "给 dsh-web 加一道登录门：打开 dsh-web 的端口时先要输入用户名和密码，验证通过后才能看到界面。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "ravenli059/dsh-android-agent",
+  "name": "dsh-android-agent",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "none",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "DeepSeek Harness Web GUI plugin: connects to Android phones via WebSocket for remote operations and automated testing.",
+  "desc_zh": "dsh-web 插件，支持用 websocket 方式连接到安卓手机，执行远程操作和自动测试。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

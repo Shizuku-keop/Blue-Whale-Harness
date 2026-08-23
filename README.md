@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-20 ｜ 共 **1834** 个仓库 ｜ 真·DSH 插件 **1704** 个
+> 自动生成于 2026-08-23 ｜ 共 **1838** 个仓库 ｜ 真·DSH 插件 **1708** 个
 
 ## 统计
 
-- 仓库总数：**1834**
-- 真·DSH 插件：**1704**
+- 仓库总数：**1838**
+- 真·DSH 插件：**1708**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 347 个仓库，★25761
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 198 个仓库，★16017
-- **tools** — 578 个仓库，★15381
+- **tools** — 581 个仓库，★15383
 - **session** — 231 个仓库，★15126
 - **ui** — 187 个仓库，★6119
 - **uncategorized** — 1 个仓库，★2189
@@ -26,6 +26,7 @@
 - **sandbox** — 10 个仓库，★193
 - **preset** — 2 个仓库，★4
 - **skin** — 3 个仓库，★3
+- **memory** — 1 个仓库，★0
 
 ## 插件清单
 
@@ -808,7 +809,7 @@
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 | [pandarayc/dsh-release-guard](https://github.com/pandarayc/dsh-release-guard) | DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制（防抖）与自动回滚，坏包不再拖垮宿主。 | Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary r | 0 | JavaScript | yes |
 
-### tools（578）
+### tools（581）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1338,6 +1339,8 @@
 | [mlosun/dsh-docs-panel](https://github.com/mlosun/dsh-docs-panel) | DSH WebUI 里的「随身手册」：全局 Markdown 笔记，任何工作区随时可读——右侧滑出阅读面板、亮暗主题渲染、拖拽调宽、悬浮大纲、一键转 Chrome/VS Code  | A DSH WebUI plugin that brings your own Markdown notes into a slide-out reading panel: cle | 1 | JavaScript | yes |
 | [Oo0520/dsh-plugin-doctor](https://github.com/Oo0520/dsh-plugin-doctor) | DeepSeek Harness 插件医生：诊断与管理 DSH 插件（插件管理器）。 | DSH plugin doctor: diagnose and manage DeepSeek Harness plugins (plugin-manager). | 1 | JavaScript | yes |
 | [amphilagus/dsh-literature](https://github.com/amphilagus/dsh-literature) | DeepSeek Harness 文献检索与定向跟踪插件：Crossref + arXiv 检索、ORCID 研究者消歧、SCI 期刊目录、全局新库，配套「文献跟踪助理」prese | Literature search and tracking for DeepSeek Harness: Crossref + arXiv search, ORCID resear | 1 | TypeScript | yes |
+| [ravenli059/dsh-android-agent](https://github.com/ravenli059/dsh-android-agent) | dsh-web 插件，支持用 websocket 方式连接到安卓手机，执行远程操作和自动测试。 | DeepSeek Harness Web GUI plugin: connects to Android phones via WebSocket for remote opera | 1 | TypeScript | yes |
+| [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) | dsh 网页端指挥官模式：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。 | Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects | 1 | JavaScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [lonelymoon87/dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | dsh-code-intel — DSH 插件（工具） | Symbol-aware code indexing and hybrid search for DeepSeek Harness. | 0 | TypeScript | yes |
 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | dsh-academic-research — DSH 插件（工具） | Evidence-grounded bilingual academic research plugin for DeepSeek Harness and OnPeople | 0 | TypeScript | yes |
@@ -1390,6 +1393,7 @@
 | [Samge0/dsh-plugin-nexterm](https://github.com/Samge0/dsh-plugin-nexterm) | 通过 Nexterm 进行批量运维的 DeepSeek Harness 插件：借助 Nexterm REST API 把托管 SSH 集群接入 DSH 会话，提供登录认证、集群列表 | Batch fleet-maintenance plugin for DeepSeek Harness via Nexterm: bring a Nexterm-hosted SS | 0 | JavaScript | yes |
 | [tmpdot/dsh-checkpoint-diff](https://github.com/tmpdot/dsh-checkpoint-diff) | DeepSeek Harness 检查点时间线 diff 与回滚——把 dsh-checkpoint-rewind 的检查点变成可浏览时间线（会话/项目范围），任意两节点间逐文件行 | Checkpoint timeline diff & rollback for DeepSeek Harness — turn dsh-checkpoint-rewind chec | 0 | JavaScript | yes |
 | [scwlkq/deepseek-harness](https://github.com/scwlkq/deepseek-harness) | 任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳 | Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-prog | 0 | TypeScript | yes |
+| [ravenli059/dsh-login](https://github.com/ravenli059/dsh-login) | 给 dsh-web 加一道登录门：打开 dsh-web 的端口时先要输入用户名和密码，验证通过后才能看到界面。 | Login gate for the DeepSeek Harness Web GUI: requires username and password authentication | 0 | JavaScript | yes |
 
 ### session（231）
 
@@ -1924,6 +1928,12 @@
 | [OneZero-Y/dsh-tint-theme](https://github.com/OneZero-Y/dsh-tint-theme) | DeepSeek Harness（DSH）Web 界面的皮肤选择器：内置 25 套知名开源编辑器配色主题（Gruvbox、Solarized、Dracula、Catppuccin、 | A skin picker for the DeepSeek Harness (DSH) Web GUI — 25 editor color-theme families (Gru | 2 | TypeScript | yes |
 | [whyihaveyou/dsh-themes](https://github.com/whyihaveyou/dsh-themes) | 皮肤中心：151 款昼夜成对皮肤一包打尽——网格预览、搜索、DSH Web UI 内一键试穿。 | Skin Center: 151 day/night skin pairs in one package — grid previews, search, one-click tr | 1 | CSS | yes |
 | [lengduan/dsh-815-skin](https://github.com/lengduan/dsh-815-skin) | Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。 | Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdr | 0 | TypeScript | yes |
+
+### memory（1）
+
+| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
+|---|---|---|---|---|---|
+| [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) | dsh 网页端项目级+全局长期记忆：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。 | Project+global long-term memory for the DeepSeek Harness Web GUI: split POST /items endpoi | 0 | JavaScript | yes |
 
 ## 如何生成 / 更新
 

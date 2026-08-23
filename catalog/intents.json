@@ -90229,5 +90229,178 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-20T23:39:40.385Z"
+ },
+ "ravenli059/dsh-login": {
+  "repo": "ravenli059/dsh-login",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Login gate for the DeepSeek Harness Web GUI: requires username and password authentication before accessing the interface when the dsh-web port is opened.",
+  "intentEn": "Login gate for the DeepSeek Harness Web GUI: requires username and password authentication before accessing the interface when the dsh-web port is opened.",
+  "intentZh": "给 dsh-web 加一道登录门：打开 dsh-web 的端口时先要输入用户名和密码，验证通过后才能看到界面。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-18T06:10:13Z",
+  "updated_at": "2026-08-23T07:30:51.091Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-login-plugin",
+   "dsh-plugin",
+   "dsh-plugins"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-23T07:30:51.091Z"
+ },
+ "ravenli059/dsh-android-agent": {
+  "repo": "ravenli059/dsh-android-agent",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DeepSeek Harness Web GUI plugin: connects to Android phones via WebSocket for remote operations and automated testing.",
+  "intentEn": "DeepSeek Harness Web GUI plugin: connects to Android phones via WebSocket for remote operations and automated testing.",
+  "intentZh": "dsh-web 插件，支持用 websocket 方式连接到安卓手机，执行远程操作和自动测试。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-20T06:32:38Z",
+  "updated_at": "2026-08-23T07:30:51.091Z",
+  "license": "none",
+  "open_issues": 0,
+  "topics": [
+   "dsh-android",
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-23T07:30:51.091Z"
+ },
+ "qwert702/dsh-commander": {
+  "repo": "qwert702/dsh-commander",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects a protocol brief into the session, then parses and auto-executes task blocks in the model reply — separating the strategist loop from worker loops via a visible badge.",
+  "intentEn": "Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects a protocol brief into the session, then parses and auto-executes task blocks in the model reply — separating the strategist loop from worker loops via a visible badge.",
+  "intentZh": "dsh 网页端指挥官模式：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-22T10:49:56Z",
+  "updated_at": "2026-08-23T07:30:51.091Z",
+  "license": "none",
+  "open_issues": 0,
+  "topics": [
+   "agent-task",
+   "commander",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "orchestration"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-23T07:30:51.091Z"
+ },
+ "qwert702/dsh-memory": {
+  "repo": "qwert702/dsh-memory",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "memory",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Project+global long-term memory for the DeepSeek Harness Web GUI: split POST /items endpoints to avoid path conflicts, tool-call context merged into memory items as compact summaries, with deduplication and session-scoped persistence.",
+  "intentEn": "Project+global long-term memory for the DeepSeek Harness Web GUI: split POST /items endpoints to avoid path conflicts, tool-call context merged into memory items as compact summaries, with deduplication and session-scoped persistence.",
+  "intentZh": "dsh 网页端项目级+全局长期记忆：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-22T20:24:58Z",
+  "updated_at": "2026-08-23T07:30:51.091Z",
+  "license": "none",
+  "open_issues": 0,
+  "topics": [
+   "conversation",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "long-term",
+   "memory"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-23T07:30:51.091Z"
  }
 }
