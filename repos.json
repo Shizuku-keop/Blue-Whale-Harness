@@ -29900,5 +29900,37 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "qwert702/dsh-commander",
+  "name": "dsh-commander",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "none",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects a protocol brief into the session, then parses and auto-executes task blocks in the model reply — separating the strategist loop from worker loops via a visible badge.",
+  "desc_zh": "dsh 网页端指挥官模式：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "qwert702/dsh-memory",
+  "name": "dsh-memory",
+  "category": "memory",
+  "language": "JavaScript",
+  "license": "none",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Project+global long-term memory for the DeepSeek Harness Web GUI: split POST /items endpoints to avoid path conflicts, tool-call context merged into memory items as compact summaries, with deduplication and session-scoped persistence.",
+  "desc_zh": "dsh 网页端项目级+全局长期记忆：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
