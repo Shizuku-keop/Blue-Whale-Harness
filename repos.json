@@ -28356,14 +28356,13 @@
   "language": "JavaScript",
   "license": "MIT",
   "stars": 84,
-  "compat": "unknown",
-  "desc_en": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for evidence-driven planning, orchestration, and verified d…",
-  "desc_zh": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for evidence-driven planning, orchestration, and verified d…",
-  "watchReason": "蹭tag",
-  "sourceNote": "auto",
+  "compat": "0.1.0-rc.7 || 0.1.1-rc.1 || 0.1.1-rc.2",
+  "desc_en": "General-purpose AI agent task governance for evidence-driven execution and verified delivery, available as a cross-host Skill, a DSH Agent preset, and a profile-wide DSH Plugin.",
+  "desc_zh": "通用 AI Agent 任务治理框架，以证据驱动执行与验收交付；提供跨宿主 Skill、DSH Agent 预设和 profile 级 DSH Plugin。",
+  "sourceNote": "PR 修正：Skill + DSH Agent/Plugin",
   "featured": false,
   "_lists": [
-   "watch"
+   "plugin"
   ]
  },
  {
