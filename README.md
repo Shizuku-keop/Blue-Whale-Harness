@@ -629,7 +629,7 @@
 | [zhoushoujianwork/easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) | (无描述) | (no description) | 225 | Go | no |
 | [howmp/dsh-pentest](https://github.com/howmp/dsh-pentest) | 面向 DeepSeek Harness 的渗透测试模式（限授权场景）：记录目标、探索线索、验证结果、资产与漏洞，Web 端提供探索链路/漏洞/资产视图；自包含 bundle，可通过 | Penetration-testing mode for DeepSeek Harness (authorized use only): record targets, explo | 224 | JavaScript | yes |
 | [TencentCloud/tencentmeeting-cli](https://github.com/TencentCloud/tencentmeeting-cli) | 腾讯会议命令行工具（CLI），基于腾讯会议开放平台 OAuth2 授权，支持会议管理、录制管理、参会报告等功能。 | Tencent Meeting CLI — a command-line tool built on the Tencent Meeting Open Platform OAuth | 217 | Go | no |
-| [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | Chrome 侧边栏扩展，让 DSH 操控浏览器。 | Chrome sidebar extension letting DSH drive the browser. | 162 | TypeScript | yes |
+| [Lum1104/dsh-browser](https://github.com/Lum1104/dsh-browser) | 把 DSH 网页版扩展成 Agent 工作台的侧边栏：以结构化文本操控浏览器（点击/填表/导航且保留登录态），内置记忆、技能、MCP 工具与会话管理。 | Chrome/Firefox sidebar that turns DSH web into an agent workstation: text-structured brows | 162 | TypeScript | yes |
 | [liustack/modsearch](https://github.com/liustack/modsearch) | DeepSeek Harness 的联网搜索插件。 | Web search plugin for DeepSeek Harness. | 105 | TypeScript | yes |
 | [try-works/role-model](https://github.com/try-works/role-model) | 按任务把请求路由到「正确的模型」（本地/云） | Protocol to route each job to the right model | 102 | TypeScript | no |
 | [Leslie-SSS/seeWxapkg](https://github.com/Leslie-SSS/seeWxapkg) | 极简实用的微信小程序反编译 Web 工具 | A minimal, practical web tool for decompiling WeChat Mini Programs. | 82 | Go | no |
