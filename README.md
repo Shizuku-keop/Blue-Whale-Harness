@@ -4,11 +4,11 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-24 ｜ 共 **1843** 个仓库 ｜ 真·DSH 插件 **1713** 个
+> 自动生成于 2026-08-24 ｜ 共 **1846** 个仓库 ｜ 真·DSH 插件 **1713** 个
 
 ## 统计
 
-- 仓库总数：**1843**
+- 仓库总数：**1846**
 - 真·DSH 插件：**1713**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
@@ -20,10 +20,10 @@
 - **orchestration** — 198 个仓库，★16028
 - **tools** — 584 个仓库，★15396
 - **session** — 232 个仓库，★15152
-- **ui** — 187 个仓库，★6119
+- **ui** — 189 个仓库，★6121
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
-- **sandbox** — 10 个仓库，★193
+- **sandbox** — 11 个仓库，★194
 - **preset** — 2 个仓库，★4
 - **skin** — 3 个仓库，★3
 - **memory** — 2 个仓库，★0
@@ -1635,7 +1635,7 @@
 | [qwert702/dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) | dsh 网页端输出上限自动继续：本地模型输出到上限出现提示时，自动发送「继续」让回复接上；双源截断检测、防死循环保护，完全无 UI。 | Auto-continue for the DeepSeek Harness Web GUI: when a local model hits its output-token c | 0 | JavaScript | yes |
 | [qwert702/dsh-context-compressor](https://github.com/qwert702/dsh-context-compressor) | dsh 网页端一键上下文压缩：会话标题栏「压缩」按钮把整段对话总结成几句话，新建同工作区会话以摘要为第一条消息并自动切换，原会话原样保留。 | One-click context compression for the DeepSeek Harness Web GUI: a 压缩 button on the session | 0 | JavaScript | yes |
 
-### ui（187）
+### ui（189）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1782,6 +1782,7 @@
 | [AnacondaKC/dsh-custom-css](https://github.com/AnacondaKC/dsh-custom-css) | （无描述） | (no description) | 2 | TypeScript | yes |
 | [sopaco/terrain](https://github.com/sopaco/terrain) | 为 AI 辅助开发时代打造的工程环境管理平台 | AI-native engineering environment management that makes your codebase agent-ready. | 2 | Rust | yes |
 | [qwert702/dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) | DeepSeek Harness 实时 Token 用量与成本监控：读取 token-meter 投影，展示当前会话与全部会话的消耗，不调用模型。 | Live token usage & cost monitoring for DeepSeek Harness: consumed tokens for the current a | 2 | TypeScript | yes |
+| [taltara/mddl-harness](https://github.com/taltara/mddl-harness) | DSH 的可视化编排器：把模型与工具拖到画布上，导出真实的 cordis.patch.yml。内含 dsh-blueprint —— Web 客户端标签页，可读取 harness  | Visual orchestrator for DSH: drag models and tools onto a canvas and export a real cordis. | 2 | TypeScript | no |
 | [AdamPlatin123/dsh-ths-skin](https://github.com/AdamPlatin123/dsh-ths-skin) | 同花顺行情终端风格皮肤 + K 线面板 | THS terminal-style skin + K-line panel | 1 | TypeScript | yes |
 | [Small-tailqwq/dsh-tps](https://github.com/Small-tailqwq/dsh-tps) | TPS 皮肤插件 | TPS skin plugin | 1 | TypeScript | yes |
 | [qing3a/dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) | DeepSeek Harness 事件流审计面板插件：观察事件类型/分发模式/计数/最近事件，帮助插件作者理解 harness 内部 | dsh-event-auditor — DSH plugin (ui) | 1 | JavaScript | yes |
@@ -1826,6 +1827,7 @@
 | [988hj7tczd-oss/harness-desktop](https://github.com/988hj7tczd-oss/harness-desktop) | 开箱即用的 DeepSeek Harness 桌面客户端（npm / Homebrew / Releases / Gitee 镜像，支持 macOS / Windows / Lin | Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirr | 0 | TypeScript | no |
 | [wallpap/dsh-compact-activity](https://github.com/wallpap/dsh-compact-activity) | DSH Web UI 插件：把连续的思考/工具调用消息折叠成一行可展开的单行披露，展开时保留官方组件。 | DSH Web UI plugin: folds consecutive thinking/tool-call messages into a single collapsed o | 0 | TypeScript | yes |
 | [Isilsolme/dsh-anthropic-fonts](https://github.com/Isilsolme/dsh-anthropic-fonts) | 给 DSH Web 界面换上 Anthropic 字体：界面用 Anthropic Sans，对话用 Anthropic Serif，代码用 Anthropic Mono。 | Switch the DSH web interface to Anthropic Sans Web Text and model conversation to Anthropi | 0 | JavaScript | yes |
+| [mozhuanzuojing/dsh-vscode](https://github.com/mozhuanzuojing/dsh-vscode) | 在 VSCode 辅助侧边栏内嵌 100% 原版 DeepSeek Harness (DSH) Web 界面；点击对话/轨迹里的文件路径直接在 VSCode 编辑器打开（本地代理  | Embeds the 100% original DeepSeek Harness (DSH) Web UI in a VSCode auxiliary sidebar; clic | 0 | TypeScript | no |
 
 ### uncategorized（1）
 
@@ -1903,7 +1905,7 @@
 | [dshiq04/dsh-deepseek-balance](https://github.com/dshiq04/dsh-deepseek-balance) | 面向deepseek harness的余额查看插件 | A balance-viewing plugin for DeepSeek Harness. | 0 | JavaScript | yes |
 | [Zenjibad/dsh-lan-uuid-fix](https://github.com/Zenjibad/dsh-lan-uuid-fix) | dsh 捆绑包：在不安全来源上 polyfill crypto.randomUUID，使 DeepSeek Harness Web UI 可在明文 HTTP 局域网上工作 | dsh bundle: polyfill crypto.randomUUID on insecure origins so the DeepSeek Harness Web UI  | 0 | JavaScript | yes |
 
-### sandbox（10）
+### sandbox（11）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1916,6 +1918,7 @@
 | [1475505/dsh-plugin-miliastra-toolbox](https://github.com/1475505/dsh-plugin-miliastra-toolbox) | 将千星沙箱（原神千星奇域）知识库接入 Deepseek Harness 的插件 | dsh-plugin-miliastra-toolbox — DSH plugin (sandbox) | 2 | TypeScript | yes |
 | [jiangsuyuan/dsh-guard-mode](https://github.com/jiangsuyuan/dsh-guard-mode) | 安全防呆模式:FullAccess 全部能力 + 危险命令黑名单拦截,命中转单次人工批准 | Safe-guard mode: full-access capability plus a blocklist scan on shell commands (one-time  | 2 | TypeScript | yes |
 | [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) | 为 DeepSeek Harness（dsh）即插即用的 dsh web Profile，新增 **自检** 沙箱模式 | A drop-in dsh web profile that adds the **Self Checking** sandbox mode to DeepSeek Harness | 1 | JavaScript | yes |
+| [taltara/capmark](https://github.com/taltara/capmark) | DSH 插件的能力清单：插件用 Markdown 声明自己可以做什么；网关据此收窄 agent 可见的工具集，并在 tools/pre-execute 上裁决每次调用；`capma | Capability manifests for DSH plugins: a plugin declares in Markdown what it may do, a gate | 1 | TypeScript | no |
 | [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。 | dsh-shell-termux — DSH plugin (sandbox) | 0 | TypeScript | yes |
 
 ### preset（2）
