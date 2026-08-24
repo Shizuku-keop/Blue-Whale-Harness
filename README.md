@@ -17,7 +17,7 @@
 - **llm** — 163 个仓库，★91937
 - **utility** — 347 个仓库，★25761
 - **skills** — 49 个仓库，★23452
-- **orchestration** — 198 个仓库，★16017
+- **orchestration** — 198 个仓库，★16028
 - **tools** — 584 个仓库，★15396
 - **session** — 232 个仓库，★15152
 - **ui** — 187 个仓库，★6119
@@ -624,8 +624,8 @@
 | [vibeinging/dsh-work](https://github.com/vibeinging/dsh-work) | 本地优先 DSH 插件工作台 | Local-first AI workbench for DSH plugins | 116 | JavaScript | yes |
 | [drewnekota/cetus](https://github.com/drewnekota/cetus) | 一个 macOS 应用统管 Claude Code、Codex 及你用过的所有智能体运行时——定时运行、全局快捷键启动器、每次运行的 git worktree…… | One macOS app for Claude Code, Codex, and every agent runtime you use — scheduled runs, gl | 114 | TypeScript | yes |
 | [Sikao-Engine/KimiX](https://github.com/Sikao-Engine/KimiX) | 新一代轻量级编码智能体命令行工具 | The next-gen lightweight coding agent cli | 105 | Python | no |
+| [orziz/odai](https://github.com/orziz/odai) | 通用 AI Agent 任务治理框架，以证据驱动执行与验收交付；提供跨宿主 Skill、DSH Agent 预设和 profile 级 DSH Plugin。 | General-purpose AI agent task governance for evidence-driven execution and verified delive | 95 | JavaScript | yes |
 | [pulseaiclub/phi](https://github.com/pulseaiclub/phi) | 来自 pi 的编码 Agent（子代理/哈希行编辑/权限门） | Coding agent from pi (sub-agents, hashline edits, permission gate) | 85 | Go | no |
-| [orziz/odai](https://github.com/orziz/odai) | AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for eviden | A general-purpose AI agent task-governance framework: align goals with facts, plan and sch | 84 | JavaScript | yes |
 | [wink-run/tokenbank](https://github.com/wink-run/tokenbank) | Token Bank——架在你 AI 智能体与各家模型提供商之间的本地 LLM 网关。清楚 token 去向·通过智能路由省钱…… | Token Bank — the local LLM gateway that sits between your AI agents and every provider.  K | 74 | JavaScript | no |
 | [yjh051108/dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) | （无描述） | (no description) | 71 | TypeScript | yes |
 | [kuangre123/codex-switch](https://github.com/kuangre123/codex-switch) | Codex Switch 是一个 macOS 工具，一键配置 Codex 的自定义 API，同时保留官方 OpenAI 登录。保存后 Codex 的模型选择器里只会出现你选的那个  | Codex Switch is a macOS tool that configures Codex's custom API with one click while keepi | 67 | Python | no |

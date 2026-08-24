@@ -85360,41 +85360,50 @@
  "orziz/odai": {
   "repo": "orziz/odai",
   "lists": [
-   "watch"
+   "plugin"
   ],
   "dshCategory": "orchestration",
   "isDshPlugin": true,
   "dshSignals": [
-   "readme-mentions-dsh"
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
   ],
-  "manifestType": "none",
+  "manifestType": "cordis.patch.yml",
   "language": "JavaScript",
-  "intent": "A general-purpose AI agent task-governance framework: align goals with facts, plan and schedule capabilities, hold authorization and risk boundaries, and govern execution through to real acceptance and delivery.",
-  "intentEn": "A general-purpose AI agent task-governance framework: align goals with facts, plan and schedule capabilities, hold authorization and risk boundaries, and govern execution through to real acceptance and delivery.",
-  "intentZh": "AI agent 通用任务治理框架：对齐目标与事实，规划和调度能力，守住授权与风险边界，治理任务执行到真实验收与交付。Governance framework for evidence-driven planning, orchestration, and verified d…",
+  "intent": "General-purpose AI agent task governance for evidence-driven execution and verified delivery, available as a cross-host Skill, a DSH Agent preset, and a profile-wide DSH Plugin.",
+  "intentEn": "General-purpose AI agent task governance for evidence-driven execution and verified delivery, available as a cross-host Skill, a DSH Agent preset, and a profile-wide DSH Plugin.",
+  "intentZh": "通用 AI Agent 任务治理框架，以证据驱动执行与验收交付；提供跨宿主 Skill、DSH Agent 预设和 profile 级 DSH Plugin。",
   "zhSource": "native",
-  "enSource": "hy3",
+  "enSource": "native",
   "needsReview": false,
   "techStack": [
    "JavaScript"
   ],
   "keyDeps": [],
   "entry": null,
-  "stars": 84,
-  "forks": 15,
+  "stars": 95,
+  "forks": 16,
   "created_at": "2026-03-19T01:32:22Z",
-  "updated_at": "2026-08-14T18:10:01Z",
+  "updated_at": "2026-08-22T09:06:04Z",
   "license": "MIT",
   "open_issues": 0,
   "topics": [
+   "agent-skills",
+   "agentic-workflow",
    "ai-agent",
    "ai-agents",
+   "ai-governance",
+   "claude-code",
+   "codex",
+   "dsh",
    "dsh-plugin",
    "dsh-plugins",
+   "github-copilot",
    "odai"
   ],
   "cloned": true,
-  "compat": "unknown",
+  "compat": "0.1.0-rc.7 || 0.1.1-rc.1 || 0.1.1-rc.2",
   "featured": false,
   "analyzed_at": "2026-08-15T03:47:14.284Z"
  },

@@ -28355,7 +28355,7 @@
   "category": "orchestration",
   "language": "JavaScript",
   "license": "MIT",
-  "stars": 84,
+  "stars": 95,
   "compat": "0.1.0-rc.7 || 0.1.1-rc.1 || 0.1.1-rc.2",
   "desc_en": "General-purpose AI agent task governance for evidence-driven execution and verified delivery, available as a cross-host Skill, a DSH Agent preset, and a profile-wide DSH Plugin.",
   "desc_zh": "通用 AI Agent 任务治理框架，以证据驱动执行与验收交付；提供跨宿主 Skill、DSH Agent 预设和 profile 级 DSH Plugin。",
