@@ -29964,5 +29964,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "Cho-Geer/dsh-specify-subagent-suite",
+  "name": "dsh-specify-subagent-suite",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "Five DSH subagent plugins in one Cordis bundle: right-side Agent list, subagent template panel, one-shot subagent record badge, and subagent_pro dispatch tools for provider/model/effort override",
+  "desc_zh": "五个常驻 DSH 子代理插件合并为一个 Cordis bundle：右侧 Agent 列表、子代理模板面板、一次性子代理 record 徽章，以及 subagent_pro 派遣工具（可指定 provider/model/effort）",
+  "sourceNote": "PR #61 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-23 ｜ 共 **1838** 个仓库 ｜ 真·DSH 插件 **1708** 个
+> 自动生成于 2026-08-24 ｜ 共 **1839** 个仓库 ｜ 真·DSH 插件 **1709** 个
 
 ## 统计
 
-- 仓库总数：**1838**
-- 真·DSH 插件：**1708**
+- 仓库总数：**1839**
+- 真·DSH 插件：**1709**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 347 个仓库，★25761
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 198 个仓库，★16017
-- **tools** — 581 个仓库，★15383
+- **tools** — 582 个仓库，★15384
 - **session** — 231 个仓库，★15126
 - **ui** — 187 个仓库，★6119
 - **uncategorized** — 1 个仓库，★2189
@@ -809,7 +809,7 @@
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 | [pandarayc/dsh-release-guard](https://github.com/pandarayc/dsh-release-guard) | DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制（防抖）与自动回滚，坏包不再拖垮宿主。 | Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary r | 0 | JavaScript | yes |
 
-### tools（581）
+### tools（582）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1341,6 +1341,7 @@
 | [amphilagus/dsh-literature](https://github.com/amphilagus/dsh-literature) | DeepSeek Harness 文献检索与定向跟踪插件：Crossref + arXiv 检索、ORCID 研究者消歧、SCI 期刊目录、全局新库，配套「文献跟踪助理」prese | Literature search and tracking for DeepSeek Harness: Crossref + arXiv search, ORCID resear | 1 | TypeScript | yes |
 | [ravenli059/dsh-android-agent](https://github.com/ravenli059/dsh-android-agent) | dsh-web 插件，支持用 websocket 方式连接到安卓手机，执行远程操作和自动测试。 | DeepSeek Harness Web GUI plugin: connects to Android phones via WebSocket for remote opera | 1 | TypeScript | yes |
 | [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) | dsh 网页端指挥官模式：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。 | Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects | 1 | JavaScript | yes |
+| [Cho-Geer/dsh-specify-subagent-suite](https://github.com/Cho-Geer/dsh-specify-subagent-suite) | 五个常驻 DSH 子代理插件合并为一个 Cordis bundle：右侧 Agent 列表、子代理模板面板、一次性子代理 record 徽章，以及 subagent_pro 派遣工 | Five DSH subagent plugins in one Cordis bundle: right-side Agent list, subagent template p | 1 | JavaScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [lonelymoon87/dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | dsh-code-intel — DSH 插件（工具） | Symbol-aware code indexing and hybrid search for DeepSeek Harness. | 0 | TypeScript | yes |
 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | dsh-academic-research — DSH 插件（工具） | Evidence-grounded bilingual academic research plugin for DeepSeek Harness and OnPeople | 0 | TypeScript | yes |

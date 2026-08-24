@@ -90402,5 +90402,45 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-23T07:30:51.091Z"
+ },
+ "Cho-Geer/dsh-specify-subagent-suite": {
+  "repo": "Cho-Geer/dsh-specify-subagent-suite",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Five DSH subagent plugins in one Cordis bundle: right-side Agent list, subagent template panel, one-shot subagent record badge, and subagent_pro dispatch tools for provider/model/effort override",
+  "intentEn": "Five DSH subagent plugins in one Cordis bundle: right-side Agent list, subagent template panel, one-shot subagent record badge, and subagent_pro dispatch tools for provider/model/effort override",
+  "intentZh": "五个常驻 DSH 子代理插件合并为一个 Cordis bundle：右侧 Agent 列表、子代理模板面板、一次性子代理 record 徽章，以及 subagent_pro 派遣工具（可指定 provider/model/effort）",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/dsh-tools"
+  ],
+  "entry": null,
+  "stars": 1,
+  "forks": 1,
+  "created_at": "2026-08-22T17:53:29Z",
+  "updated_at": "2026-08-24T04:11:22Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T05:12:16.563Z"
  }
 }
