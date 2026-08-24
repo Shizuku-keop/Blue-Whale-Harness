@@ -10504,6 +10504,22 @@
   ]
  },
  {
+  "repo": "Suxeca/dsh-synapse",
+  "name": "dsh-synapse",
+  "category": "session",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "A non-linear conversation-map foundation for learning and research, with an optimized canvas workflow for exploring sessions and branches.",
+  "desc_zh": "面向学习与研究的非线性对话地图基础设施；通过优化的画布工作流辅助浏览会话与分支，是同类项目的优化方案。",
+  "sourceNote": "manual submission",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
   "repo": "arcmosin/dsh-wordbox",
   "name": "dsh-wordbox",
   "category": "ui",
