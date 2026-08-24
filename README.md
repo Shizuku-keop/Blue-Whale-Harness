@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-24 ｜ 共 **1842** 个仓库 ｜ 真·DSH 插件 **1712** 个
+> 自动生成于 2026-08-24 ｜ 共 **1843** 个仓库 ｜ 真·DSH 插件 **1713** 个
 
 ## 统计
 
-- 仓库总数：**1842**
-- 真·DSH 插件：**1712**
+- 仓库总数：**1843**
+- 真·DSH 插件：**1713**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -26,7 +26,7 @@
 - **sandbox** — 10 个仓库，★193
 - **preset** — 2 个仓库，★4
 - **skin** — 3 个仓库，★3
-- **memory** — 1 个仓库，★0
+- **memory** — 2 个仓库，★0
 
 ## 插件清单
 
@@ -1933,11 +1933,12 @@
 | [whyihaveyou/dsh-themes](https://github.com/whyihaveyou/dsh-themes) | 皮肤中心：151 款昼夜成对皮肤一包打尽——网格预览、搜索、DSH Web UI 内一键试穿。 | Skin Center: 151 day/night skin pairs in one package — grid previews, search, one-click tr | 1 | CSS | yes |
 | [lengduan/dsh-815-skin](https://github.com/lengduan/dsh-815-skin) | Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。 | Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdr | 0 | TypeScript | yes |
 
-### memory（1）
+### memory（2）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
 | [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) | dsh 网页端项目级+全局长期记忆：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。 | Project+global long-term memory for the DeepSeek Harness Web GUI: split POST /items endpoi | 0 | JavaScript | yes |
+| [JTSDM/dsh-memory-sqlite](https://github.com/JTSDM/dsh-memory-sqlite) | DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/ | Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (no | 0 | TypeScript | yes |
 
 ## 如何生成 / 更新
 

@@ -90587,5 +90587,59 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T05:23:05.726Z"
+ },
+ "JTSDM/dsh-memory-sqlite": {
+  "repo": "JTSDM/dsh-memory-sqlite",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "memory",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/cordis-plugin-timer",
+   "@deepseek-ai/dsh-agent",
+   "@deepseek-ai/dsh-jobs",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/schemastery",
+   "keyword-plugin",
+   "keyword-dsh",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (node:sqlite), content_hash idempotent dedup, FTS5 + LIKE dual-track retrieval, memory_memorize / memory_recall agent tools, and a WorkBuddy file bridge (append-only JSONL truth source + sentinel-rendered MEMORY.md). 65 unit tests green; lib/ committed so it installs without a build step.",
+  "intentEn": "Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (node:sqlite), content_hash idempotent dedup, FTS5 + LIKE dual-track retrieval, memory_memorize / memory_recall agent tools, and a WorkBuddy file bridge (append-only JSONL truth source + sentinel-rendered MEMORY.md). 65 unit tests green; lib/ committed so it installs without a build step.",
+  "intentZh": "DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/LIKE 中文双轨检索 + memory_memorize / memory_recall 工具 + WorkBuddy 文件桥（append-only JSONL 真相源 + MEMORY.md 哨兵区增量渲染）。65 个单测全绿，lib/ 已入库，clone 即用无需构建。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm",
+   "node:sqlite"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-24T05:37:44Z",
+  "updated_at": "2026-08-24T05:58:28Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh",
+   "dsh-plugin",
+   "deepseek-harness",
+   "memory",
+   "sqlite",
+   "long-term-memory"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T06:40:06.036Z"
  }
 }
