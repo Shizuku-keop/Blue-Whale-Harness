@@ -90442,5 +90442,50 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T05:12:16.563Z"
+ },
+ "GDWhisper/dsh-web-startup-auth": {
+  "repo": "GDWhisper/dsh-web-startup-auth",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DeepSeek Harness remote web launch plugin with username/password authentication. Replaces the native web launcher to safely expose dsh web to non-loopback interfaces; includes registration/login auth, API route protection, signed session cookie, auth-reset subcommand and frontend auth panel.",
+  "intentEn": "DeepSeek Harness remote web launch plugin with username/password authentication. Replaces the native web launcher to safely expose dsh web to non-loopback interfaces; includes registration/login auth, API route protection, signed session cookie, auth-reset subcommand and frontend auth panel.",
+  "intentZh": "DSH 远程 Web 启动 + 用户名/密码认证插件。替换原生 Web 启动器，让 dsh web 可安全暴露到非回环接口；含注册/登录认证、API 路由保护、签名会话 cookie、auth-reset 子命令及前端认证面板。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/dsh-cmdline",
+   "@deepseek-ai/dsh-host-webserver",
+   "@deepseek-ai/schemastery",
+   "commander"
+  ],
+  "entry": null,
+  "stars": 9,
+  "forks": 1,
+  "created_at": "2026-08-18T12:15:57Z",
+  "updated_at": "2026-08-23T11:05:04Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T05:16:34.274Z"
  }
 }

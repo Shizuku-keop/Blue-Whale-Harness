@@ -29980,5 +29980,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "GDWhisper/dsh-web-startup-auth",
+  "name": "dsh-web-startup-auth",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 9,
+  "compat": "unknown",
+  "desc_en": "DeepSeek Harness remote web launch plugin with username/password authentication. Replaces the native web launcher to safely expose dsh web to non-loopback interfaces; includes registration/login auth, API route protection, signed session cookie, auth-reset subcommand and frontend auth panel.",
+  "desc_zh": "DSH 远程 Web 启动 + 用户名/密码认证插件。替换原生 Web 启动器，让 dsh web 可安全暴露到非回环接口；含注册/登录认证、API 路由保护、签名会话 cookie、auth-reset 子命令及前端认证面板。",
+  "sourceNote": "PR #62 收录（手动解决冲突）",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
