@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-24 ｜ 共 **1859** 个仓库 ｜ 真·DSH 插件 **1726** 个
+> 自动生成于 2026-08-24 ｜ 共 **1860** 个仓库 ｜ 真·DSH 插件 **1727** 个
 
 ## 统计
 
-- 仓库总数：**1859**
-- 真·DSH 插件：**1726**
+- 仓库总数：**1860**
+- 真·DSH 插件：**1727**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -17,7 +17,7 @@
 - **llm** — 163 个仓库，★91937
 - **utility** — 352 个仓库，★29643
 - **skills** — 49 个仓库，★23452
-- **tools** — 588 个仓库，★17104
+- **tools** — 589 个仓库，★17104
 - **orchestration** — 199 个仓库，★16398
 - **session** — 232 个仓库，★15152
 - **ui** — 192 个仓库，★7239
@@ -611,7 +611,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（588）
+### tools（589）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1203,6 +1203,7 @@
 | [tmpdot/dsh-checkpoint-diff](https://github.com/tmpdot/dsh-checkpoint-diff) | DeepSeek Harness 检查点时间线 diff 与回滚——把 dsh-checkpoint-rewind 的检查点变成可浏览时间线（会话/项目范围），任意两节点间逐文件行 | Checkpoint timeline diff & rollback for DeepSeek Harness — turn dsh-checkpoint-rewind chec | 0 | JavaScript | yes |
 | [scwlkq/deepseek-harness](https://github.com/scwlkq/deepseek-harness) | 任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳 | Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-prog | 0 | TypeScript | yes |
 | [ravenli059/dsh-login](https://github.com/ravenli059/dsh-login) | 给 dsh-web 加一道登录门：打开 dsh-web 的端口时先要输入用户名和密码，验证通过后才能看到界面。 | Login gate for the DeepSeek Harness Web GUI: requires username and password authentication | 0 | JavaScript | yes |
+| [Entity-Him/dsh-hiboard-push](https://github.com/Entity-Him/dsh-hiboard-push) | DeepSeek Harness 插件：把任务完成消息以服务卡片形式推送到华为鸿蒙「负一屏（智慧助手·今天）」动态流。注册 hiboard_push 与 hiboard_verif | A DeepSeek Harness plugin that pushes task-completion messages to the Huawei HarmonyOS ass | 0 | JavaScript | yes |
 
 ### orchestration（199）
 

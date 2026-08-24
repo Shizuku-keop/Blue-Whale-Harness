@@ -91343,5 +91343,55 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T12:28:55.840Z"
+ },
+ "Entity-Him/dsh-hiboard-push": {
+  "repo": "Entity-Him/dsh-hiboard-push",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-settings",
+   "@deepseek-ai/schemastery",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A DeepSeek Harness plugin that pushes task-completion messages to the Huawei HarmonyOS assistant-today (negative-one-screen / 负一屏) card feed as service cards. Registers hiboard_push and hiboard_verify tools, wire-compatible with the OpenClaw today-task skill; the authCode is resolved from the dsh Settings panel, profile config, or an env var. No client UI, no extra runtime deps (Node built-in fetch).",
+  "intentEn": "A DeepSeek Harness plugin that pushes task-completion messages to the Huawei HarmonyOS assistant-today (negative-one-screen / 负一屏) card feed as service cards. Registers hiboard_push and hiboard_verify tools, wire-compatible with the OpenClaw today-task skill; the authCode is resolved from the dsh Settings panel, profile config, or an env var. No client UI, no extra runtime deps (Node built-in fetch).",
+  "intentZh": "DeepSeek Harness 插件：把任务完成消息以服务卡片形式推送到华为鸿蒙「负一屏（智慧助手·今天）」动态流。注册 hiboard_push 与 hiboard_verify 两个工具，与 OpenClaw today-task 技能线级兼容；authCode 依次从 dsh 设置面板、profile 配置或环境变量解析。无前端 UI、无额外运行时依赖（Node 内置 fetch）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "node",
+   "cjs",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-23T14:11:08Z",
+  "updated_at": "2026-08-23T14:21:12Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "harmonyos",
+   "hiboard",
+   "huawei",
+   "today-task"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:52:31.462Z"
  }
 }
