@@ -90487,5 +90487,58 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T05:16:34.274Z"
+ },
+ "LouisHaoL/dsh-timer-agent": {
+  "repo": "LouisHaoL/dsh-timer-agent",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Host-resident cron engine for DeepSeek Harness (hermes-agent cron inspired): 60s ticker fires real agent sessions; pinned-session / project-workdir / default-workspace targeting; timer_agent model tool + web board",
+  "intentEn": "Host-resident cron engine for DeepSeek Harness (hermes-agent cron inspired): 60s ticker fires real agent sessions; pinned-session / project-workdir / default-workspace targeting; timer_agent model tool + web board",
+  "intentZh": "DSH 常驻定时任务引擎（参考 hermes-agent cron）：60 秒 ticker 按 cron 触发真实 agent 会话；支持钉住会话/项目 workdir/默认空间；timer_agent 模型工具 + Web 面板",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [
+   "schemastery"
+  ],
+  "entry": null,
+  "stars": 3,
+  "forks": 1,
+  "created_at": "2026-08-18T14:24:13Z",
+  "updated_at": "2026-08-24T04:08:39Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-workflow",
+   "ai-agent",
+   "ai-agents",
+   "ai-automation",
+   "automation",
+   "cron",
+   "deepseek-harness",
+   "dsh-plugin",
+   "llm",
+   "prompt-engineering",
+   "scheduled-tasks",
+   "scheduling"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T05:19:08.124Z"
  }
 }

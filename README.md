@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-24 ｜ 共 **1840** 个仓库 ｜ 真·DSH 插件 **1710** 个
+> 自动生成于 2026-08-24 ｜ 共 **1841** 个仓库 ｜ 真·DSH 插件 **1711** 个
 
 ## 统计
 
-- 仓库总数：**1840**
-- 真·DSH 插件：**1710**
+- 仓库总数：**1841**
+- 真·DSH 插件：**1711**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 347 个仓库，★25761
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 198 个仓库，★16017
-- **tools** — 583 个仓库，★15393
+- **tools** — 584 个仓库，★15396
 - **session** — 231 个仓库，★15126
 - **ui** — 187 个仓库，★6119
 - **uncategorized** — 1 个仓库，★2189
@@ -809,7 +809,7 @@
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 | [pandarayc/dsh-release-guard](https://github.com/pandarayc/dsh-release-guard) | DSH 插件发布安全网：preset 健康检查、Canary 灰度决策、Supervisor 监控控制（防抖）与自动回滚，坏包不再拖垮宿主。 | Canary-release safety guard for DeepSeek Harness: preset health checks, stable-vs-canary r | 0 | JavaScript | yes |
 
-### tools（583）
+### tools（584）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1111,6 +1111,7 @@
 | [Noelune/dsh-agent-relay](https://github.com/Noelune/dsh-agent-relay) | (无描述) | (no description) | 3 | JavaScript | yes |
 | [OoWJZZoO/dsh-read-image](https://github.com/OoWJZZoO/dsh-read-image) | (无描述) | (no description) | 3 | JavaScript | yes |
 | [Apageoflove/DSH-arena](https://github.com/Apageoflove/DSH-arena) | 本地优先的实验与评估工作台：同题多候选模型对比，成绩单/帕累托前沿/建议胜者/审计告警，数据全在本地，总开关+每模型独立开关控耗。 | Local-first experiment and evaluation workbench: run one task across candidate models, com | 3 | TypeScript | yes |
+| [LouisHaoL/dsh-timer-agent](https://github.com/LouisHaoL/dsh-timer-agent) | DSH 常驻定时任务引擎（参考 hermes-agent cron）：60 秒 ticker 按 cron 触发真实 agent 会话；支持钉住会话/项目 workdir/默认空间 | Host-resident cron engine for DeepSeek Harness (hermes-agent cron inspired): 60s ticker fi | 3 | TypeScript | yes |
 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | 通过 cc-connect 远程使用 DSH | Use DSH remotely via cc-connect | 2 | Go | yes |
 | [renat3u/dsh-paseo](https://github.com/renat3u/dsh-paseo) | DSH 的 paseo 插件扩展支持 | paseo plugin extension support for DSH | 2 | JavaScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
