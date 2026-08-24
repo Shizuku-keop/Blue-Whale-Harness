@@ -1842,3 +1842,4 @@ ravenli059/dsh-android-agent
 Cho-Geer/dsh-specify-subagent-suite
 GDWhisper/dsh-web-startup-auth
 JTSDM/dsh-memory-sqlite
+mozhuanzuojing/dsh-vscode
