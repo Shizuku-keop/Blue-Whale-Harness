@@ -90540,5 +90540,43 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T05:19:08.124Z"
+ },
+ "Suxeca/dsh-synapse": {
+  "repo": "Suxeca/dsh-synapse",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "A non-linear conversation-map foundation for learning and research, with an optimized canvas workflow for exploring sessions and branches.",
+  "intentEn": "A non-linear conversation-map foundation for learning and research, with an optimized canvas workflow for exploring sessions and branches.",
+  "intentZh": "面向学习与研究的非线性对话地图基础设施；通过优化的画布工作流辅助浏览会话与分支，是同类项目的优化方案。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-19T08:30:47Z",
+  "updated_at": "2026-08-24T04:15:40Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T05:23:05.726Z"
  }
 }

@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-24 ｜ 共 **1841** 个仓库 ｜ 真·DSH 插件 **1711** 个
+> 自动生成于 2026-08-24 ｜ 共 **1842** 个仓库 ｜ 真·DSH 插件 **1712** 个
 
 ## 统计
 
-- 仓库总数：**1841**
-- 真·DSH 插件：**1711**
+- 仓库总数：**1842**
+- 真·DSH 插件：**1712**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -19,7 +19,7 @@
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 198 个仓库，★16017
 - **tools** — 584 个仓库，★15396
-- **session** — 231 个仓库，★15151
+- **session** — 232 个仓库，★15152
 - **ui** — 187 个仓库，★6119
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
@@ -1398,7 +1398,7 @@
 | [scwlkq/deepseek-harness](https://github.com/scwlkq/deepseek-harness) | 任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳 | Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-prog | 0 | TypeScript | yes |
 | [ravenli059/dsh-login](https://github.com/ravenli059/dsh-login) | 给 dsh-web 加一道登录门：打开 dsh-web 的端口时先要输入用户名和密码，验证通过后才能看到界面。 | Login gate for the DeepSeek Harness Web GUI: requires username and password authentication | 0 | JavaScript | yes |
 
-### session（231）
+### session（232）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1619,6 +1619,7 @@
 | [addxing/function-testing](https://github.com/addxing/function-testing) | 面向各类 AI 编程代理的功能测试用例生成 Skill。它可以根据 PRD、Git 提交记录或用户故事生成功能测试用例，并输出 Excel 风格测试报告 A skill for g | A skill for generating functional test cases for various AI coding agents. It can generate | 1 | JavaScript | yes |
 | [JinkaiLiu/dsh-autonomy](https://github.com/JinkaiLiu/dsh-autonomy) | 无需离开当前 DeepSeek Harness 会话即可在 Chat 与 Agent 模式间切换。 | Switch between Chat and Agent without leaving your DeepSeek Harness session. | 1 | TypeScript | yes |
 | [jasonrale/dsh-archive-manager](https://github.com/jasonrale/dsh-archive-manager) | DeepSeek Harness WebUI 归档会话管理插件：查看归档、继续对话、恢复归档、彻底删除。 | Archived-session manager for DeepSeek Harness WebUI — view, reopen, unarchive, or permanen | 1 | JavaScript | yes |
+| [Suxeca/dsh-synapse](https://github.com/Suxeca/dsh-synapse) | 面向学习与研究的非线性对话地图基础设施；通过优化的画布工作流辅助浏览会话与分支，是同类项目的优化方案。 | A non-linear conversation-map foundation for learning and research, with an optimized canv | 1 | JavaScript | yes |
 | [wangxiang0605qvq/dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) | dsh-auto-compact — DSH 插件（会话） | dsh-auto-compact — a DSH plugin (session). | 0 | JavaScript | yes |
 | [Amengclass/dsh-memory](https://github.com/Amengclass/dsh-memory) | dsh-memory — DSH 插件（会话） | Persistent, model-editable memory/notes store for DeepSeek Harness. Adds memory_set/get/de | 0 | JavaScript | yes |
 | [csiroqa/dsh-archive-viewer](https://github.com/csiroqa/dsh-archive-viewer) | dsh-archive-viewer — DSH 插件（会话） | DSH archive enhancements: periodic archive, LLM summaries, session notes. | 0 | TypeScript | yes |
