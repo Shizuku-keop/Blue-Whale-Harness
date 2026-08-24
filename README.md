@@ -21,10 +21,9 @@
 - **orchestration** — 199 个仓库，★16398
 - **session** — 232 个仓库，★15152
 - **ui** — 192 个仓库，★7239
-- **uncategorized** — 1 个仓库，★2189
+- **preset** — 3 个仓库，★2193
 - **acp** — 65 个仓库，★268
 - **sandbox** — 11 个仓库，★194
-- **preset** — 2 个仓库，★4
 - **skin** — 3 个仓库，★3
 - **memory** — 2 个仓库，★0
 
@@ -1096,7 +1095,7 @@
 | [drfccv/dsh-mcp-center](https://github.com/drfccv/dsh-mcp-center) | 将任意 MCP 服务接入你的 DeepSeek Harness——指哪接哪，一键完成 | Connect any MCP server to your DeepSeek Harness — point, click, done. | 1 | TypeScript | yes |
 | [hiro-nikaitou/dsh-ocg-billing](https://github.com/hiro-nikaitou/dsh-ocg-billing) | DeepSeek Harness（dsh）插件：带缓存官方定价的 OpenCode Go 计费层，主动更新检查、账单计算与驻留… | DeepSeek Harness (dsh) plugin: OpenCode Go billing layer with cached official pricing, pro | 1 | JavaScript | yes |
 | [duyefeng/dsh-browser](https://github.com/duyefeng/dsh-browser) | 给 DeepSeek Harness 的浏览器插件：AI 直接开真实的 Edge 浏览器逛网页、点击、填表、截图，无需 CDP 或 MCP。 | A browser plugin for DeepSeek Harness: the AI opens a real Edge browser to surf, click, fi | 1 | JavaScript | yes |
-| [gxx950224/SapBuddy-dsh](https://github.com/gxx950224/SapBuddy-dsh) | SapBuddy-dsh | SapBuddy-dsh | 1 | TypeScript | yes |
+| [gxx950224/SapBuddy-dsh](https://github.com/gxx950224/SapBuddy-dsh) | SapBuddy 的 DeepSeek Harness 底座版：41 个 SAP 工具、技能集与写门禁，以 Cordis 工具插件 + agent preset 形态嵌入 DSH， | SapBuddy x DeepSeek Harness: 41 SAP tools, skill set and write-gates bundled as a Cordis t | 1 | TypeScript | yes |
 | [WhiseNT/dsh-blackjack](https://github.com/WhiseNT/dsh-blackjack) | 谁不想coding的时候急头白脸的和大肥鱼来一场紧张刺激的21点呢 | Who wouldn't want to play a tense, thrilling round of blackjack against the Big Fish while | 1 | TypeScript | yes |
 | [lujoai/Lujo-MCP](https://github.com/lujoai/Lujo-MCP) | 基于 MCP 的 AI 调试追踪平台 | MCP-based AI debugging & tracing platform | 1 | Python | no |
 | [omdsh-dev/dsh-tool-browser](https://github.com/omdsh-dev/dsh-tool-browser) | （无描述） | (no description) | 1 | JavaScript | no |
@@ -1842,11 +1841,13 @@
 | [Isilsolme/dsh-anthropic-fonts](https://github.com/Isilsolme/dsh-anthropic-fonts) | 给 DSH Web 界面换上 Anthropic 字体：界面用 Anthropic Sans，对话用 Anthropic Serif，代码用 Anthropic Mono。 | Switch the DSH web interface to Anthropic Sans Web Text and model conversation to Anthropi | 0 | JavaScript | yes |
 | [mozhuanzuojing/dsh-vscode](https://github.com/mozhuanzuojing/dsh-vscode) | 在 VSCode 辅助侧边栏内嵌 100% 原版 DeepSeek Harness (DSH) Web 界面；点击对话/轨迹里的文件路径直接在 VSCode 编辑器打开（本地代理  | Embeds the 100% original DeepSeek Harness (DSH) Web UI in a VSCode auxiliary sidebar; clic | 0 | TypeScript | no |
 
-### uncategorized（1）
+### preset（3）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 两阶段 DeepSeek Harness 预设：先最小对齐引导，再加载完整 Standard 工具集（Project2 98/99） | Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Pr | 2189 | JavaScript | yes |
+| [yyh-001/dsh-companion](https://github.com/yyh-001/dsh-companion) | DeepSeek 陪伴模式插件：人设、记忆、聊得下去。 | DSH companion-mode plugin: persona, memory, conversation. | 3 | JavaScript | yes |
+| [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | DeepSeek Harness 对话中实时切换预设 | Live agent-preset switching at turn boundaries for DeepSeek Harness | 1 | TypeScript | yes |
 
 ### acp（65）
 
@@ -1933,13 +1934,6 @@
 | [SLAPaper/dsh-self-checking-profile](https://github.com/SLAPaper/dsh-self-checking-profile) | 为 DeepSeek Harness（dsh）即插即用的 dsh web Profile，新增 **自检** 沙箱模式 | A drop-in dsh web profile that adds the **Self Checking** sandbox mode to DeepSeek Harness | 1 | JavaScript | yes |
 | [taltara/capmark](https://github.com/taltara/capmark) | DSH 插件的能力清单：插件用 Markdown 声明自己可以做什么；网关据此收窄 agent 可见的工具集，并在 tools/pre-execute 上裁决每次调用；`capma | Capability manifests for DSH plugins: a plugin declares in Markdown what it may do, a gate | 1 | TypeScript | no |
 | [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) | dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。 | dsh-shell-termux — DSH plugin (sandbox) | 0 | TypeScript | yes |
-
-### preset（2）
-
-| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
-|---|---|---|---|---|---|
-| [yyh-001/dsh-companion](https://github.com/yyh-001/dsh-companion) | DeepSeek 陪伴模式插件：人设、记忆、聊得下去。 | DSH companion-mode plugin: persona, memory, conversation. | 3 | JavaScript | yes |
-| [HaoyanZhang123/deepseek-harness-live-preset-switch](https://github.com/HaoyanZhang123/deepseek-harness-live-preset-switch) | DeepSeek Harness 对话中实时切换预设 | Live agent-preset switching at turn boundaries for DeepSeek Harness | 1 | TypeScript | yes |
 
 ### skin（3）
 

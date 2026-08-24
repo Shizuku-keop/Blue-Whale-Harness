@@ -30251,5 +30251,117 @@
     "_lists": [
       "plugin"
     ]
+  },
+  {
+    "repo": "OneZero-Y/dsh-tint-theme",
+    "name": "dsh-tint-theme",
+    "category": "skin",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 2,
+    "compat": "unknown",
+    "desc_en": "A skin picker for the DeepSeek Harness (DSH) Web GUI — 25 editor color-theme families (Gruvbox, Solarized, Dracula, Catppuccin, Tokyo Night…) plus 3 original designs, with automatic light/dark switching that follows the system color scheme",
+    "desc_zh": "DeepSeek Harness（DSH）Web 界面的皮肤选择器：内置 25 套知名开源编辑器配色主题（Gruvbox、Solarized、Dracula、Catppuccin、Tokyo Night 等）外加 3 套原创设计，并跟随系统明暗偏好自动切换亮/暗皮肤",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "tmpdot/dsh-checkpoint-diff",
+    "name": "dsh-checkpoint-diff",
+    "category": "tools",
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Checkpoint timeline diff & rollback for DeepSeek Harness — turn dsh-checkpoint-rewind checkpoints into a browsable timeline (session/project scope) with line-level file diffs between any two nodes, trace replay from session logs, and preview-style rollback (node/file, dry-run, in-process undo).",
+    "desc_zh": "DeepSeek Harness 检查点时间线 diff 与回滚——把 dsh-checkpoint-rewind 的检查点变成可浏览时间线（会话/项目范围），任意两节点间逐文件行级 diff，从会话日志重放 trace，并提供预览式回滚（整节点/单文件、dry-run、进程内一次性撤销）。",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "Chael-Chael/dsh-reference-anything",
+    "name": "dsh-reference-anything",
+    "category": "ui",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 5,
+    "compat": "unknown",
+    "desc_en": "Reference Anything in DeepSeek Harness — extend the unified @ menu to cite workspace files, DSH sessions, and chat histories from ChatGPT, Claude, Gemini, DeepSeek, Grok, and Kimi.",
+    "desc_zh": "在 DeepSeek Harness 中「引用一切」——扩展统一的 @ 菜单，可引用工作区文件、DSH 会话，以及 ChatGPT、Claude、Gemini、DeepSeek、Grok、Kimi 的历史对话。",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "scwlkq/deepseek-harness",
+    "name": "deepseek-harness",
+    "category": "tools",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Task Board plugin (bundled in a DeepSeek Harness build): a five-state kanban (init/in-progress/review/done/failed) with CRUD, search, drag-reorder, agent start/stop/approve/retry/reopen, round summaries, session jump, and Storage Domain persistence.",
+    "desc_zh": "任务看板插件（随 DeepSeek Harness 构建发布）：五态看板（初始化/执行中/待审核/已完成/失败），支持增删改查、搜索、同列拖拽排序，Agent 启动/停止/通过/驳回/重试/重开，轮次摘要、会话跳转与 Storage Domain 持久化。",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "JTSDM/dsh-memory-sqlite",
+    "name": "dsh-memory-sqlite",
+    "category": "memory",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (node:sqlite), content_hash idempotent dedup, FTS5 + LIKE dual-track retrieval, memory_memorize / memory_recall agent tools, and a WorkBuddy file bridge (append-only JSONL truth source + sentinel-rendered MEMORY.md). 65 unit tests green; lib/ committed so it installs without a build step.",
+    "desc_zh": "DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/LIKE 中文双轨检索 + memory_memorize / memory_recall 工具 + WorkBuddy 文件桥（append-only JSONL 真相源 + MEMORY.md 哨兵区增量渲染）。65 个单测全绿，lib/ 已入库，clone 即用无需构建。",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "mozhuanzuojing/dsh-vscode",
+    "name": "dsh-vscode",
+    "category": "ui",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 0,
+    "compat": "unknown",
+    "desc_en": "Embeds the 100% original DeepSeek Harness (DSH) Web UI in a VSCode auxiliary sidebar; click file paths in conversations/traces to open them directly in the VSCode editor (local proxy + iframe, openPath/pickDirectory interception, WebSocket passthrough).",
+    "desc_zh": "在 VSCode 辅助侧边栏内嵌 100% 原版 DeepSeek Harness (DSH) Web 界面；点击对话/轨迹里的文件路径直接在 VSCode 编辑器打开（本地代理 + iframe，openPath/pickDirectory 拦截，WebSocket 透传）。",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
+  },
+  {
+    "repo": "wefio/dsh-cache-miss",
+    "name": "dsh-cache-miss",
+    "category": "ui",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 1,
+    "compat": "unknown",
+    "desc_en": "A DeepSeek Harness Web plugin that shows a one-line yellow prompt-cache-miss notice under each turn's first assistant reply when the request missed cache (hit ratio < 80% and >=1k tokens re-billed), and a grey \"cannot confirm\" note for providers that don't report cache fields. Pure front-end overlay — no session-log writes, no DSH source changes.",
+    "desc_zh": "DeepSeek Harness Web 插件：在每轮首条 assistant 回复下方，于提示缓存未命中时显示一行黄色提示（命中率 < 80% 且重计费输入 ≥ 1k token）；对不回报 cache 字段的 provider 显示灰色「无法确认」提示。纯前端叠层，不写 session log、不改 DSH 源码。",
+    "sourceNote": "PR #67-73 收录",
+    "featured": false,
+    "_lists": [
+      "plugin"
+    ]
   }
 ]

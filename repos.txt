@@ -212,12 +212,10 @@ HarcoChen/dsh-vsc-integration
 Qintsg/dsh-safe-delete
 KarlOfLaw/dsh-goal-mode-enhance
 HackSing/dsh-plugins
-hccccc01333/dsh-report-html
 wuxiangru915/dsh-review-loop
 GooodWei/context-vista
 zhaoscsc/dsh-wikilink
 1na-ko/dsh-hdc-bridge
-Roy-oss1/dsh-lark
 PerryLink/dsh-claude-move
 hisaniwo/dsh-ergonomics
 securstack/securstack-dsh-plugin
@@ -290,7 +288,6 @@ Simon314620/dsh-turn-index
 Asaiuta/dsh-session-hub
 pinkllo/dsh-reasoning-translator
 PangYiMing/dsh-mobile-control
-bitterSmilezzz/dsh-skill-manager
 yoke233/dsh-tool-monitor
 YYTbit/dsh-plugin-auto-docs
 Jesse-njx/dsh-chatnode-wechat
@@ -306,7 +303,6 @@ Jinsong-Zhou/safe-find-dsh-plugins
 shi275773124/falsify-dsh
 RealAlexandreAI/dsh-all-search
 PixLunaLab/dsh-plugin-pixluna
-echo-escape/dsh-workbench
 pinch-eng/dsh-audio-dub
 TYEclipse/dsh-plugins-hub
 LoftyTao/dsh-ui-workbench
@@ -318,7 +314,6 @@ omdsh-dev/dsh-daily-fortune
 918154429/dsh-codex-import
 YYTbit/dsh-plugin-rag
 BlockRunAI/dsh-clawrouter
-bitterSmilezzz/dsh-model-selector
 ShawnSiao/dsh-credentials-keychain
 PerryLink/dsh-github
 Spirit4471/multimodal-bridge
@@ -433,7 +428,6 @@ jinhuang712/dsh-survey
 causebefore/dsh-pomodoro
 hrhgit/deepseek-harness-plugin-manager
 xinmo114514/dsh-usage-widget
-lynkas/dsh-think-flow-flow
 shelken/dsh-co-authored-by
 JustGenius-s/DSH-Plugs
 drfccv/dsh-theme-neko
@@ -478,7 +472,6 @@ Fishsb/dsh-prompt-enhancer
 lonelymoon87/dsh-specflow
 lonelymoon87/dsh-gitflow
 MicroHEROX/dsh-exa-mcp
-ohtokaah-sys/dsh-plugins
 dongsheng123132/dsh-cost
 Spirtxiaoqi7/mindspace-dsh-session-memory
 csiroqa/dsh-plugin-usage-report
@@ -593,7 +586,6 @@ Xieweikang123/dsh-vision-bridge
 Jolly-J/dsh-deepseek-billing
 dpskh/dsh-checkpoint
 hnmrxz/dsh-plugin-sysmon
-Alexis-fish/dsh-worktrees
 nekogpt/dsh-ui-quote-selection
 lynx-gt/dsh-subagent-tools
 mouliangyu/dsh-plugins
@@ -680,7 +672,6 @@ Seom-ingit/vision_kit
 Aidenwu0209/dsh-PaddleOCR-Skills
 SisyphusSQ/dsh-plugins
 yangYzc/dsh-plugin-quote-reply
-yeshimei/dsh-sound
 ch1bug/dsh-wsl-bridge
 kazecreator/dsh-plugins
 cheng-nan01/dsh-tool-playwright
@@ -718,7 +709,6 @@ jiangnanquan/dsh-ux
 dongsheng123132/dsh-narrative-ledger
 zhangzujian/dsh-subprocess-inherit-environment
 xjackzenvey/Dsh-UI-Enhance
-kanallas/api-cost-meter
 dmsobtl/dsh-session-analyst
 sublatesublate-design/dsh-doctor-windows
 reshuibuduo/dsh-tmcra-memory
@@ -757,7 +747,6 @@ Equinox7379/dsh-daily-brief
 chajiuqqq/dsh-claude-theme
 Xin-Zhang-IceMan/dsh-vision-plugin
 mario03690/dsh-netcafe
-DreamZhongJu/dsh-codex-sync
 lisycotana/dsh-workflow-worktree
 meme-dog/dsh-plugin-finder
 leechen298/Code2Skill
@@ -865,7 +854,6 @@ IAMLieutenant/dsh-tool-user-memory
 c-ling/dsh-plugin-peak-pricing
 haiyoucuv/dsh-model-provider-label
 yan5236/slcatwujian-dsh-vision-plugin
-D-Robotics/dsh-plugin-rdk
 bwndlct/dsh-session-export
 Blaczz/dsh-achievements
 pythonshiyi/dsh-plugin-balance
@@ -931,7 +919,6 @@ fly233338/dsh-overleaf
 sulfide2085/dsh-llm-wechat
 PC2005-cloud/dsh-pet
 DEEP-IOS/dsh-humanizer
-je00/dsh-codex-agent-bridge
 PixLunaLab/dsh-pixluna
 jypjypjypjyp/dsh-vqa-agent
 Mars-Sea/dsh-commandcode-provider
@@ -1093,7 +1080,6 @@ feiyang-dev/dsh-usage-plugin
 Sqhao-O/dsh-docling
 linkingoscar/dsh-billing-glass
 nianpangzhi233/dsh-billing
-bibibala/dsh-git-guard
 LeemanCheung/dsh-task-dag
 AKS1st/dsh-cyber-particle
 yzd6552-commits/dsh-browseruse
@@ -1305,7 +1291,6 @@ anweat/dsh-web-search-pro
 morlay/session-persistence-rdb
 Tokimorphling/tokilake-ai-gateway
 XYZ1024-alt/dsh-side-panel
-bitterSmilezzz/dsh-mac-desktop
 walkinglabs/awesome-deepseek-harness-plugins
 loudMore/dsh-drop-to-path
 shuguang1994/project-blueprint
@@ -1413,7 +1398,6 @@ awesome-dsh-plugin/dsh-find-plugin
 xiaoyuxiaoyuqwq/dsh-desktop
 rabbitknight/dsh-tui
 PerryLink/dsh-permission-rules
-YisfL/dsh-desktop
 dongsheng123132/dsh-lineage
 lispking/git-skills
 anweat/dsh-plugin-dev-guide
@@ -1527,7 +1511,6 @@ Seryta/dsh-node-nav
 Hyperionjust/Primordial-soup-
 PerryLink/dsh-mcp-panel
 Ayase34/gal-view
-Shmilyol/galgame-skin
 2303572348/deepseek-harness-memory
 LvienOeria/dsh-desktop-launcher
 agent-plaza/agent-plaza
@@ -1776,7 +1759,6 @@ CocoSgt/dsh-inspector
 LingyeSoul/dsh-tavern
 2002yxy/dsh-nailong-desktop-pet
 UNLINEARITY/dsh-code
-Shmilyol/dsh-hiyori-skin
 WhitePlusMS/dsh-input-plus
 Noelune/unified-agent-memory
 sulfide2085/dsh-skill-manager
@@ -1804,7 +1786,7 @@ Francis-Xavier-code/dsh-balance-plugin
 cocofhu/anime-find
 p2coder/dsh-task-control
 2006spy/dsh-token-billing
-zhangbo-cn/dsh-voice-input-plugin
+Zhangbo-cn/dsh-voice-input-plugin
 wallpap/dsh-compact-activity
 Apageoflove/DSH-changeproof
 Apageoflove/DSH-arena
@@ -1833,7 +1815,7 @@ amphilagus/dsh-literature
 Samge0/dsh-plugin-nexterm
 wtiaw/dsh-ccswitch-importer
 sjh9714/dsh-what-changed
-onezero-y/dsh-tint-theme
+OneZero-Y/dsh-tint-theme
 Chael-Chael/dsh-reference-anything
 scwlkq/deepseek-harness
 tmpdot/dsh-checkpoint-diff
@@ -1856,3 +1838,22 @@ Devin-AXIS/deepseek-design
 ZSeven-W/dsh-ios
 howmp/dsh-pentest
 wefio/dsh-cache-miss
+yauntyour/DSH-Multimodal
+Airmetro/dsh-update-checker
+Junius-Q/dsh-for-obsidian
+cyanfish-x/dsh-live2d-pets
+maxwell-feng/dsh-windows-ocr
+maxwell-feng/dsh-tesseract-ocr
+lengduan/dsh-815-skin
+lcc815/dsh-debate-plugin
+siegfly/dsh-deepseek-vision
+HaoyanZhang123/deepseek-harness-live-preset-switch
+qwert702/dsh-continue-on-limit
+qwert702/dsh-context-compressor
+qwert702/dsh-auto-translate
+qwert702/dsh-commander
+qwert702/dsh-memory
+LouisHaoL/dsh-timer-agent
+Suxeca/dsh-synapse
+taltara/capmark
+taltara/mddl-harness

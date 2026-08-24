@@ -48078,7 +48078,7 @@
    "plugin",
    "manual"
   ],
-  "dshCategory": null,
+  "dshCategory": "preset",
   "isDshPlugin": true,
   "dshSignals": [
    "readme-mentions-dsh"
@@ -50695,12 +50695,12 @@
   ],
   "manifestType": "none",
   "language": "TypeScript",
-  "intent": "SapBuddy-dsh",
-  "intentEn": "SapBuddy-dsh",
-  "intentZh": "SapBuddy-dsh",
-  "zhSource": "hy3",
+  "intent": "SapBuddy x DeepSeek Harness: 41 SAP tools, skill set and write-gates bundled as a Cordis tool plugin + agent preset, with an SAP connection settings page.",
+  "intentEn": "SapBuddy x DeepSeek Harness: 41 SAP tools, skill set and write-gates bundled as a Cordis tool plugin + agent preset, with an SAP connection settings page.",
+  "intentZh": "SapBuddy 的 DeepSeek Harness 底座版：41 个 SAP 工具、技能集与写门禁，以 Cordis 工具插件 + agent preset 形态嵌入 DSH，含 SAP 连接设置页。",
+  "zhSource": "native",
   "enSource": "native",
-  "needsReview": true,
+  "needsReview": false,
   "techStack": [
    "TypeScript"
   ],
