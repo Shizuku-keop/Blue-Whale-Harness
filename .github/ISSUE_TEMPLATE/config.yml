@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 想直接提 PR？
+    url: https://github.com/leenkcool/Blue-Whale-Harness/compare
+    about: 会改代码的话，直接提 PR 把仓库加进 repos.txt / intents.json 更快。

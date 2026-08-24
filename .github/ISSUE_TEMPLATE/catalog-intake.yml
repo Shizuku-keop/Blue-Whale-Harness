@@ -1,0 +1,90 @@
+name: 收录插件 / 收录仓库
+description: 推荐一个新的 DeepSeek Harness 插件或仓库进入目录站点。填好模板后维护者会审核、收录并同步上线。
+title: "收录请求：<owner/repo>"
+labels: ["catalog-intake"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢为 **Blue-Whale-Harness** 目录投稿！
+
+        请按下面字段填写。维护者收到后会：
+        1. 核对仓库与 `cordis.patch.yml` 等 DSH 信号
+        2. 写入权威数据源 `catalog/intents.json` 并追加 `repos.txt`
+        3. 重生成站点（https://leenkcool.github.io）并合并
+
+        > 如果你会改代码、想直接提交，也可以提 PR；本模板适合只想推荐、不便发 PR 的情况。
+
+        **分类对照**：`llm`=大模型/接入 · `ui`=界面/前端/皮肤 · `session`=会话/记忆 · `tools`=工具/调用 · `orchestration`=编排/自动化 · `utility`=通用工具 · `skills`=技能 · `acp`=Agent 通信协议 · `sandbox`=沙箱/运行环境 · `preset`=预设/配置 · `skin`=外观主题 · `memory`=记忆
+  - type: input
+    id: repo
+    attributes:
+      label: 仓库地址（owner/repo 或完整 URL）
+      description: 例如 `wefio/dsh-cache-miss` 或 `https://github.com/wefio/dsh-cache-miss`
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类（dshCategory）
+      description: 选最贴近的一个；拿不准就选「不确定」，维护者会判断。对照见上方。
+      options:
+        - 不确定
+        - llm
+        - ui
+        - session
+        - tools
+        - orchestration
+        - utility
+        - skills
+        - acp
+        - sandbox
+        - preset
+        - skin
+        - memory
+    validations:
+      required: true
+  - type: dropdown
+    id: is_dsh_plugin
+    attributes:
+      label: 是否为 DeepSeek Harness 插件（含 cordis.patch.yml）
+      description: 真·DSH 插件通常有 `cordis.patch.yml`；其他（如 Obsidian 集成、外部工具）选「否」。
+      options:
+        - 不确定
+        - "是（含 cordis.patch.yml）"
+        - "否（集成 / 外部工具）"
+    validations:
+      required: true
+  - type: textarea
+    id: intent_zh
+    attributes:
+      label: 中文简介（intentZh）
+      description: 一句话说明这个仓库/插件做什么，**≤280 字符**，会直接展示在中文版站点。
+      placeholder: 例如：DeepSeek Harness Web 插件，在每轮首条回复下方显示缓存未命中提示……
+    validations:
+      required: true
+  - type: textarea
+    id: intent_en
+    attributes:
+      label: 英文简介（intentEn）
+      description: 同上，英文版，**≤280 字符**。
+      placeholder: A DeepSeek Harness Web plugin that shows a cache-miss notice under the first reply of each turn ...
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: 主要语言（可选）
+      description: 如 TypeScript / JavaScript / Python / Rust。留空维护者会从仓库读取。
+      placeholder: TypeScript
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注（可选）
+      description: 官网、文档链接、作者署名，或任何想补充说明的内容。
+    validations:
+      required: false
