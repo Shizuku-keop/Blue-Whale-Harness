@@ -81,7 +81,7 @@ const UI = {
     title: 'Blue-Whale-Harness · DSH 插件总表',
     search: '搜索仓库 / 意图 / 分类 / 技术栈…',
     catAll: '全部分类', all: '全部', onlyDsh: '仅真·DSH', onlyNon: '仅非DSH',
-    sorts: { stars: '按 STAR', forks: '按 FORK', created: '按创建时间', updated: '按更新时间', repo: '按仓库名' },
+    sorts: { stars: '按 STAR', forks: '按 FORK', sizeBytes: '按大小', created: '按创建时间', updated: '按更新时间', repo: '按仓库名', category: '按分类', isDsh: '按 DSH', language: '按语言', license: '按 License', compat: '按兼容性', intentZh: '按意图' },
     cols: { repo: '仓库', intent: '意图', category: '分类', isDsh: '真DSH', language: '语言', stars: 'STAR', forks: 'FORK', size: '大小', created: '创建', updated: '更新', license: 'License', compat: '兼容' },
     intentField: 'intentZh',
     subtitle: `> 自动生成于 ${date} ｜ 共 **${totalN}** 个仓库 ｜ 真·DSH 插件 **${dshN}** 个 ｜ 已克隆 **${clonedN}** 个 ｜ 源码总体积 **${totalSize}**（不含 .git）`,
@@ -90,7 +90,7 @@ const UI = {
     title: 'Blue-Whale-Harness · DSH Plugin Catalog',
     search: 'Search repo / intent / category / tech…',
     catAll: 'All categories', all: 'All', onlyDsh: 'DSH only', onlyNon: 'Non-DSH',
-    sorts: { stars: 'by STAR', forks: 'by FORK', created: 'by created', updated: 'by updated', repo: 'by repo' },
+    sorts: { stars: 'by STAR', forks: 'by FORK', sizeBytes: 'by size', created: 'by created', updated: 'by updated', repo: 'by repo', category: 'by category', isDsh: 'by DSH', language: 'by language', license: 'by license', compat: 'by compatibility', intentEn: 'by intent' },
     cols: { repo: 'Repo', intent: 'Intent', category: 'Category', isDsh: 'DSH', language: 'Lang', stars: 'STAR', forks: 'FORK', size: 'Size', created: 'Created', updated: 'Updated', license: 'License', compat: 'Compat' },
     intentField: 'intentEn',
     subtitle: `> Generated ${date} ｜ **${totalN}** repos ｜ **${dshN}** real DSH plugins ｜ **${clonedN}** cloned ｜ source total **${totalSize}** (excl. .git)`,
@@ -148,7 +148,7 @@ bwUpdThemeBtn();
 function htmlDoc(UI, intentKey, extraCols) {
   const C = UI.cols
   const headCols = ['<th data-k="repo">' + C.repo + '</th>',
-    '<th data-k="intent">' + C.intent + '</th>',
+    '<th data-k="' + intentKey + '">' + C.intent + '</th>',
     '<th data-k="category">' + C.category + '</th>',
     '<th data-k="isDsh">' + C.isDsh + '</th>',
     '<th data-k="language">' + C.language + '</th>',
@@ -161,9 +161,10 @@ function htmlDoc(UI, intentKey, extraCols) {
     '<th data-k="compat">' + C.compat + '</th>'].join('\n')
   const sortOpts = Object.entries(UI.sorts)
     .map(([k, v]) => '<option value="' + k + '">' + v + '</option>').join('')
-  const searchIncludes = extraCols && extraCols.length
-    ? "d.intentZh+' '+d.intentEn+' " + extraCols.map(c => 'd.' + c).join("+' '+") + " "
-    : "d.intentZh+' '+d.intentEn+' "
+  // 搜索字段统一生成可执行的 JS 表达式，避免把字段名拼进字符串字面量。
+  // 额外字段由调用方提供；核心字段始终包含仓库名、分类、技术栈和语言。
+  const searchFields = ['intentZh', 'intentEn', ...(extraCols || []), 'repo', 'category', 'tech', 'language']
+  const searchIncludes = searchFields.map(c => `(d.${c}||'')`).join("+' '+")
   const sb = []
   sb.push('<tr>')
   sb.push('<td><a href="\'+r.url+\'" target="_blank">\'+r.repo+\'</a></td>')
@@ -201,8 +202,9 @@ function htmlDoc(UI, intentKey, extraCols) {
     + rowFn + '\n'
     + 'function render(){\n'
     + ' const qv=q.value.toLowerCase(),cv=catSel.value,dv=dshSel.value,sk=sortSel.value;\n'
-    + ' let rows=DATA.filter(d=>(!cv||d.category===cv)&&(!dv||d.isDsh===dv)&&(!qv||(' + searchIncludes + 'd.repo+" "+d.category+" "+d.tech+" "+d.language).toLowerCase().includes(qv)));\n'
-    + ' rows.sort((a,b)=>{let x=a[sk],y=b[sk];if(sk==="repo"||sk==="created"||sk==="updated"){x=String(x);y=String(y);return sortDir*x.localeCompare(y);}return sortDir*((x||0)-(y||0));});\n'
+    + ' let rows=DATA.filter(d=>(!cv||d.category===cv)&&(!dv||d.isDsh===dv)&&(!qv||(' + searchIncludes + ').toLowerCase().includes(qv)));\n'
+    + ' const stringSortKeys=new Set(["repo","category","isDsh","language","created","updated","license","compat","intentZh","intentEn"]);\n'
+    + ' rows.sort((a,b)=>{const x=a[sk],y=b[sk];if(stringSortKeys.has(sk))return sortDir*String(x??"").localeCompare(String(y??""));return sortDir*(Number(x??0)-Number(y??0));});\n'
     + ' tb.innerHTML=rows.map(rowHtml).join("");\n'
     + ' cnt.textContent=rows.length+" / "+DATA.length+" ' + (UI === UI.zh ? '个' : 'items') + '";\n'
     + '}\n'
@@ -264,10 +266,11 @@ const comboHtml = '<!doctype html>\n'
   + 'const DATA=__DATA__;\n'
   + 'const catSel=document.getElementById("cat"),dshSel=document.getElementById("dsh"),q=document.getElementById("q"),sortSel=document.getElementById("sort"),tb=document.getElementById("tb"),cnt=document.getElementById("cnt");\n'
   + '[...new Set(DATA.map(d=>d.category))].sort().forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=c;catSel.appendChild(o)});\n'
+  + 'const sortLabels={sizeBytes:"按大小",category:"按分类",isDsh:"按 DSH",language:"按语言",license:"按 License",compat:"按兼容性",intentZh:"按中文意图",intentEn:"按英文意图"};Object.entries(sortLabels).forEach(([k,v])=>{const o=document.createElement("option");o.value=k;o.textContent=v;sortSel.appendChild(o)});\n'
   + 'let sortDir=-1;\n'
   + 'function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}\n'
   + comboRow + '\n'
-  + 'function render(){\n const qv=q.value.toLowerCase(),cv=catSel.value,dv=dshSel.value,sk=sortSel.value;\n let rows=DATA.filter(d=>(!cv||d.category===cv)&&(!dv||d.isDsh===dv)&&(!qv||(d.repo+" "+d.intentZh+" "+d.intentEn+" "+d.category+" "+d.tech+" "+d.language).toLowerCase().includes(qv)));\n rows.sort((a,b)=>{let x=a[sk],y=b[sk];if(sk==="repo"||sk==="created"||sk==="updated"){x=String(x);y=String(y);return sortDir*x.localeCompare(y);}return sortDir*((x||0)-(y||0));});\n tb.innerHTML=rows.map(rowHtml).join("");\n cnt.textContent=rows.length+" / "+DATA.length+" 个";\n}\n'
+  + 'function render(){\n const qv=q.value.toLowerCase(),cv=catSel.value,dv=dshSel.value,sk=sortSel.value;\n let rows=DATA.filter(d=>(!cv||d.category===cv)&&(!dv||d.isDsh===dv)&&(!qv||(d.repo+" "+d.intentZh+" "+d.intentEn+" "+d.category+" "+d.tech+" "+d.language).toLowerCase().includes(qv)));\n const stringSortKeys=new Set(["repo","category","isDsh","language","created","updated","license","compat","intentZh","intentEn"]);\n rows.sort((a,b)=>{const x=a[sk],y=b[sk];if(stringSortKeys.has(sk))return sortDir*String(x??"").localeCompare(String(y??""));return sortDir*(Number(x??0)-Number(y??0));});\n tb.innerHTML=rows.map(rowHtml).join("");\n cnt.textContent=rows.length+" / "+DATA.length+" 个";\n}\n'
   + 'q.oninput=render;catSel.onchange=render;dshSel.onchange=render;sortSel.onchange=render;\n'
   + 'document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sortSel.value=th.dataset.k;sortDir*=-1;render();});\n' + THEME_JS + 'render();\n'
   + '</script></body></html>\n'
@@ -279,3 +282,6 @@ console.log(`Generated (${totalN} rows, ${dshN} DSH, ${clonedN} cloned):
   index.html  (combined bilingual)
   plugins.zh.md / plugins.zh.html  (中文版)
   plugins.en.md / plugins.en.html  (English version)`)
+
+// End of generator source.
+
