@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-25 ｜ 共 **1860** 个仓库 ｜ 真·DSH 插件 **1727** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-08-25 ｜ 共 **1861** 个仓库 ｜ 真·DSH 插件 **1728** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1863,4 +1863,5 @@
 | [JTSDM/dsh-memory-sqlite](https://github.com/JTSDM/dsh-memory-sqlite) | DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/ | Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (no | memory | yes | TypeScript | 0 | 0 |  | 2026-08-24 | 2026-08-24 | MIT | unknown |
 | [mozhuanzuojing/dsh-vscode](https://github.com/mozhuanzuojing/dsh-vscode) | 在 VSCode 辅助侧边栏内嵌 100% 原版 DeepSeek Harness (DSH) Web 界面；点击对话/轨迹里的文件路径直接在 VSCode 编辑器打开（本地代理  | Embeds the 100% original DeepSeek Harness (DSH) Web UI in a VSCode auxiliary sidebar; clic | ui | no | TypeScript | 0 | 0 |  | 2026-08-21 | 2026-08-22 | MIT | unknown |
 | [Entity-Him/dsh-hiboard-push](https://github.com/Entity-Him/dsh-hiboard-push) | DeepSeek Harness 插件：把任务完成消息以服务卡片形式推送到华为鸿蒙「负一屏（智慧助手·今天）」动态流。注册 hiboard_push 与 hiboard_verif | A DeepSeek Harness plugin that pushes task-completion messages to the Huawei HarmonyOS ass | tools | yes | JavaScript | 0 | 0 |  | 2026-08-23 | 2026-08-23 | MIT | unknown |
+| [YJLTF/dsh-plugin-offline-packager](https://github.com/YJLTF/dsh-plugin-offline-packager) | DeepSeek Harness 离线打包插件：注册 offline-pack 工具，把任意 DSH 插件（npm 包 / GitHub 仓库 / 本地路径）在联网环境构建并打包为 | An offline packaging plugin for DeepSeek Harness: registers an offline-pack tool that buil | tools | yes | TypeScript | 0 | 0 |  | 2026-08-25 | 2026-08-25 | MIT | unknown |
 | [gxx950224/SapBuddy-dsh](https://github.com/gxx950224/SapBuddy-dsh) | SapBuddy-dsh | SapBuddy-dsh | tools | yes | TypeScript | 1 | 0 | 1.1MB | 2026-08-14 | 2026-08-14 | MIT | unknown |
