@@ -65,7 +65,7 @@ for (const c of cats) {
 L.push('')
 L.push('## 插件清单')
 L.push('')
-L.push('> 按分类分组，组内按 STAR 倒序。点击仓库名跳转原项目。')
+L.push('> 按分类分组，组内按 STAR 倒序。点击仓库名即可跳转原项目。')
 L.push('')
 for (const c of cats) {
   L.push(`### ${c}（${byCat[c].length}）`)
