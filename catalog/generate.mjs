@@ -280,3 +280,5 @@ console.log(`Generated (${totalN} rows, ${dshN} DSH, ${clonedN} cloned):
   plugins.zh.md / plugins.zh.html  (中文版)
   plugins.en.md / plugins.en.html  (English version)`)
 
+// End of generator source.
+
