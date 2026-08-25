@@ -93089,5 +93089,57 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "MrmoLabs/dsh-mermaid": {
+  "repo": "MrmoLabs/dsh-mermaid",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-plugin",
+   "keyword-dsh",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Render Mermaid code blocks in DeepSeek Harness Web as secure SVG diagrams with streaming support, diagram/code switching, fullscreen zoom and pan, and SVG export.",
+  "intentEn": "Render Mermaid code blocks in DeepSeek Harness Web as secure SVG diagrams with streaming support, diagram/code switching, fullscreen zoom and pan, and SVG export.",
+  "intentZh": "在 DeepSeek Harness Web 中将 Mermaid 代码块安全渲染为 SVG 图表，支持流式输出、图形/代码切换、全屏缩放与拖拽，以及 SVG 导出。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esbuild",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": "lib/index.js",
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-23T07:37:20Z",
+  "updated_at": "2026-08-24T09:57:30Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness",
+   "diagram",
+   "dsh",
+   "dsh-plugin",
+   "javascript",
+   "markdown",
+   "mermaid",
+   "mermaidjs",
+   "svg",
+   "visualization",
+   "web-ui"
+  ],
+  "cloned": false,
+  "compat": "0.1.0-rc.7",
+  "featured": false,
+  "analyzed_at": "2026-08-25T05:54:06.399Z"
  }
 }
