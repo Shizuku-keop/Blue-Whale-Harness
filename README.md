@@ -4,7 +4,9 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-24 ｜ 共 **1860** 个仓库 ｜ 真·DSH 插件 **1727** 个
+> 自动生成于 2026-08-25 ｜ 共 **1860** 个仓库 ｜ 真·DSH 插件 **1727** 个
+
+🛒 **买AI，买VPS都上 [AIVPS开源采购网](https://aivps.github.io/)）**
 
 ## 统计
 
@@ -1971,3 +1973,7 @@ node catalog/build-readme.mjs # 重新生成本 README
 ## License
 
 插件清单索引按 Apache-2.0 收集整理；各插件版权归原作者所有。
+
+---
+
+🛒 买AI，买VPS都上 [AIVPS开源采购网](https://aivps.github.io/)）
