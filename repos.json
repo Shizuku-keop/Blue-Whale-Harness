@@ -30283,5 +30283,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "Shizuku-keop/dsh-compat-guard",
+  "name": "dsh-compat-guard",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerprint, backup/rollback, session migration, per-profile lockfile, plugin x DSH compat matrix",
+  "desc_zh": "DSH 兼容性治理工具：升级前置闸门、存储格式指纹、自动备份/回滚、会话迁移、profile 锁文件、插件×版本兼容矩阵",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
