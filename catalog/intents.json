@@ -91434,5 +91434,51 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-25T01:20:59.000Z"
+ },
+ "Entity-Him/dsh-doc-quick": {
+  "repo": "Entity-Him/dsh-doc-quick",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-system-prompt",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Drag documents into the dsh web chat; the agent reads them directly from the local filesystem (PDF/Word/PPT/EPUB/Notebook/Markdown/text) and a right sidebar lists the outputs and file paths.",
+  "intentEn": "Drag documents into the dsh web chat; the agent reads them directly from the local filesystem (PDF/Word/PPT/EPUB/Notebook/Markdown/text) and a right sidebar lists the outputs and file paths.",
+  "intentZh": "拖拽文档进 dsh Web 对话框，Agent 直读本地文件（PDF/Word/PPT/EPUB/Notebook/Markdown/文本）处理，完成后右侧侧栏展示产出与文件路径。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-25T03:56:13.529Z",
+  "updated_at": "2026-08-25T03:56:13.529Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness",
+   "docs",
+   "dsh",
+   "dsh-plugin",
+   "harmonyos"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-25T03:56:13.529Z"
  }
 }
