@@ -6,7 +6,6 @@
 
 > 自动生成于 2026-08-25 ｜ 共 **1903** 个仓库 ｜ 真·DSH 插件 **1770** 个
 
-🛒 **买AI，买VPS都上 [AIVPS开源采购网](https://aivps.github.io/)）**
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
@@ -2021,6 +2020,5 @@ node catalog/build-readme.mjs # 重新生成本 README
 
 ---
 
-🛒 买AI，买VPS都上 [AIVPS开源采购网](https://aivps.github.io/)）
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
