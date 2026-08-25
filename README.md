@@ -8,7 +8,7 @@
 
 🛒 **买AI，买VPS都上 [AIVPS开源采购网](https://aivps.github.io/)）**
 
-![频道](https://leenkcool.github.io/pindao.jpg)
+![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
@@ -2023,4 +2023,4 @@ node catalog/build-readme.mjs # 重新生成本 README
 
 🛒 买AI，买VPS都上 [AIVPS开源采购网](https://aivps.github.io/)）
 
-![频道](https://leenkcool.github.io/pindao.jpg)
+![频道](https://leenkcool.github.io/pindaoh.png)
