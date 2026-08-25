@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-25 ｜ 共 **1906** 个仓库 ｜ 真·DSH 插件 **1773** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-08-25 ｜ 共 **1907** 个仓库 ｜ 真·DSH 插件 **1774** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1768,6 +1768,7 @@
 | [wefio/dsh-cache-miss](https://github.com/wefio/dsh-cache-miss) | DeepSeek Harness Web 插件：在每轮首条 assistant 回复下方，于提示缓存未命中时显示一行黄色提示（命中率 < 80% 且重计费输入 ≥ 1k token | A DeepSeek Harness Web plugin that shows a one-line yellow prompt-cache-miss notice under  | ui | yes | TypeScript | 1 | 0 |  | 2026-08-16 | 2026-08-24 | MIT | unknown |
 | [MrmoLabs/dsh-mermaid](https://github.com/MrmoLabs/dsh-mermaid) | 在 DeepSeek Harness Web 中将 Mermaid 代码块安全渲染为 SVG 图表，支持流式输出、图形/代码切换、全屏缩放与拖拽，以及 SVG 导出。 | Render Mermaid code blocks in DeepSeek Harness Web as secure SVG diagrams with streaming s | ui | yes | JavaScript | 1 | 0 |  | 2026-08-23 | 2026-08-24 | MIT | 0.1.0-rc.7 |
 | [Shizuku-keop/dsh-compat-guard](https://github.com/Shizuku-keop/dsh-compat-guard) | DSH 兼容性治理工具：升级前置闸门、存储格式指纹、自动备份/回滚、会话迁移、profile 锁文件、插件×版本兼容矩阵 | Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerp | tools | yes | JavaScript | 1 | 0 |  | 2026-08-25 | 2026-08-25 | MIT | unknown |
+| [Entity-Him/dsh-sky-skin](https://github.com/Entity-Him/dsh-sky-skin) | 光遇·遇境主题皮肤：星盘之上的光之子，烛火暖金与深蓝星空双主题，为 dsh WebUI 定制。 | A Sky: Children of the Light themed skin for the dsh web UI - light children on a glowing  | skin | yes | JavaScript | 1 | 0 |  | 2026-08-25 | 2026-08-25 | CC BY-SA 4.0 | unknown |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | tools | no | JavaScript | 0 | 0 | 25.3MB | 2026-08-02 | 2026-08-04 | MIT | unknown |
 | [TongDucThanhNam/eragear-code-copilot](https://github.com/TongDucThanhNam/eragear-code-copilot) | 空壳仓库（无描述） | Empty shell repo (no description) | orchestration | no | TypeScript | 0 | 0 | 12.3MB | 2026-01-27 | 2026-08-11 | unknown | unknown |
 | [jasper-zsh/dsh-plugin-llm-codex](https://github.com/jasper-zsh/dsh-plugin-llm-codex) | dsh-plugin-llm-codex — DSH 插件（模型） | dsh-plugin-llm-codex — a DSH plugin (model). | llm | yes | TypeScript | 0 | 0 | 76KB | 2026-08-13 | 2026-08-14 | unknown | unknown |
