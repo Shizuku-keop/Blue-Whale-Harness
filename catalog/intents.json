@@ -61,6 +61,49 @@
   "featured": false,
   "analyzed_at": "2026-08-15T03:47:11.323Z"
  },
+ "Shizuku-keop/dsh-compat-guard": {
+  "repo": "Shizuku-keop/dsh-compat-guard",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerprint, backup/rollback, session migration, per-profile lockfile, plugin x DSH compat matrix",
+  "intentEn": "Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerprint, backup/rollback, session migration, per-profile lockfile, plugin x DSH compat matrix",
+  "intentZh": "DSH 兼容性治理工具：升级前置闸门、存储格式指纹、自动备份/回滚、会话迁移、profile 锁文件、插件×版本兼容矩阵",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "Node.js",
+   "pnpm",
+   "cordis",
+   "GitHub Actions",
+   "zstd",
+   "SQLite"
+  ],
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "compatibility",
+   "upgrade-gate",
+   "lockfile",
+   "backup",
+   "migration",
+   "cli"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-25T07:50:00.000Z"
+ },
  "try-works/role-model": {
   "repo": "try-works/role-model",
   "lists": [
