@@ -1925,3 +1925,4 @@ MrmoLabs/dsh-mermaid
 youqishan/dsh-skin-3bridge
 Shizuku-keop/dsh-compat-guard
 Entity-Him/dsh-sky-skin
+Lichen455/band-notify

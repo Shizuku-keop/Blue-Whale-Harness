@@ -93277,5 +93277,28 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-25T09:23:54.828Z"
+ },
+ "Lichen455/band-notify": {
+  "repo": "Lichen455/band-notify",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "keyword-dsh",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "DeepSeek Harness plugin that pushes a notification to your phone / Xiaomi Mi Band 10 Pro (ntfy) when each conversation turn finishes.",
+  "intentEn": "DeepSeek Harness plugin that pushes a notification to your phone / Xiaomi Mi Band 10 Pro (ntfy) when each conversation turn finishes.",
+  "intentZh": "DSH 插件：每轮对话结束时，通过 ntfy 把完成提醒推送到你的手机 / 小米手环 10 Pro 上。",
+  "zhSource": "native",
+  "enSource": "native",
+  "compat": "0.1.0-rc.6",
+  "featured": false
  }
 }
