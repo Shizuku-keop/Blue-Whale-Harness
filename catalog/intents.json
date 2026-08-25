@@ -91480,5 +91480,1614 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-25T03:56:13.529Z"
+ },
+ "worldwonderer/oh-story-dsh": {
+  "repo": "worldwonderer/oh-story-dsh",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skills",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "Python",
+  "intent": "A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama Skills.",
+  "intentEn": "A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama Skills.",
+  "intentZh": "DSH 小说创作与短剧制作插件：由 Oh Story 与 Drama Skills 驱动。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "Python"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 170,
+  "forks": 30,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "creative-writing",
+   "novel-writing",
+   "short-drama"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "oil-oil/dsh-oil-creator": {
+  "repo": "oil-oil/dsh-oil-creator",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "AI-assisted local creator workbench for DeepSeek Harness.",
+  "intentEn": "AI-assisted local creator workbench for DeepSeek Harness.",
+  "intentZh": "DeepSeek Harness 的 AI 辅助本地创作者工作台。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 138,
+  "forks": 25,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "creator",
+   "workbench"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "seriousz158/dsh-memory": {
+  "repo": "seriousz158/dsh-memory",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "memory",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Memory plugin for DeepSeek Harness (dsh-bundle).",
+  "intentEn": "Memory plugin for DeepSeek Harness (dsh-bundle).",
+  "intentZh": "DeepSeek Harness 的记忆插件（dsh-bundle）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 73,
+  "forks": 2,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "memory",
+   "dsh-bundle"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "1692775560/dsh-Mimir-Academic-research": {
+  "repo": "1692775560/dsh-Mimir-Academic-research",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Mimir — one-stop research workbench plugin: LaTeX write-and-compile, arXiv reference management, experiment tracking, metric charts, GPU server SSH task orchestration.",
+  "intentEn": "Mimir — one-stop research workbench plugin: LaTeX write-and-compile, arXiv reference management, experiment tracking, metric charts, GPU server SSH task orchestration.",
+  "intentZh": "Mimir 一站式科研工作台插件：LaTeX 论文边写边编译、arXiv 文献管理、实验追踪、指标图表、GPU 服务器 SSH 任务编排，覆盖科研全周期。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 53,
+  "forks": 6,
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "latex",
+   "arxiv",
+   "research",
+   "experiment-tracking",
+   "gpu-cluster",
+   "ssh"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "dshplugin/dsh-plugin-hub": {
+  "repo": "dshplugin/dsh-plugin-hub",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Built-in community plugin marketplace for DeepSeek Harness — search, download and install 4000+ curated community plugins, updated daily, from Settings -> Plugin Center.",
+  "intentEn": "Built-in community plugin marketplace for DeepSeek Harness — search, download and install 4000+ curated community plugins, updated daily, from Settings -> Plugin Center.",
+  "intentZh": "DeepSeek Harness 社区内置插件市场（dsh-plugin）— 搜索、下载并安装 4000+ 人工精选社区插件，每日更新，内置在「设置 → 插件中心」。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 37,
+  "forks": 4,
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "plugin-marketplace",
+   "plugin-hub",
+   "community-plugins"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "bihangchi9-creator/dsh-lark-bridge": {
+  "repo": "bihangchi9-creator/dsh-lark-bridge",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "A native DeepSeek Harness (dsh) plugin bridging dsh coding agents to Feishu/Lark group chats — one group, one coding agent.",
+  "intentEn": "A native DeepSeek Harness (dsh) plugin bridging dsh coding agents to Feishu/Lark group chats — one group, one coding agent.",
+  "intentZh": "原生 DeepSeek Harness（dsh）插件：把 dsh 编码智能体桥接到飞书/群聊，一个群对应一个编码智能体。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 35,
+  "forks": 6,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "feishu",
+   "lark",
+   "bot",
+   "coding-agent"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "ExElectron/dsh-gov-portal": {
+  "repo": "ExElectron/dsh-gov-portal",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Independent-port WebUI plugin styled after Chinese government-service portals, proxying all real DeepSeek Harness agent capabilities via an in-host apiProxy gateway.",
+  "intentEn": "Independent-port WebUI plugin styled after Chinese government-service portals, proxying all real DeepSeek Harness agent capabilities via an in-host apiProxy gateway.",
+  "intentZh": "以中国政务网站视觉规范为基准的独立端口 WebUI 插件，通过宿主内 apiProxy 网关 1:1 对接 DeepSeek Harness 全部真实 Agent 能力。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 28,
+  "forks": 3,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "webui",
+   "portal",
+   "government-service"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "BeforeWave/dsh-with-chatgpt": {
+  "repo": "BeforeWave/dsh-with-chatgpt",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "llm",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": null,
+  "intent": "Bring ChatGPT's reasoning to your local codebase. Work directly, or delegate larger tasks to DSH.",
+  "intentEn": "Bring ChatGPT's reasoning to your local codebase. Work directly, or delegate larger tasks to DSH.",
+  "intentZh": "把 ChatGPT 的推理能力带到本地代码库：可直接工作，或把更大任务委派给 DSH。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 26,
+  "forks": 2,
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21",
+  "license": null,
+  "open_issues": 0,
+  "topics": [
+   "chatgpt",
+   "mcp",
+   "deepseek-harness"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "PensiveFei/dsh-secure-audit": {
+  "repo": "PensiveFei/dsh-secure-audit",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Read-only security & compliance plugin for DeepSeek Harness: prompt-injection detection, Chinese-PII redaction.",
+  "intentEn": "Read-only security & compliance plugin for DeepSeek Harness: prompt-injection detection, Chinese-PII redaction.",
+  "intentZh": "DeepSeek Harness 的只读安全与合规插件：提示注入检测、中文 PII 脱敏。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 23,
+  "forks": 1,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "security",
+   "audit",
+   "prompt-injection",
+   "pii"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "zexadev/dsh-tether": {
+  "repo": "zexadev/dsh-tether",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Reach the DeepSeek Harness on your dev machine from your phone — across networks, through no server at all (P2P hole-punching).",
+  "intentEn": "Reach the DeepSeek Harness on your dev machine from your phone — across networks, through no server at all (P2P hole-punching).",
+  "intentZh": "从手机跨网络访问开发机上的 DeepSeek Harness——完全不需要服务器（P2P 打洞直连）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 22,
+  "forks": 3,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "mobile",
+   "p2p",
+   "nat-traversal",
+   "remote-development",
+   "iroh"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "PolinniZhong/dsh-personal-center": {
+  "repo": "PolinniZhong/dsh-personal-center",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "DeepSeek Harness personal center: usage statistics / custom instructions / cost estimation / desktop pet (fully local, no network).",
+  "intentEn": "DeepSeek Harness personal center: usage statistics / custom instructions / cost estimation / desktop pet (fully local, no network).",
+  "intentZh": "DeepSeek Harness 个人中心：用量统计 / 自定义指令 / 成本估算 / 桌面宠物（纯本地，不联网）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 22,
+  "forks": 1,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "usage-stats",
+   "custom-instructions",
+   "cost-estimation",
+   "desktop-pet"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "PKUfudawei/dsh-capability-menu": {
+  "repo": "PKUfudawei/dsh-capability-menu",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Unified capability menu for DeepSeek Harness: manage exposure level (context footprint) and execution mode of tools.",
+  "intentEn": "Unified capability menu for DeepSeek Harness: manage exposure level (context footprint) and execution mode of tools.",
+  "intentZh": "DeepSeek Harness 统一能力菜单：管理工具的暴露级别（上下文占用）与执行模式。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 16,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "Apache-2.0",
+  "open_issues": 0,
+  "topics": [
+   "capability-menu",
+   "exposure-level"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "sluminositys/dsh-nested-followups": {
+  "repo": "sluminositys/dsh-nested-followups",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Ask a follow-up on any past answer in an isolated branch, keeping your main conversation clean.",
+  "intentEn": "Ask a follow-up on any past answer in an isolated branch, keeping your main conversation clean.",
+  "intentZh": "针对任意历史回答发起隔离分支追问，保持主对话整洁。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 15,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "conversation-tree",
+   "follow-up",
+   "llm"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "tonyd2wild/DeepSeek-Harness-Browser": {
+  "repo": "tonyd2wild/DeepSeek-Harness-Browser",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "An in-app browser pane for DeepSeek Harness — real Chrome over CDP, plus rendered previews of local files.",
+  "intentEn": "An in-app browser pane for DeepSeek Harness — real Chrome over CDP, plus rendered previews of local files.",
+  "intentZh": "DeepSeek Harness 的应用内浏览器面板——通过 CDP 驱动真实 Chrome，并可渲染本地文件预览。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 13,
+  "forks": 0,
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "browser",
+   "cdp",
+   "preview"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "pypcfx-glitch/risk-rule-design": {
+  "repo": "pypcfx-glitch/risk-rule-design",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skills",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Rule mining for data risk control, distilled from the ideas of the \"100-Day Risk Control Expert\" course.",
+  "intentEn": "Rule mining for data risk control, distilled from the ideas of the \"100-Day Risk Control Expert\" course.",
+  "intentZh": "数据风控规则挖掘：提炼自《百日风控专家》课程思想。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 13,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "risk-analysis",
+   "finance-risk-analysis",
+   "agent-skill"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "ExElectron/dsh-tool-hongtou": {
+  "repo": "ExElectron/dsh-tool-hongtou",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Chinese red-header official document plugin: two-phase decoupled pipeline (LLM structured outline + deterministic Word 2003 XML rendering).",
+  "intentEn": "Chinese red-header official document plugin: two-phase decoupled pipeline (LLM structured outline + deterministic Word 2003 XML rendering).",
+  "intentZh": "红头公文插件：两阶段解耦流水线（LLM 结构化提纲 + 确定性 Word 2003 XML 版式渲染）生成标准红头公文。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 12,
+  "forks": 2,
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "hongtou",
+   "document",
+   "word"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "Nicholas023/vision-exp-tile": {
+  "repo": "Nicholas023/vision-exp-tile",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "llm",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "DSH plugin: split large images into 800x800 lossless tiles with coordinates + aggregation, recognizing via deepseek-v4-flash-vision-exp; pure official DSH features, zero third-party deps.",
+  "intentEn": "DSH plugin: split large images into 800x800 lossless tiles with coordinates + aggregation, recognizing via deepseek-v4-flash-vision-exp; pure official DSH features, zero third-party deps.",
+  "intentZh": "DSH 插件：大图切 800×800 无损小块 + 坐标标注 + 分块聚合逻辑，直连 deepseek-v4-flash-vision-exp 识别；仅用纯官方 DSH 功能，零依赖第三方插件。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 11,
+  "forks": 0,
+  "created_at": "2026-08-22",
+  "updated_at": "2026-08-22",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "vision",
+   "ocr",
+   "large-image",
+   "image-recognition"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "Phant0Meow/dsh-meow-smooth": {
+  "repo": "Phant0Meow/dsh-meow-smooth",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Mobile-friendly DSH notifications and UI polish — web-push notifications that work on phones, making mobile dsh actually usable.",
+  "intentEn": "Mobile-friendly DSH notifications and UI polish — web-push notifications that work on phones, making mobile dsh actually usable.",
+  "intentZh": "手机/电脑 DSH 通知 + 移动端 UI 优化：手机可用的 Web Push 通知，让手机端 dsh 真正可用。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 11,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "mobile",
+   "notifications",
+   "web-push",
+   "pwa",
+   "ux"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.538Z"
+ },
+ "xinyuquan985-coder/deepseek-harness-neon": {
+  "repo": "xinyuquan985-coder/deepseek-harness-neon",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Cyberpunk multi-agent command center for DeepSeek Harness — Chinese-first conversation, code execution, VS debug.",
+  "intentEn": "Cyberpunk multi-agent command center for DeepSeek Harness — Chinese-first conversation, code execution, VS debug.",
+  "intentZh": "DeepSeek Harness 的赛博朋克多智能体指挥中心——中文优先对话、代码执行、VS 调试。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 11,
+  "forks": 2,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "cyberpunk",
+   "multi-agent",
+   "agent-ui",
+   "react"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "KelaoHu/dsh-lowtide": {
+  "repo": "KelaoHu/dsh-lowtide",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "orchestration",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Time-shifting task delegation for DeepSeek Harness: plan tasks at leisure, they run unattended off-peak.",
+  "intentEn": "Time-shifting task delegation for DeepSeek Harness: plan tasks at leisure, they run unattended off-peak.",
+  "intentZh": "DeepSeek Harness 错峰任务委派：闲时规划任务，低峰时段无人值守自动运行。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 10,
+  "forks": 2,
+  "created_at": "2026-08-23",
+  "updated_at": "2026-08-23",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "scheduler",
+   "task-queue",
+   "automation",
+   "batch-processing"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "kuangre123/deepseek-harness-mac": {
+  "repo": "kuangre123/deepseek-harness-mac",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "Swift",
+  "intent": "Native macOS wrapper for DeepSeek Harness with bundled Node.js runtime, Keychain API key setup, and one-click launch.",
+  "intentEn": "Native macOS wrapper for DeepSeek Harness with bundled Node.js runtime, Keychain API key setup, and one-click launch.",
+  "intentZh": "DeepSeek Harness 原生 macOS 包装器：内置 Node.js 运行时、Keychain API Key 设置、一键启动。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "Swift"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 9,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "macos",
+   "desktop",
+   "native-wrapper"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "qkycir-123/dsh-run2skill": {
+  "repo": "qkycir-123/dsh-run2skill",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skills",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills.",
+  "intentEn": "Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills.",
+  "intentZh": "把成功的 DeepSeek Harness 会话自动转化为可复用、可审阅的 Agent Skills。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 9,
+  "forks": 1,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "skill-generator",
+   "automatic-skill-learning",
+   "agent-learning"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "Angel2518975237/deepseek-harness-hello-kitty-suite": {
+  "repo": "Angel2518975237/deepseek-harness-hello-kitty-suite",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skin",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Pink Hello Kitty theme skin plus task-completion / question reminders for DeepSeek Harness.",
+  "intentEn": "Pink Hello Kitty theme skin plus task-completion / question reminders for DeepSeek Harness.",
+  "intentZh": "粉色 Hello Kitty 主题皮肤 + 任务完成/提问提醒插件（Sweetheart Workspace 体验）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 9,
+  "forks": 0,
+  "created_at": "2026-08-23",
+  "updated_at": "2026-08-23",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "hello-kitty",
+   "pink-theme",
+   "dsh-skin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "newbieYi/dsh-dify-builder": {
+  "repo": "newbieYi/dsh-dify-builder",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Build local Dify workflows through real-time conversation in DeepSeek Harness.",
+  "intentEn": "Build local Dify workflows through real-time conversation in DeepSeek Harness.",
+  "intentZh": "通过 DeepSeek Harness 中的实时对话构建本地 Dify 工作流。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 8,
+  "forks": 1,
+  "created_at": "2026-08-23",
+  "updated_at": "2026-08-23",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dify",
+   "workflow"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "pawaca/dsh-edge": {
+  "repo": "pawaca/dsh-edge",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Deploy a persistent personal coding agent to Cloudflare Workers in one command.",
+  "intentEn": "Deploy a persistent personal coding agent to Cloudflare Workers in one command.",
+  "intentZh": "一键把持久化个人编码智能体部署到 Cloudflare Workers。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 8,
+  "forks": 0,
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "cloudflare-workers",
+   "self-hosted",
+   "durable-objects",
+   "byok"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "WZZNNE/DSH-CyberWorkStation": {
+  "repo": "WZZNNE/DSH-CyberWorkStation",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "One-click DeepSeek Harness bundle: cyberpunk desktop launcher, SillyTavern-grade skins and Web UI.",
+  "intentEn": "One-click DeepSeek Harness bundle: cyberpunk desktop launcher, SillyTavern-grade skins and Web UI.",
+  "intentZh": "DSH CyberWorkStation — 一键 DeepSeek Harness 集成包：赛博朋克桌面启动器、SillyTavern 级皮肤与 Web UI。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 8,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "cyberpunk",
+   "launcher",
+   "skins",
+   "sillytavern"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "mianyoubiaoqing/dsh-Mmem": {
+  "repo": "mianyoubiaoqing/dsh-Mmem",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "memory",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "DSH memory plugin supporting multiple memory spaces within the same dsh process.",
+  "intentEn": "DSH memory plugin supporting multiple memory spaces within the same dsh process.",
+  "intentZh": "支持同一 dsh 进程内多记忆空间的 DSH 记忆插件。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 7,
+  "forks": 0,
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "memory",
+   "memory-space",
+   "memory-safety"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "baihejiangnan/dsh-plugin-pack-web": {
+  "repo": "baihejiangnan/dsh-plugin-pack-web",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": null,
+  "intent": "DeepSeek Harness plugin pack — one-click Profile/Web replication.",
+  "intentEn": "DeepSeek Harness plugin pack — one-click Profile/Web replication.",
+  "intentZh": "DeepSeek Harness 插件包 · Profile/Web 一键复刻。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 7,
+  "forks": 2,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "plugin-pack",
+   "profile-web"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "guoyihub/deepseek-harness-mobile": {
+  "repo": "guoyihub/deepseek-harness-mobile",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Open-source mobile client (iOS/Android PWA) for DeepSeek Harness: LAN QR pairing with desktop host, browse tasks and continue agent conversations.",
+  "intentEn": "Open-source mobile client (iOS/Android PWA) for DeepSeek Harness: LAN QR pairing with desktop host, browse tasks and continue agent conversations.",
+  "intentZh": "DeepSeek Harness 开源手机端（iOS/Android PWA）：局域网扫码配对桌面 Host，无需账号，浏览任务并继续 Agent 对话。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 7,
+  "forks": 1,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "mobile",
+   "pwa",
+   "cordis"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "euanguo/dsh-studio": {
+  "repo": "euanguo/dsh-studio",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "DSH Studio — a local development workbench for DeepSeek Harness: project tree, Git review, terminal, and plugin system.",
+  "intentEn": "DSH Studio — a local development workbench for DeepSeek Harness: project tree, Git review, terminal, and plugin system.",
+  "intentZh": "DSH Studio — DeepSeek Harness 本地开发工作台：项目树、Git 审查、终端与插件系统。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 7,
+  "forks": 1,
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "electron",
+   "developer-tools",
+   "desktop-app",
+   "git",
+   "terminal"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "CH4ACKO3/dsh-turn-fold": {
+  "repo": "CH4ACKO3/dsh-turn-fold",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Codex-style completed-turn folding for DeepSeek Harness, powered by dsh-harmony.",
+  "intentEn": "Codex-style completed-turn folding for DeepSeek Harness, powered by dsh-harmony.",
+  "intentZh": "DeepSeek Harness 的 Codex 风格已完成回合折叠（由 dsh-harmony 驱动）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 7,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "conversation",
+   "folding",
+   "chat-ui"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "ForgeaX-Games/forgeax-dsh-game-plugin": {
+  "repo": "ForgeaX-Games/forgeax-dsh-game-plugin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "DeepSeek Harness bundle plugin for ForgeaX game dev — @forgeax/dsh-game.",
+  "intentEn": "DeepSeek Harness bundle plugin for ForgeaX game dev — @forgeax/dsh-game.",
+  "intentZh": "ForgeaX 游戏开发的 DeepSeek Harness 集成插件 — @forgeax/dsh-game。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 6,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "game",
+   "mcp",
+   "forgeax"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "SimonMedy/DSH-Launcher": {
+  "repo": "SimonMedy/DSH-Launcher",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "C#",
+  "intent": "A lightweight Windows system tray launcher for DeepSeek Harness.",
+  "intentEn": "A lightweight Windows system tray launcher for DeepSeek Harness.",
+  "intentZh": "DeepSeek Harness 的轻量 Windows 系统托盘启动器。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "C#"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 6,
+  "forks": 1,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "windows",
+   "launcher",
+   "system-tray"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "Zhang9628/qixi-plugin": {
+  "repo": "Zhang9628/qixi-plugin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skin",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Qixi Festival Easter Egg Plugin: festive skins, bullet comments, and shareable cards.",
+  "intentEn": "Qixi Festival Easter Egg Plugin: festive skins, bullet comments, and shareable cards.",
+  "intentZh": "七夕节彩蛋插件：节日皮肤、弹幕、卡片分享。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "qixi",
+   "festival",
+   "skin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "sheep-programmer/dsh-web-search-free": {
+  "repo": "sheep-programmer/dsh-web-search-free",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Free web search for DSH: dual free backends (Parallel default + Exa fallback, anonymous no-key), settings toggle, MCP dual transport (stdio + HTTP/SSE), Claude Code compatible.",
+  "intentEn": "Free web search for DSH: dual free backends (Parallel default + Exa fallback, anonymous no-key), settings toggle, MCP dual transport (stdio + HTTP/SSE), Claude Code compatible.",
+  "intentZh": "DSH 免费网页搜索：双免费后端（Parallel 默认 + Exa 备用，匿名免 key）+ 设置开关 + MCP 双传输（stdio + HTTP/SSE），兼容 Claude Code。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-22",
+  "updated_at": "2026-08-22",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "web-search",
+   "free-search",
+   "mcp"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "mmzm0808/dsh-ventus-plugins": {
+  "repo": "mmzm0808/dsh-ventus-plugins",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "DSH self-installed plugin integration pack: 11 plugins merged into a single install — ENDFIELD industrial-editorial theme, usage floating ball and day/month/year heatmap, right-side multi-panel (file tree/editor/terminal/Git).",
+  "intentEn": "DSH self-installed plugin integration pack: 11 plugins merged into a single install — ENDFIELD industrial-editorial theme, usage floating ball and day/month/year heatmap, right-side multi-panel (file tree/editor/terminal/Git).",
+  "intentZh": "DSH 自装插件整合包：把 11 个自装插件合并为单一安装项——终末地工业编辑部风主题、用量悬浮球与日/月/年热力图、右侧重栏（文件树/编辑器/终端/Git）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-23",
+  "updated_at": "2026-08-23",
+  "license": null,
+  "open_issues": 0,
+  "topics": [
+   "theme",
+   "integration",
+   "webui",
+   "plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "iamfitzwu/dsh-localhost-cost": {
+  "repo": "iamfitzwu/dsh-localhost-cost",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "DeepSeek cost projection plugin for local-model developers.",
+  "intentEn": "DeepSeek cost projection plugin for local-model developers.",
+  "intentZh": "面向本地模型开发者的 DeepSeek 成本预估插件。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-24",
+  "updated_at": "2026-08-24",
+  "license": null,
+  "open_issues": 0,
+  "topics": [
+   "cost-estimation",
+   "local-models",
+   "session-cost"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "SuperLS-X/dsh-minecraft-theme": {
+  "repo": "SuperLS-X/dsh-minecraft-theme",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skin",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "Minecraft theme plugin for DeepSeek Harness: block-texture background, pixel fonts, MC-style buttons.",
+  "intentEn": "Minecraft theme plugin for DeepSeek Harness: block-texture background, pixel fonts, MC-style buttons.",
+  "intentZh": "DeepSeek Harness 的 Minecraft 主题插件：方块纹理背景、像素字体、MC 风格按钮。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 1,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "minecraft",
+   "theme",
+   "pixel-fonts"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "Wenaixi/dsh-ponytail": {
+  "repo": "Wenaixi/dsh-ponytail",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skills",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Full DSH port of DietrichGebert/ponytail — lazy senior mode with hook injection.",
+  "intentEn": "Full DSH port of DietrichGebert/ponytail — lazy senior mode with hook injection.",
+  "intentZh": "DietrichGebert/ponytail 的 DSH 完整移植版——懒惰 senior 模式，hook 注入。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 5,
+  "forks": 0,
+  "created_at": "2026-08-21",
+  "updated_at": "2026-08-21",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "ponytail",
+   "code-review",
+   "yagni",
+   "lazy"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "yuanc1204/dsh-multi-selection-comments": {
+  "repo": "yuanc1204/dsh-multi-selection-comments",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Codex-style multiple independent selection comments for DeepSeek Harness (DSH).",
+  "intentEn": "Codex-style multiple independent selection comments for DeepSeek Harness (DSH).",
+  "intentZh": "DeepSeek Harness（DSH）的 Codex 风格多选区独立评论。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 4,
+  "forks": 0,
+  "created_at": "2026-08-19",
+  "updated_at": "2026-08-19",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "multiple-selections",
+   "text-annotation",
+   "codex"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
+ },
+ "Whatsmore-nf/dsh-pdf-edit": {
+  "repo": "Whatsmore-nf/dsh-pdf-edit",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "PDF editor with AI text-only edits (styles unchanged): single-page, batch, layout switching, HTML-mediated style preservation, handles large files efficiently.",
+  "intentEn": "PDF editor with AI text-only edits (styles unchanged): single-page, batch, layout switching, HTML-mediated style preservation, handles large files efficiently.",
+  "intentZh": "PDF 编辑插件：AI 只改文字不改样式，支持单页、批量、换版式，HTML 中转保留样式，高效处理大文件。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 4,
+  "forks": 1,
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "pdf",
+   "offline",
+   "cordis"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-24T15:12:58.539Z"
  }
 }
