@@ -91393,5 +91393,46 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-24T15:52:31.462Z"
+ },
+ "YJLTF/dsh-plugin-offline-packager": {
+  "repo": "YJLTF/dsh-plugin-offline-packager",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/schemastery",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "An offline packaging plugin for DeepSeek Harness: registers an offline-pack tool that builds any DSH plugin (npm package, GitHub repo, or local path) into a .tgz offline bundle with meta.json, ready to install on air-gapped machines via dsh plugin add.",
+  "intentEn": "An offline packaging plugin for DeepSeek Harness: registers an offline-pack tool that builds any DSH plugin (npm package, GitHub repo, or local path) into a .tgz offline bundle with meta.json, ready to install on air-gapped machines via dsh plugin add.",
+  "intentZh": "DeepSeek Harness 离线打包插件：注册 offline-pack 工具，把任意 DSH 插件（npm 包 / GitHub 仓库 / 本地路径）在联网环境构建并打包为 .tgz 离线安装包，附带 meta.json 元数据；拷贝到离线机器后执行 dsh plugin add 即可安装。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-25T01:07:32Z",
+  "updated_at": "2026-08-25T01:13:41Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-25T01:20:59.000Z"
  }
 }
