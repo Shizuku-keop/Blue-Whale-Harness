@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/dsh-compat-registry/compat.schema.json",
+  "title": "DSH compatibility matrix registry",
+  "description": "Machine-readable plugin x DSH install-test results. Produced by the compat-matrix CI workflow, consumed by dsh-guard preflight (and rendered as shields.io badges).",
+  "type": "object",
+  "required": ["schema", "updated", "generator", "plugins", "storageFormats"],
+  "properties": {
+    "schema": { "const": 1 },
+    "updated": { "type": "string", "format": "date-time", "description": "Last write time of this registry." },
+    "generator": { "type": "string", "description": "Workflow/repo that generated the file." },
+    "dshVersions": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z.-]+)?$" },
+      "description": "DSH versions the matrix currently covers."
+    },
+    "storageFormats": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["sessionFormat"],
+        "properties": {
+          "sessionFormat": { "type": "string", "enum": ["zstd-jsonl", "sqlite", "unknown"] },
+          "projcacheVersion": { "type": ["integer", "null"] },
+          "verifiedAt": { "type": "string", "format": "date-time" },
+          "evidence": { "type": "string" }
+        }
+      },
+      "description": "Per-DSH-version storage layout facts (the authoritative feed for preflight's format-change gate)."
+    },
+    "plugins": {
+      "type": "object",
+      "description": "plugin name -> per-DSH-version result",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "required": ["status", "testedAt"],
+          "properties": {
+            "status": { "type": "string", "enum": ["pass", "fail", "unknown"] },
+            "testedAt": { "type": "string", "format": "date-time" },
+            "by": { "type": "string", "description": "workflow run or maintainer id" },
+            "evidence": { "type": "string", "description": "command + exit code, e.g. 'install:0 boot:0'" },
+            "dshVersion": { "type": "string", "description": "DSH version this row ran against" },
+            "pluginVersion": { "type": "string", "description": "exact plugin version tested" }
+          }
+        }
+      }
+    }
+  }
+}
