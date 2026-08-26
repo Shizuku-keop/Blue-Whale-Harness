@@ -4,21 +4,21 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-25 ｜ 共 **1907** 个仓库 ｜ 真·DSH 插件 **1774** 个
+> 自动生成于 2026-08-25 ｜ 共 **1908** 个仓库 ｜ 真·DSH 插件 **1775** 个
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1907**
-- 真·DSH 插件：**1774**
+- 仓库总数：**1908**
+- 真·DSH 插件：**1775**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
 - **llm** — 165 个仓库，★91974
-- **utility** — 361 个仓库，★29899
+- **utility** — 362 个仓库，★29901
 - **skills** — 53 个仓库，★23649
 - **tools** — 601 个仓库，★17242
 - **orchestration** — 200 个仓库，★16408
@@ -205,7 +205,7 @@
 | [Arnoldkevin/prismrelay-mcp](https://github.com/Arnoldkevin/prismrelay-mcp) | 以视觉为先的本地 MCP，通过 Agnes AI（BYOK）为纯文本智能体提供图像理解 | Vision-first local MCP that gives text-only Agents image understanding through Agnes AI (B | 0 | TypeScript | yes |
 | [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 
-### utility（361）
+### utility（362）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -514,6 +514,7 @@
 | [Yan-Zero/dsh-remote-ssh](https://github.com/Yan-Zero/dsh-remote-ssh) | 在 DeepSeek Harness 中将 SSH 主机作为透明工作区使用。 | Use SSH hosts as transparent workspaces in DeepSeek Harness. | 2 | TypeScript | yes |
 | [2002yxy/dsh-nailong-desktop-pet](https://github.com/2002yxy/dsh-nailong-desktop-pet) | Nailong (奶龙) desktop-pet plugin for DeepSeek Harness | Nailong (奶龙) desktop-pet plugin for DeepSeek Harness. | 2 | TypeScript | yes |
 | [sjh9714/dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) | 看得见 Agent 到底改了什么。一个会话里所有文件改动，一屏看完再决定要不要提交。 | See what the agent actually changed. Every file it wrote this session, in one review panel | 2 | TypeScript | yes |
+| [Lichen455/band-notify](https://github.com/Lichen455/band-notify) | DSH 插件：每轮对话结束时，通过 ntfy 把完成提醒推送到你的手机 / 小米手环 10 Pro 上。 | DeepSeek Harness plugin that pushes a notification to your phone / Xiaomi Mi Band 10 Pro ( | 2 | JavaScript | yes |
 | [BeAChanger/dsh-openclaw-acp](https://github.com/BeAChanger/dsh-openclaw-acp) | dsh-openclaw-acp — DSH 插件（其他） | DeepSeek Harness bundle for OpenClaw and WeChat over ACP | 1 | JavaScript | yes |
 | [wuyuanjiang1/dsh2wechat](https://github.com/wuyuanjiang1/dsh2wechat) | dsh2wechat — DSH 插件（其他） | dsh2wechat — a DSH plugin (other). | 1 | TypeScript | yes |
 | [kazecreator/dsh-plugins](https://github.com/kazecreator/dsh-plugins) | DeepSeek Harness（dsh）插件单体仓库——含 dsh-im（Telegram 与微信 IM 桥） | Monorepo of DeepSeek Harness (dsh) plugins — including dsh-im (Telegram & WeChat IM bridge | 1 | JavaScript | yes |
