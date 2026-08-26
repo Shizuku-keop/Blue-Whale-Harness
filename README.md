@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-25 ｜ 共 **1901** 个仓库 ｜ 真·DSH 插件 **1768** 个
+> 自动生成于 2026-08-26 ｜ 共 **1902** 个仓库 ｜ 真·DSH 插件 **1769** 个
 
 ## 统计
 
-- 仓库总数：**1901**
-- 真·DSH 插件：**1768**
+- 仓库总数：**1902**
+- 真·DSH 插件：**1769**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -26,6 +26,7 @@
 - **sandbox** — 11 个仓库，★194
 - **memory** — 4 个仓库，★80
 - **skin** — 6 个仓库，★22
+- **diagnostics** — 1 个仓库，★0
 
 ## 插件清单
 
@@ -1991,6 +1992,12 @@
 | [OneZero-Y/dsh-tint-theme](https://github.com/OneZero-Y/dsh-tint-theme) | DeepSeek Harness（DSH）Web 界面的皮肤选择器：内置 25 套知名开源编辑器配色主题（Gruvbox、Solarized、Dracula、Catppuccin、 | A skin picker for the DeepSeek Harness (DSH) Web GUI — 25 editor color-theme families (Gru | 2 | TypeScript | yes |
 | [whyihaveyou/dsh-themes](https://github.com/whyihaveyou/dsh-themes) | 皮肤中心：151 款昼夜成对皮肤一包打尽——网格预览、搜索、DSH Web UI 内一键试穿。 | Skin Center: 151 day/night skin pairs in one package — grid previews, search, one-click tr | 1 | CSS | yes |
 | [lengduan/dsh-815-skin](https://github.com/lengduan/dsh-815-skin) | Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。 | Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdr | 0 | TypeScript | yes |
+
+### diagnostics（1）
+
+| 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
+|---|---|---|---|---|---|
+| [Shizuku-keop/dsh-health](https://github.com/Shizuku-keop/dsh-health) | 会话循环健康度诊断 CLI + DSH 插件：振荡/卡住/参数漂移/per-tool/token/压缩画像、可审计 0-100 健康评分、watch 实时告警、JSONL+SQLi | Session loop-health diagnostics CLI + DSH plugin: oscillation/stall/near-repeat/per-tool/t | 0 | JavaScript | yes |
 
 ## 如何生成 / 更新
 

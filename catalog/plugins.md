@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-25 ｜ 共 **1901** 个仓库 ｜ 真·DSH 插件 **1768** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-08-26 ｜ 共 **1902** 个仓库 ｜ 真·DSH 插件 **1769** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1768,6 +1768,7 @@
 | [taltara/capmark](https://github.com/taltara/capmark) | DSH 插件的能力清单：插件用 Markdown 声明自己可以做什么；网关据此收窄 agent 可见的工具集，并在 tools/pre-execute 上裁决每次调用；`capma | Capability manifests for DSH plugins: a plugin declares in Markdown what it may do, a gate | sandbox | no | TypeScript | 1 | 0 |  | 2026-08-20 | 2026-08-24 | MIT | 0.1.0-rc.7 / 0.1.1-rc.2 |
 | [wefio/dsh-cache-miss](https://github.com/wefio/dsh-cache-miss) | DeepSeek Harness Web 插件：在每轮首条 assistant 回复下方，于提示缓存未命中时显示一行黄色提示（命中率 < 80% 且重计费输入 ≥ 1k token | A DeepSeek Harness Web plugin that shows a one-line yellow prompt-cache-miss notice under  | ui | yes | TypeScript | 1 | 0 |  | 2026-08-16 | 2026-08-24 | MIT | unknown |
 | [Shizuku-keop/dsh-compat-guard](https://github.com/Shizuku-keop/dsh-compat-guard) | DSH 兼容性治理工具：升级前置闸门、存储格式指纹、自动备份/回滚、会话迁移、profile 锁文件、插件×版本兼容矩阵 | Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerp | tools | yes | JavaScript | 0 | 0 |  |  |  |  | unknown |
+| [Shizuku-keop/dsh-health](https://github.com/Shizuku-keop/dsh-health) | 会话循环健康度诊断 CLI + DSH 插件：振荡/卡住/参数漂移/per-tool/token/压缩画像、可审计 0-100 健康评分、watch 实时告警、JSONL+SQLi | Session loop-health diagnostics CLI + DSH plugin: oscillation/stall/near-repeat/per-tool/t | diagnostics | yes | JavaScript | 0 | 0 |  |  |  |  | unknown |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | tools | no | JavaScript | 0 | 0 | 25.3MB | 2026-08-02 | 2026-08-04 | MIT | unknown |
 | [TongDucThanhNam/eragear-code-copilot](https://github.com/TongDucThanhNam/eragear-code-copilot) | 空壳仓库（无描述） | Empty shell repo (no description) | orchestration | no | TypeScript | 0 | 0 | 12.3MB | 2026-01-27 | 2026-08-11 | unknown | unknown |
 | [jasper-zsh/dsh-plugin-llm-codex](https://github.com/jasper-zsh/dsh-plugin-llm-codex) | dsh-plugin-llm-codex — DSH 插件（模型） | dsh-plugin-llm-codex — a DSH plugin (model). | llm | yes | TypeScript | 0 | 0 | 76KB | 2026-08-13 | 2026-08-14 | unknown | unknown |

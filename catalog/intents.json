@@ -104,6 +104,45 @@
   "featured": false,
   "analyzed_at": "2026-08-25T07:50:00.000Z"
  },
+ "Shizuku-keop/dsh-health": {
+  "repo": "Shizuku-keop/dsh-health",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "diagnostics",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Session loop-health diagnostics CLI + DSH plugin: oscillation/stall/near-repeat/per-tool/token/compaction profiles, auditable 0-100 health score, live watch alerts, JSONL+SQLite dual-backend reading",
+  "intentEn": "Session loop-health diagnostics CLI + DSH plugin: oscillation/stall/near-repeat/per-tool/token/compaction profiles, auditable 0-100 health score, live watch alerts, JSONL+SQLite dual-backend reading",
+  "intentZh": "会话循环健康度诊断 CLI + DSH 插件：振荡/卡住/参数漂移/per-tool/token/压缩画像、可审计 0-100 健康评分、watch 实时告警、JSONL+SQLite 双后端读取",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "Node.js",
+   "cordis",
+   "zstd",
+   "SQLite"
+  ],
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "diagnostics",
+   "loop-health",
+   "health-score",
+   "watch",
+   "cli"
+  ],
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-26T00:00:00.000Z"
+ },
  "try-works/role-model": {
   "repo": "try-works/role-model",
   "lists": [
