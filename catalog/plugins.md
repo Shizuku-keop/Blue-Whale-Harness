@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-25 ｜ 共 **1907** 个仓库 ｜ 真·DSH 插件 **1774** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-08-26 ｜ 共 **1908** 个仓库 ｜ 真·DSH 插件 **1775** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1457,6 +1457,7 @@
 | [sjh9714/dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) | 看得见 Agent 到底改了什么。一个会话里所有文件改动，一屏看完再决定要不要提交。 | See what the agent actually changed. Every file it wrote this session, in one review panel | utility | yes | TypeScript | 2 | 0 |  | 2026-08-17 | 2026-08-18 | NOASSERTION | unknown |
 | [OneZero-Y/dsh-tint-theme](https://github.com/OneZero-Y/dsh-tint-theme) | DeepSeek Harness（DSH）Web 界面的皮肤选择器：内置 25 套知名开源编辑器配色主题（Gruvbox、Solarized、Dracula、Catppuccin、 | A skin picker for the DeepSeek Harness (DSH) Web GUI — 25 editor color-theme families (Gru | skin | yes | TypeScript | 2 | 0 |  | 2026-08-15 | 2026-08-19 | MIT | unknown |
 | [taltara/mddl-harness](https://github.com/taltara/mddl-harness) | DSH 的可视化编排器：把模型与工具拖到画布上，导出真实的 cordis.patch.yml。内含 dsh-blueprint —— Web 客户端标签页，可读取 harness  | Visual orchestrator for DSH: drag models and tools onto a canvas and export a real cordis. | ui | no | TypeScript | 2 | 0 |  | 2026-08-19 | 2026-08-23 | MIT | 0.1.0-rc.7 / 0.1.1-rc.2 |
+| [Lichen455/band-notify](https://github.com/Lichen455/band-notify) | DSH 插件：每轮对话结束时，通过 ntfy 把完成提醒推送到你的手机 / 小米手环 10 Pro 上。 | DeepSeek Harness plugin that pushes a notification to your phone / Xiaomi Mi Band 10 Pro ( | utility | yes | JavaScript | 2 | 0 |  | 2026-08-17 | 2026-08-25 | MIT | 0.1.0-rc.6 |
 | [Fisfzy/math-lean](https://github.com/Fisfzy/math-lean) | Lean 内核验证的数学推理插件 | Lean kernel-verified math reasoning plugin | tools | yes | TypeScript | 1 | 0 | 307KB | 2026-08-13 | 2026-08-13 | unknown | unknown |
 | [AdamPlatin123/dsh-ths-skin](https://github.com/AdamPlatin123/dsh-ths-skin) | 同花顺行情终端风格皮肤 + K 线面板 | THS terminal-style skin + K-line panel | ui | yes | TypeScript | 1 | 0 | 237KB | 2026-08-13 | 2026-08-13 | MIT | unknown |
 | [Small-tailqwq/dsh-tps](https://github.com/Small-tailqwq/dsh-tps) | TPS 皮肤插件 | TPS skin plugin | ui | yes | TypeScript | 1 | 0 | 742KB | 2026-08-13 | 2026-08-13 | BSD-3-Clause | unknown |
