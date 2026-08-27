@@ -20,8 +20,8 @@
 - **llm** — 165 个仓库，★91974
 - **utility** — 368 个仓库，★29929
 - **skills** — 53 个仓库，★23649
-- **tools** — 618 个仓库，★17274
-- **orchestration** — 200 个仓库，★16408
+- **tools** — 617 个仓库，★17273
+- **orchestration** — 201 个仓库，★16409
 - **session** — 236 个仓库，★15190
 - **ui** — 206 个仓库，★7369
 - **uncategorized** — 1 个仓库，★2189
@@ -637,7 +637,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（618）
+### tools（617）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1190,7 +1190,6 @@
 | [Oo0520/dsh-plugin-doctor](https://github.com/Oo0520/dsh-plugin-doctor) | DeepSeek Harness 插件医生：诊断与管理 DSH 插件（插件管理器）。 | DSH plugin doctor: diagnose and manage DeepSeek Harness plugins (plugin-manager). | 1 | JavaScript | yes |
 | [amphilagus/dsh-literature](https://github.com/amphilagus/dsh-literature) | DeepSeek Harness 文献检索与定向跟踪插件：Crossref + arXiv 检索、ORCID 研究者消歧、SCI 期刊目录、全局新库，配套「文献跟踪助理」prese | Literature search and tracking for DeepSeek Harness: Crossref + arXiv search, ORCID resear | 1 | TypeScript | yes |
 | [ravenli059/dsh-android-agent](https://github.com/ravenli059/dsh-android-agent) | dsh-web 插件，支持用 websocket 方式连接到安卓手机，执行远程操作和自动测试。 | DeepSeek Harness Web GUI plugin: connects to Android phones via WebSocket for remote opera | 1 | TypeScript | yes |
-| [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) | dsh 网页端指挥官模式：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。 | Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects | 1 | JavaScript | yes |
 | [Cho-Geer/dsh-specify-subagent-suite](https://github.com/Cho-Geer/dsh-specify-subagent-suite) | 五个常驻 DSH 子代理插件合并为一个 Cordis bundle：右侧 Agent 列表、子代理模板面板、一次性子代理 record 徽章，以及 subagent_pro 派遣工 | Five DSH subagent plugins in one Cordis bundle: right-side Agent list, subagent template p | 1 | JavaScript | yes |
 | [Shizuku-keop/dsh-compat-guard](https://github.com/Shizuku-keop/dsh-compat-guard) | DSH 兼容性治理工具：升级前置闸门、存储格式指纹、自动备份/回滚、会话迁移、profile 锁文件、插件×版本兼容矩阵 | Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerp | 1 | JavaScript | yes |
 | [eeyzs1/dsh-plugins](https://github.com/eeyzs1/dsh-plugins) | DeepSeek Harness 插件集：attach-files 在输入框加「添加文件」按钮浏览磁盘，以 @file:/@dir: 引用或展开内容加入对话；chime 在任务完成 | A DeepSeek Harness plugin set: attach-files adds an "Add files" button to browse the disk  | 1 | JavaScript | yes |
@@ -1260,7 +1259,7 @@
 | [Entity-Him/dsh-doc-quick](https://github.com/Entity-Him/dsh-doc-quick) | 拖拽文档进 dsh Web 对话框，Agent 直读本地文件（PDF/Word/PPT/EPUB/Notebook/Markdown/文本）处理，完成后右侧侧栏展示产出与文件路径。 | Drag documents into the dsh web chat; the agent reads them directly from the local filesys | 0 | JavaScript | yes |
 | [ywleeo/dsh-vision-dashscope](https://github.com/ywleeo/dsh-vision-dashscope) | 基于阿里云百炼 DashScope 的 MCP server 插件，为纯文本 Agent 提供图片/视频/音频识别与生成能力。大视频/大文件自动走官方临时 OSS 直传（单文件上限 | A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recogni | 0 | Python | yes |
 
-### orchestration（200）
+### orchestration（201）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1446,6 +1445,7 @@
 | [mingger77/research-skills](https://github.com/mingger77/research-skills) | 供 AI 智能体（Claude Code）以 Python 开展可复现研究的的方法论技能 | A methodology skill for AI Agent (Claude Code) to conduct reproducible research with Pytho | 1 | unknown | yes |
 | [LeslieWylie/agent-loop-workflow](https://github.com/LeslieWylie/agent-loop-workflow) | agent-loop-workflow: 通用多 agent 协作工作流骨架 skill 插件 — Loop Guard/Handoff/Review→Close protocol | agent-loop-workflow: a generic multi-agent collaboration workflow skeleton skill plugin —  | 1 | JavaScript | yes |
 | [LeslieWylie/review-workflow](https://github.com/LeslieWylie/review-workflow) | review-workflow: 通用多评委评审工作流 skill 插件 — N 评委独立打分 + Chair 校准 + Critic 复核 | review-workflow: a generic multi-reviewer review workflow skill plugin — N reviewers score | 1 | JavaScript | yes |
+| [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) | **dsh-commander v2.0**：把任意对话升级为指挥官，模型通过 `<dsh-dispatch>` 协议块派发任务给其他 worker 会话并行执行；插件自动送达任务 | **dsh-commander v2.0**: Activate any conversation as the commander; its model dispatches t | 1 | JavaScript | yes |
 | [TongDucThanhNam/eragear-code-copilot](https://github.com/TongDucThanhNam/eragear-code-copilot) | 空壳仓库（无描述） | Empty shell repo (no description) | 0 | TypeScript | no |
 | [Jesse-njx/dsh-voice](https://github.com/Jesse-njx/dsh-voice) | dsh-voice — DSH 插件（编排） | Voice notes in, spoken answers out — dictate audio that becomes user messages (transcribe) | 0 | TypeScript | yes |
 | [kiim-wong/dsh-push](https://github.com/kiim-wong/dsh-push) | dsh-push — DSH 插件（编排） | Push DeepSeek Harness agent lifecycle notifications to configurable channels | 0 | TypeScript | yes |
@@ -2017,7 +2017,7 @@
 | [seriousz158/dsh-memory](https://github.com/seriousz158/dsh-memory) | DeepSeek Harness 的记忆插件（dsh-bundle）。 | Memory plugin for DeepSeek Harness (dsh-bundle). | 73 | JavaScript | yes |
 | [mianyoubiaoqing/dsh-Mmem](https://github.com/mianyoubiaoqing/dsh-Mmem) | 支持同一 dsh 进程内多记忆空间的 DSH 记忆插件。 | DSH memory plugin supporting multiple memory spaces within the same dsh process. | 7 | TypeScript | yes |
 | [szx-a/ds](https://github.com/szx-a/ds) | LMA 分层记忆架构：给 DeepSeek Harness agent 跨会话、可挂载、可检索的长期记忆。记忆按「体」独立存储（隔离在存储层而非检索层），用 /mount /unm | LMA (Layered Memory Architecture): cross-session, mountable, searchable long-term memory f | 2 | TypeScript | yes |
-| [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) | dsh 网页端项目级+全局长期记忆：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。 | Project+global long-term memory for the DeepSeek Harness Web GUI: split POST /items endpoi | 0 | JavaScript | yes |
+| [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) | **dsh-memory v2.0**：项目级+全局记忆存储、Trajectory 旁的记忆视图页签（逐条列表 + Obsidian 风格链接图谱）、每轮自动提取记忆、每次请求自动 | **dsh-memory v2.0**: Project-scoped and global memory stores, a Memory view tab beside Tra | 0 | JavaScript | yes |
 | [JTSDM/dsh-memory-sqlite](https://github.com/JTSDM/dsh-memory-sqlite) | DSH 原生记忆服务层：纯本地 SQLite 存储（Node 内置 node:sqlite，零 npm 依赖）+ content_hash SHA-256 幂等去重 + FTS5/ | Native memory service layer for DeepSeek Harness: zero-dependency local SQLite storage (no | 0 | TypeScript | yes |
 
 ### skin（8）
