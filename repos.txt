@@ -1932,3 +1932,13 @@ xiaoyuyu6420/dsh-backup
 huabai-flowerwhite/dsh-plugin-design
 huabai-flowerwhite/dsh-plugin-manager
 Kaixxrua/dsh-aigc-radar
+RGarvel/dsh-qqbot
+Wanbinyu/dsh-provider-probe
+Wanbinyu/dsh-error-lens
+Wanbinyu/dsh-concurrency-meter
+Wanbinyu/dsh-companion
+Wanbinyu/dsh-launcher
+Wanbinyu/wanbinyu-harness-toolbox
+SiriLee/dsh-rewind
+eeyzs1/dsh-plugins
+777-Zen/dsh-capability-index

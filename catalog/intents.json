@@ -29211,10 +29211,10 @@
   ],
   "manifestType": "package.json",
   "language": "TypeScript",
-  "intent": "Read-only Git inspection tools for DeepSeek Harness",
-  "intentEn": "Read-only Git inspection tools for DeepSeek Harness",
-  "intentZh": "DeepSeek Harness 的只读 Git 检视工具",
-  "zhSource": "hy3",
+  "intent": "Read-only Git inspection tools for DeepSeek Harness agents, covering status, diff, history, commits, refs, blame, stash, and worktrees. It does not modify files or create commits.",
+  "intentEn": "Read-only Git inspection tools for DeepSeek Harness agents, covering status, diff, history, commits, refs, blame, stash, and worktrees. It does not modify files or create commits.",
+  "intentZh": "为 DeepSeek Harness Agent 提供只读 Git 状态���差异、历史、提交、引用、blame、stash 和 worktree 检查工具；默认不修改文件、不提交代码。",
+  "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
   "techStack": [
@@ -29232,7 +29232,7 @@
   "stars": 1,
   "forks": 0,
   "created_at": "2026-08-14T02:19:07Z",
-  "updated_at": "2026-08-14T05:15:57Z",
+  "updated_at": "2026-08-24T17:04:02Z",
   "license": "MIT",
   "open_issues": 0,
   "topics": [
@@ -29241,7 +29241,7 @@
   "cloned": true,
   "compat": "unknown",
   "featured": false,
-  "analyzed_at": "2026-08-15T03:47:12.328Z"
+  "analyzed_at": "2026-08-27T02:52:02.028Z"
  },
  "Jinsong-Zhou/dsh-html-canvas": {
   "repo": "Jinsong-Zhou/dsh-html-canvas",
@@ -73950,18 +73950,18 @@
  "Wanbinyu/dsh-billing": {
   "repo": "Wanbinyu/dsh-billing",
   "lists": [
-   "watch"
+   "plugin"
   ],
-  "dshCategory": "tools",
+  "dshCategory": "utility",
   "isDshPlugin": true,
   "dshSignals": [
    "readme-mentions-dsh"
   ],
   "manifestType": "none",
   "language": "TypeScript",
-  "intent": "(no description)",
-  "intentEn": "(no description)",
-  "intentZh": "(无描述)",
+  "intent": "A local usage and cost plugin for DeepSeek Harness Web. It shows estimated per-model cost, token usage, session quota, and composer cost progress. Data stays local; estimates do not replace provider billing.",
+  "intentEn": "A local usage and cost plugin for DeepSeek Harness Web. It shows estimated per-model cost, token usage, session quota, and composer cost progress. Data stays local; estimates do not replace provider billing.",
+  "intentZh": "DeepSeek Harness Web 本地计费与用量插件，按模型展示估算费用、Token 使用量、会话额度和输入区费用进度。数据保留在本地，费用仅供参考，不替代服务商账单。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
@@ -73970,10 +73970,10 @@
   ],
   "keyDeps": [],
   "entry": null,
-  "stars": 2,
+  "stars": 3,
   "forks": 0,
   "created_at": "2026-08-14T02:21:36Z",
-  "updated_at": "2026-08-14T05:19:45Z",
+  "updated_at": "2026-08-25T03:45:55Z",
   "license": "MIT",
   "open_issues": 0,
   "topics": [
@@ -73983,7 +73983,7 @@
   "cloned": true,
   "compat": "unknown",
   "featured": false,
-  "analyzed_at": "2026-08-15T03:47:13.862Z"
+  "analyzed_at": "2026-08-27T02:52:01.606Z"
  },
  "oxygenaaaaa/dsh-desktop": {
   "repo": "oxygenaaaaa/dsh-desktop",
@@ -93617,5 +93617,514 @@
   "compat": "0.1.0-rc.6",
   "featured": false,
   "analyzed_at": "2026-08-27T02:14:29.083Z"
+ },
+ "RGarvel/dsh-qqbot": {
+  "repo": "RGarvel/dsh-qqbot",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-agent",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/schemastery",
+   "@tencent-connect/qqbot-connector",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "QQ bot channel plugin bridging QQ chats into DSH bidirectionally: QQ sessions in Web GUI, Web turns mirrored back to QQ. Adds dual-endpoint question sync (first answer wins), quick-reply buttons, answer echo, resilient delivery. Based on official tencent-connect/dsh-qqbot (MIT).",
+  "intentEn": "QQ bot channel plugin bridging QQ chats into DSH bidirectionally: QQ sessions in Web GUI, Web turns mirrored back to QQ. Adds dual-endpoint question sync (first answer wins), quick-reply buttons, answer echo, resilient delivery. Based on official tencent-connect/dsh-qqbot (MIT).",
+  "intentZh": "QQ 官方机器人渠道插件：把 QQ 群聊/私聊双向桥接进 DSH，QQ 会话出现在 Web 界面、Web 回合镜像回 QQ。支持提问双端同步（QQ 按钮与 Web 卡片竞速、先答先得）、编号选项快捷按钮、答案回显、三级容错投递。基于官方 tencent-connect/dsh-qqbot 增强（MIT），多项功能以上游 PR 在审。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-21T15:03:03Z",
+  "updated_at": "2026-08-27T01:48:31Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "Wanbinyu/dsh-provider-probe": {
+  "repo": "Wanbinyu/dsh-provider-probe",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-api-gateway",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-settings",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-typert-protocol",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A manual provider probe for DeepSeek Harness. On explicit user action, it checks connectivity, latency, model capabilities, and common failure causes, then presents readable diagnostics.",
+  "intentEn": "A manual provider probe for DeepSeek Harness. On explicit user action, it checks connectivity, latency, model capabilities, and common failure causes, then presents readable diagnostics.",
+  "intentZh": "DeepSeek Harness 的手动供应商探测插件，在用户主���触发时检查连通性、延迟、模型能力和常见失败原因，并提供可读的诊断结果。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 2,
+  "forks": 0,
+  "created_at": "2026-08-19T05:33:55Z",
+  "updated_at": "2026-08-25T03:45:58Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "diagnostics",
+   "dsh",
+   "dsh-plugin",
+   "provider"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "Wanbinyu/dsh-error-lens": {
+  "repo": "Wanbinyu/dsh-error-lens",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-conversation",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-session-projection",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Read-only, redacted provider error diagnostics for DeepSeek Harness. It classifies failures and suggests actionable checks without reading prompts, model responses, or tool arguments and results.",
+  "intentEn": "Read-only, redacted provider error diagnostics for DeepSeek Harness. It classifies failures and suggests actionable checks without reading prompts, model responses, or tool arguments and results.",
+  "intentZh": "DeepSeek Harness 的只读供应商错误诊断插件，对错误信息进行脱敏和分类，并提供可执行的排查建议，不读取提示词、模型回复或工具参数与结果。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 2,
+  "forks": 0,
+  "created_at": "2026-08-19T04:53:51Z",
+  "updated_at": "2026-08-25T03:45:57Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "diagnostics",
+   "dsh",
+   "dsh-plugin",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "Wanbinyu/dsh-concurrency-meter": {
+  "repo": "Wanbinyu/dsh-concurrency-meter",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-api-gateway",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-settings",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-typert-protocol",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, peak concurrency, outcomes, and provider-group status without reading prompts, responses, or tool content.",
+  "intentEn": "Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, peak concurrency, outcomes, and provider-group status without reading prompts, responses, or tool content.",
+  "intentZh": "DeepSeek Harness 的只读请求并发监控插件，���示活动请求、峰值并发、执行结果和供应商分组状态，不读取提示词、模型回复或工具内容。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 2,
+  "forks": 0,
+  "created_at": "2026-08-19T06:25:05Z",
+  "updated_at": "2026-08-25T03:45:56Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "concurrency",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "monitoring",
+   "plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "Wanbinyu/dsh-companion": {
+  "repo": "Wanbinyu/dsh-companion",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-layout",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-session-projection",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A local state-aware companion overlay for DeepSeek Harness Web. Character animation, task states, long-task actions, click feedback, and completion bubbles show agent status without reading prompts, responses, or files.",
+  "intentEn": "A local state-aware companion overlay for DeepSeek Harness Web. Character animation, task states, long-task actions, click feedback, and completion bubbles show agent status without reading prompts, responses, or files.",
+  "intentZh": "DeepSeek Harness Web 的本地状态感知伙伴插件，通过角色动画、任务状态、长任务动作、点击反馈和完成气泡展示 Agent 当前状态，而不读取提示词、回复或文件内容。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-21T07:07:34Z",
+  "updated_at": "2026-08-24T17:04:02Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "companion",
+   "deepseek",
+   "deepseek-harness",
+   "desktop-pet",
+   "dsh",
+   "dsh-plugin",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "Wanbinyu/dsh-launcher": {
+  "repo": "Wanbinyu/dsh-launcher",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "windows-launcher-integration"
+  ],
+  "manifestType": "none",
+  "language": "C#",
+  "intent": "A Windows launcher and tray utility for DeepSeek Harness with double-click and short-command startup, guided setup, progress feedback, logs, diagnostics, update checks, and process controls. It is not a Cordis plugin.",
+  "intentEn": "A Windows launcher and tray utility for DeepSeek Harness with double-click and short-command startup, guided setup, progress feedback, logs, diagnostics, update checks, and process controls. It is not a Cordis plugin.",
+  "intentZh": "面向 Windows 的 DeepSeek Harness 启动器和托盘工具，支持双击或短命令启动 Web、首次安装向导、进度反馈、日志、诊断、更新检查和进程管理。它不是 Cordis 插件。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "C#",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 8,
+  "forks": 0,
+  "created_at": "2026-08-14T02:40:42Z",
+  "updated_at": "2026-08-26T09:43:19Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek",
+   "deepseek-harness",
+   "dotnet",
+   "dsh",
+   "launcher",
+   "tray",
+   "windows"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "Wanbinyu/wanbinyu-harness-toolbox": {
+  "repo": "Wanbinyu/wanbinyu-harness-toolbox",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "plugin-directory-integration"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "An independent third-party project hub for DeepSeek Harness, presenting the launcher, plugins, pinned downloads, compatibility records, and basic verification in Chinese and English, with no ads or telemetry.",
+  "intentEn": "An independent third-party project hub for DeepSeek Harness, presenting the launcher, plugins, pinned downloads, compatibility records, and basic verification in Chinese and English, with no ads or telemetry.",
+  "intentZh": "面向 DeepSeek Harness 的独立第三方项目入口，以中英文页面集中展示启动器、插件、固定版本下载、兼容记录和基本验证信息；无广告、无遥测，不读取本机 Harness 数据。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T06:47:34Z",
+  "updated_at": "2026-08-26T08:45:24Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "cordis",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "plugin-directory",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "SiriLee/dsh-rewind": {
+  "repo": "SiriLee/dsh-rewind",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-commands",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-commands",
+   "@deepseek-ai/dsh-fs",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-sandbox",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-settings",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A DeepSeek Harness plugin that rewinds the conversation to any earlier user message in one click, in the same window — optionally restoring workspace files it changed (full Claude Code /rewind semantics), including unread steering interruptions.",
+  "intentEn": "A DeepSeek Harness plugin that rewinds the conversation to any earlier user message in one click, in the same window — optionally restoring workspace files it changed (full Claude Code /rewind semantics), including unread steering interruptions.",
+  "intentZh": "DeepSeek Harness 插件：同窗口内一键把对话回退到任意更早的用户消息，可一并还原它改过的工作区文件（完整 Claude Code /rewind 语义），也能回退模型尚未读取的 steering 插话。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 16,
+  "forks": 0,
+  "created_at": "2026-08-17T04:42:48Z",
+  "updated_at": "2026-08-26T14:43:27Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "checkpoint",
+   "client-plugin",
+   "conversation",
+   "cordis",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "dsh-plugin-market",
+   "dsh-plugins",
+   "plugin",
+   "recall",
+   "rewind",
+   "rewrite",
+   "rollback",
+   "session",
+   "session-fallback",
+   "ui",
+   "undo"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "eeyzs1/dsh-plugins": {
+  "repo": "eeyzs1/dsh-plugins",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "monorepo-dsh-bundles",
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "JavaScript",
+  "intent": "A DeepSeek Harness plugin set: attach-files adds an \"Add files\" button to browse the disk and insert @file:/@dir: references or expanded content; chime plays a chime when a task finishes or user input is needed, with goal-mode support and adjustable volume.",
+  "intentEn": "A DeepSeek Harness plugin set: attach-files adds an \"Add files\" button to browse the disk and insert @file:/@dir: references or expanded content; chime plays a chime when a task finishes or user input is needed, with goal-mode support and adjustable volume.",
+  "intentZh": "DeepSeek Harness 插件集：attach-files 在输入框加「添加文件」按钮浏览磁盘，以 @file:/@dir: 引用或展开内容加入对话；chime ��任务完成或需用户选择时播放提示音，支持 goal 模式静默中间轮与音量调节。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-15T17:17:05Z",
+  "updated_at": "2026-08-26T14:48:36Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:48:44.301Z"
+ },
+ "777-Zen/dsh-capability-index": {
+  "repo": "777-Zen/dsh-capability-index",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Pre-flight plugin-library index for DSH agents: injects per-step trigger-table hints into the runtime context so suitable installed plugins get used predictably instead of opportunistically.",
+  "intentEn": "Pre-flight plugin-library index for DSH agents: injects per-step trigger-table hints into the runtime context so suitable installed plugins get used predictably instead of opportunistically.",
+  "intentZh": "DSH agent 的插件库起飞检查：向运行时上下文注入按步骤触发的提示，让合适的已装插件从「碰巧想起」变成「可预期使用」。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 3,
+  "forks": 0,
+  "created_at": "2026-08-16T03:33:32Z",
+  "updated_at": "2026-08-26T13:42:04Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent-tools",
+   "ai-agents",
+   "awesome-dsh-plugin",
+   "cordis",
+   "dsh",
+   "dsh-plugin",
+   "llm-agents"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:53:11.134Z"
  }
 }
