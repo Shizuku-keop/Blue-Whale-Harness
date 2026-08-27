@@ -1,0 +1,99 @@
+# 目录收录兼容性合并闸门（《插件兼容性规范 v1.0》§8.2）
+#
+# 触发：
+#   - PR 修改 repos.txt / repos.json / catalog/** / 本文件时运行
+#   - 手动 workflow_dispatch 可指定单个仓库核查
+# 行为：
+#   - 从 PR diff 提取新增仓库（ci/find-new-repos.mjs）
+#   - 逐个浅克隆并运行合并闸门（ci/run-intake-gate.mjs，内含 check-compat.mjs 的 runGate）
+#   - 任一硬性项未过 → 退出码 1 → 状态检查失败，配合分支保护实现合并拦截
+# 注意：启用前先把 ci/find-new-repos.mjs、ci/run-intake-gate.mjs、catalog/check-compat.mjs 提交进仓库，
+#       并在分支保护中把本 job 设为 required status check（job id: intake-check）。
+name: catalog-intake-check
+
+on:
+  pull_request:
+    paths:
+      - 'repos.txt'
+      - 'repos.json'
+      - 'catalog/**'
+      - '.github/workflows/catalog-intake-check.yml'
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: '手动核查单个仓库（owner/name）'
+        required: false
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  intake-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库（含历史，供 diff）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 提取新增仓库
+        id: find
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ inputs.repo }}" ]; then
+            printf '[{"repo":"%s","lists":["plugin"]}]\n' "${{ inputs.repo }}" > /tmp/new-repos.json
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            node ci/find-new-repos.mjs --base "${{ github.event.pull_request.base.sha }}" > /tmp/new-repos.json
+          else
+            printf '[]\n' > /tmp/new-repos.json
+            echo "未提供 --repo 输入，跳过。"
+          fi
+          echo "新增仓库:"; cat /tmp/new-repos.json
+
+      - name: 运行兼容性合并闸门
+        id: gate
+        env:
+          CLONES: /tmp/clones
+          RISK360: ${{ github.workspace }}/catalog/risk-360.json
+        run: |
+          set +e
+          node ci/run-intake-gate.mjs \
+            --repos /tmp/new-repos.json \
+            --clones "$CLONES" \
+            --risk360 "$RISK360" \
+            --summary "$GITHUB_STEP_SUMMARY" \
+            --check /tmp/gate-results.json
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+
+      - name: PR 评论结果
+        if: always() && github.event_name == 'pull_request' && steps.gate.outcome != 'skipped'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const results = JSON.parse(fs.readFileSync('/tmp/gate-results.json', 'utf8'));
+            const anyFail = results.some(r => !r.pass);
+            const rows = results.map(r =>
+              `| \`${r.repo}\` | ${r.list} | ${r.level} | ${r.compatLabel} | ${r.pass ? '✅' : '❌'} | ${r.reasons.join('<br>') || '—'} |`).join('\n');
+            const body = `## 🤖 目录收录兼容性闸门（规范 v1.0）\n\n当前版本线：**0.1.1-rc.2** ｜ 新增仓库：**${results.length}** ｜ 结果：**${anyFail ? '❌ 存在未通过项' : '✅ 全部通过'}**\n\n| 仓库 | 列表 | 档位 | 建议 compat | 结果 | 原因 |\n|---|---|---|---|---|---|\n${rows}\n\n> 判定依据：《插件兼容性规范 v1.0》；未通过项请按 §5.3 人工复核或修正后重新推送。`;
+            const { context, github } = require('@actions/github');
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body,
+            });
+
+      - name: 汇总（未通过则失败，配合分支保护拦截合并）
+        if: always()
+        run: |
+          if [ "${{ steps.gate.outputs.exit }}" != "0" ]; then
+            echo "::error::目录收录兼容性闸门未通过，详见上方 PR 评论与 step summary。"
+            exit 1
+          fi
+          echo "闸门通过。"

@@ -1,5 +1,5 @@
 name: 收录插件 / 收录仓库
-description: 推荐一个新的 DeepSeek Harness 插件或仓库进入目录站点。填好模板后维护者会审核、收录并同步上线。
+description: 推荐一个新的 DeepSeek Harness 插件或仓库进入目录站点。填好模板后维护者会按《插件兼容性规范 v1.0》机器核查、人工复核、收录并同步上线。
 title: "收录请求：<owner/repo>"
 labels: ["catalog-intake"]
 assignees: []
@@ -9,12 +9,18 @@ body:
       value: |
         感谢为 **Blue-Whale-Harness** 目录投稿！
 
-        请按下面字段填写。维护者收到后会：
-        1. 核对仓库与 `cordis.patch.yml` 等 DSH 信号
-        2. 写入权威数据源 `catalog/intents.json` 并追加 `repos.txt`
-        3. 重生成站点（https://leenkcool.github.io）并合并
+        **收录流程**（《插件兼容性规范 v1.0》§5）：
+        1. 提交本表单（或直接提 PR）
+        2. 维护者运行 `check-compat.mjs --repo <owner/name>` 做**机器核查**（兼容档位 A/B/C/D）
+        3. 机器判 B/C/D 的进入**人工复核**（规范 §6 清单）
+        4. 写入权威数据源 `catalog/intents.json` 并追加 `repos.txt`
+        5. 重生成站点（https://leenkcool.github.io）并合并
 
-        > 如果你会改代码、想直接提交，也可以提 PR；本模板适合只想推荐、不便发 PR 的情况。
+        **兼容性口径**：
+        - 判定基线：dsh `0.1.1-rc.2`（当前发布线，2026-08-27 实测）。
+        - compat 取值：版本串（如 `0.1.0-rc.6+`）/ `ok` / `unknown` / `not-a-plugin` / `old-line` / `av-flagged`（规范 §3 词汇表）。
+        - 版本范围写法：`^0.1.0-rc.6`、`>=0.1.0-rc.6 <0.2.0` 均覆盖当前线；**禁止 `latest` / 裸版本 / `*`**（官方子包 dist-tags 错配）；官方 `@deepseek-ai/*` 依赖只放 peer/dev，**禁止放 dependencies**（双拷贝风险，规范 §4）。
+        - web 客户端插件（无任何 @deepseek-ai 依赖、靠运行时注入）是**合法形态**，compatRange 填 `runtime-injected` 即可。
 
         **分类对照**：`llm`=大模型/接入 · `ui`=界面/前端/皮肤 · `session`=会话/记忆 · `tools`=工具/调用 · `orchestration`=编排/自动化 · `utility`=通用工具 · `skills`=技能 · `acp`=Agent 通信协议 · `sandbox`=沙箱/运行环境 · `preset`=预设/配置 · `skin`=外观主题 · `memory`=记忆
   - type: input
@@ -47,6 +53,19 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: plugin_shape
+    attributes:
+      label: 插件形态（pluginShape，规范 §5.1）
+      description: 真插件必须含 `cordis.patch.yml`（或 bundle patch）；预设/技能/桌面端会写入独立标注，不混入 plugin 列表。
+      options:
+        - 不确定
+        - 真插件（含 cordis.patch.yml）
+        - 预设 / 配置（纯 config，无插件代码）
+        - 技能（SKILL.md）
+        - 桌面端 / 集成（Electron、CLI、外部工具）
+    validations:
+      required: true
+  - type: dropdown
     id: is_dsh_plugin
     attributes:
       label: 是否为 DeepSeek Harness 插件（含 cordis.patch.yml）
@@ -57,6 +76,49 @@ body:
         - "否（集成 / 外部工具）"
     validations:
       required: true
+  - type: input
+    id: compat_range
+    attributes:
+      label: 兼容的 dsh 版本范围（compatRange，规范 §4.1）
+      description: 从 package.json 的 peerDependencies 抄录，如 `^0.1.0-rc.6`、`>=0.1.0-rc.6 <0.2.0`。web 运行时注入插件填 `runtime-injected`。不确定填「不确定」，维护者会用 check-compat.mjs 判定。
+      placeholder: "^0.1.0-rc.6"
+    validations:
+      required: false
+  - type: input
+    id: npm_package
+    attributes:
+      label: npm 包名（可选，规范 §6.2）
+      description: 若已发布到 npm（含作用域），填完整包名，用于包名冲突检查。**禁止使用 `@deepseek-ai/*` 官方作用域**（官方保留）；请用 `@<作者>/dsh-*` 或裸名 `dsh-*`。
+      placeholder: "@your-name/dsh-xxx 或 dsh-xxx"
+    validations:
+      required: false
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: 支持平台（可选，可多选）
+      description: 写入目录的 platform 字段；不确定可留空。
+      options:
+        - label: Windows
+        - label: macOS
+        - label: Linux / WSL
+        - label: 移动端（Android / iOS / 鸿蒙）
+        - label: 跨平台
+  - type: input
+    id: engines
+    attributes:
+      label: Node 版本要求（可选）
+      description: package.json 的 engines.node，如 `>=20`、`^22.19.0 || >=24.0.0`；写入目录的 runtime 字段。
+      placeholder: ">=20"
+    validations:
+      required: false
+  - type: textarea
+    id: runtime_deps
+    attributes:
+      label: 外部运行时 / 前置依赖（可选）
+      description: Python / Rust / Chrome / 独立 MCP server / 系统工具等安装前置，收录时写入 runtime 字段。
+      placeholder: "需要 Python 3.10+ 与 playwright（pip install playwright）"
+    validations:
+      required: false
   - type: textarea
     id: intent_zh
     attributes:
@@ -81,10 +143,21 @@ body:
       placeholder: TypeScript
     validations:
       required: false
+  - type: checkboxes
+    id: self_check
+    attributes:
+      label: 提交前自检（规范 §6 硬性项）
+      description: 全部勾选可显著加快收录；未勾选项维护者仍会机器核查，但可能打回要求补齐。
+      options:
+        - label: 官方依赖 @deepseek-ai/* 仅出现在 peerDependencies / devDependencies，且范围覆盖当前线（或为 web 运行时注入模式，无此类依赖）
+        - label: 未使用 latest / 裸版本 / * 声明官方依赖
+        - label: 未使用 @deepseek-ai/* 作用域发布
+        - label: package.json 的 main/exports 指向真实存在的文件
+        - label: 无硬编码 API Key 等凭据
   - type: textarea
     id: notes
     attributes:
       label: 备注（可选）
-      description: 官网、文档链接、作者署名，或任何想补充说明的内容。
+      description: 官网、文档链接、作者署名、维护者实测记录（将写入 compatEvidence），或任何想补充说明的内容。
     validations:
       required: false
