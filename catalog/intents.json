@@ -94179,5 +94179,707 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-27T03:11:38.781Z"
+ },
+ "riesbri/dshline": {
+  "repo": "riesbri/dshline",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "The terminal-native TUI frontend for the DeepSeek Harness plugin ecosystem. It brings Harness sessions, models, plugins, jobs and subagents into one fast, composable terminal experience with real scrollback—Harness owns the runtime; dshline owns the terminal UX.",
+  "intentEn": "The terminal-native TUI frontend for the DeepSeek Harness plugin ecosystem. It brings Harness sessions, models, plugins, jobs and subagents into one fast, composable terminal experience with real scrollback—Harness owns the runtime; dshline owns the terminal UX.",
+  "intentZh": "DeepSeek Harness 的终端原生 TUI 前端，将 Harness 的插件生态、会话、模型、任务和子代理直接带到终端，并保留真实的终端滚动体验。Harness 负责运行时与能力，dshline 专注打造快速、原生、可组合的终端体验。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 8,
+  "forks": 1,
+  "created_at": "2026-08-17T11:12:20Z",
+  "updated_at": "2026-08-26T22:51:12Z",
+  "license": "MIT",
+  "open_issues": 3,
+  "topics": [
+   "ai-agent",
+   "cli",
+   "cordis",
+   "deepseek",
+   "deepseek-harness",
+   "developer-tools",
+   "dsh-plugin",
+   "nodejs",
+   "terminal",
+   "tui",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.415782+00:00"
+ },
+ "szx-a/ds": {
+  "repo": "szx-a/ds",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "memory",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "LMA (Layered Memory Architecture): cross-session, mountable, searchable long-term memory for DeepSeek Harness agents. Memories live in independent bodies (storage-layer isolation, not retrieval), with /mount /unmount defining the agent's cognitive boundary. Dual authority, auto-summarize, non-destructive demotion, FTS5 CJK search, GUI + JSONL editing. Currently an rc preview, actively improving.",
+  "intentEn": "LMA (Layered Memory Architecture): cross-session, mountable, searchable long-term memory for DeepSeek Harness agents. Memories live in independent bodies (storage-layer isolation, not retrieval), with /mount /unmount defining the agent's cognitive boundary. Dual authority, auto-summarize, non-destructive demotion, FTS5 CJK search, GUI + JSONL editing. Currently an rc preview, actively improving.",
+  "intentZh": "LMA 分层记忆架构：给 DeepSeek Harness agent 跨会话、可挂载、可检索的长期记忆。记忆按「体」独立存储（隔离在存储层而非检索层），用 /mount /unmount 显式掌控 agent 认知边界；双权威、自动总结、降权不删除、FTS5 中文检索、GUI + JSONL 双编辑。当前为 rc 体验版，功能持续改进更新中。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 2,
+  "forks": 0,
+  "created_at": "2026-08-14T14:01:41Z",
+  "updated_at": "2026-08-27T04:55:59Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh",
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416265+00:00"
+ },
+ "Qiongkura/dsh-interface-settings": {
+  "repo": "Qiongkura/dsh-interface-settings",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-settings",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/cordis",
+   "keyword-dsh"
+  ],
+  "manifestType": "none",
+  "language": "_No response_",
+  "intent": "A DeepSeek Harness front-end plugin that brings wallpaper, area transparency, liquid-glass blur and splash screen together into one interface-settings panel.\nNo DSH source changes: everything is injected via CSS variables and rules;\nOne settings panel: wallpaper blur, glass blur, panel opacity, code-block opacity, transparency toggles, splash screen;\nSame technique as the desktop shell ([dsh-desktop](https://github.com/Qiongkura/dsh-desktop)): this plugin is the browser-side port of the desktop interface customization.",
+  "intentEn": "A DeepSeek Harness front-end plugin that brings wallpaper, area transparency, liquid-glass blur and splash screen together into one interface-settings panel.\nNo DSH source changes: everything is injected via CSS variables and rules;\nOne settings panel: wallpaper blur, glass blur, panel opacity, code-block opacity, transparency toggles, splash screen;\nSame technique as the desktop shell ([dsh-desktop](https://github.com/Qiongkura/dsh-desktop)): this plugin is the browser-side port of the desktop interface customization.",
+  "intentZh": "一个 DeepSeek Harness 前端插件：把「壁纸 / 区域透明 / 输入框与轨迹毛玻璃 / 模糊程度 / 启动画面」做成一站式界面设置，作为独立插件项目上传、分享，装进 DSH 即可使用。\n不修改 DSH 源码：所有外观都通过注入 CSS 变量与规则实现；\n一个设置面板：壁纸模糊、玻璃模糊、面板透明度、区域透明开关、启动画面模式；\n与桌面端同一套技术方案：本插件是桌面端（[dsh-desktop](https://github.com/Qiongkura/dsh-desktop)）界面定制能力的浏览器端移植。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "_No response_",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-16T17:15:06Z",
+  "updated_at": "2026-08-17T09:10:17Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416530+00:00"
+ },
+ "Qiongkura/dsh-usage-plugin": {
+  "repo": "Qiongkura/dsh-usage-plugin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-session-query",
+   "@deepseek-ai/dsh-session-persistence",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-sidebar",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "A Token Usage Statistics plugin for DeepSeek Harness (DSH): sidebar bottom entry + modal panel to view Token consumption across all sessions.\nIt is an enhanced version of the official DSH \"Usage Statistics\" — adding workspace grouping, Token-based sorting, and subagent usage merging on top of the official functionality.",
+  "intentEn": "A Token Usage Statistics plugin for DeepSeek Harness (DSH): sidebar bottom entry + modal panel to view Token consumption across all sessions.\nIt is an enhanced version of the official DSH \"Usage Statistics\" — adding workspace grouping, Token-based sorting, and subagent usage merging on top of the official functionality.",
+  "intentZh": "DeepSeek Harness（DSH）的 Token 用量统计 插件：侧边栏底部入口 + 模态面板，查看所有会话的 Token 消耗。\n它是 DSH 官方「用量统计」的增强版——在官方功能之上新增了工作区分组、按 Token 排序、子代理用量合并。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 4,
+  "forks": 0,
+  "created_at": "2026-08-16T06:46:25Z",
+  "updated_at": "2026-08-20T10:48:45Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416618+00:00"
+ },
+ "jetheaven/dsh-prompt-optimizer": {
+  "repo": "jetheaven/dsh-prompt-optimizer",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Prompt optimizer plugin for DSH: diagnoses prompt problems (vagueness, missing constraints, unclear roles) and outputs a structured, higher-quality rewritten prompt.\nInstall: `dsh plugin add github:jetheaven/dsh-prompt-optimizer`",
+  "intentEn": "Prompt optimizer plugin for DSH: diagnoses prompt problems (vagueness, missing constraints, unclear roles) and outputs a structured, higher-quality rewritten prompt.\nInstall: `dsh plugin add github:jetheaven/dsh-prompt-optimizer`",
+  "intentZh": "AI 提示词优化插件：诊断 Prompt 的问题（模糊、缺约束、角色不清等），输出结构化的高质量优化版本，帮助迭代提示词。\n安装：`dsh plugin add github:jetheaven/dsh-prompt-optimizer`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:18Z",
+  "updated_at": "2026-08-27T01:58:32Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "optimizer",
+   "prompt",
+   "prompt-engineering"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416672+00:00"
+ },
+ "jetheaven/dsh-text-diff": {
+  "repo": "jetheaven/dsh-text-diff",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "AI text-diff plugin for DSH: compares two texts and surfaces differences, semantic changes and risk points (e.g. contract clause edits) with itemized change notes.\nInstall: `dsh plugin add github:jetheaven/dsh-text-diff`",
+  "intentEn": "AI text-diff plugin for DSH: compares two texts and surfaces differences, semantic changes and risk points (e.g. contract clause edits) with itemized change notes.\nInstall: `dsh plugin add github:jetheaven/dsh-text-diff`",
+  "intentZh": "AI 智能文本对比插件：对比两段文字，找出差异、语义变化和潜在风险点（如合同条款改动、版本修订），输出逐条变更说明。\n安装：`dsh plugin add github:jetheaven/dsh-text-diff`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:13Z",
+  "updated_at": "2026-08-27T01:58:35Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "contract-review",
+   "diff",
+   "dsh-plugin",
+   "text-comparison"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416715+00:00"
+ },
+ "jetheaven/dsh-data-extractor": {
+  "repo": "jetheaven/dsh-data-extractor",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Structured data extraction plugin for DSH: pulls specified fields from unstructured text and outputs JSON / CSV / tables, for batch-processing web text and documents.\nInstall: `dsh plugin add github:jetheaven/dsh-data-extractor`",
+  "intentEn": "Structured data extraction plugin for DSH: pulls specified fields from unstructured text and outputs JSON / CSV / tables, for batch-processing web text and documents.\nInstall: `dsh plugin add github:jetheaven/dsh-data-extractor`",
+  "intentZh": "结构化数据提取插件：从非结构化文本中按指定字段提取信息，输出 JSON / CSV / 表格，适合批量整理网页文本与文档片段。\n安装：`dsh plugin add github:jetheaven/dsh-data-extractor`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:41Z",
+  "updated_at": "2026-08-27T01:58:28Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "csv",
+   "data-extraction",
+   "dsh-plugin",
+   "structured-data"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416759+00:00"
+ },
+ "jetheaven/dsh-meeting-notes": {
+  "repo": "jetheaven/dsh-meeting-notes",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Meeting-notes plugin for DSH: extracts decisions, action items, owners, deadlines and risks from meeting transcripts into structured minutes.\nInstall: `dsh plugin add github:jetheaven/dsh-meeting-notes`",
+  "intentEn": "Meeting-notes plugin for DSH: extracts decisions, action items, owners, deadlines and risks from meeting transcripts into structured minutes.\nInstall: `dsh plugin add github:jetheaven/dsh-meeting-notes`",
+  "intentZh": "会议纪要智能生成插件：从会议转写文本中提取决议、待办事项、负责人、截止时间和风险点，输出结构化会议纪要。\n安装：`dsh plugin add github:jetheaven/dsh-meeting-notes`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:24Z",
+  "updated_at": "2026-08-27T01:58:30Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "meeting",
+   "minutes",
+   "notes",
+   "summary"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416800+00:00"
+ },
+ "jetheaven/dsh-seo-writer": {
+  "repo": "jetheaven/dsh-seo-writer",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "SEO article generator for DSH: given keywords and language, produces complete search-engine-friendly articles with titles, structure and keyword placement, for blogs and content sites.\nInstall: `dsh plugin add github:jetheaven/dsh-seo-writer`",
+  "intentEn": "SEO article generator for DSH: given keywords and language, produces complete search-engine-friendly articles with titles, structure and keyword placement, for blogs and content sites.\nInstall: `dsh plugin add github:jetheaven/dsh-seo-writer`",
+  "intentZh": "SEO 文章生成插件：给定关键词和语言，生成搜索引擎友好的完整文章（含标题、结构、关键词布局），适合博客与内容站批量产出。\n安装：`dsh plugin add github:jetheaven/dsh-seo-writer`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:30Z",
+  "updated_at": "2026-08-27T01:58:33Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "blog",
+   "content-writing",
+   "dsh-plugin",
+   "seo"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416844+00:00"
+ },
+ "jetheaven/dsh-content-rewriter": {
+  "repo": "jetheaven/dsh-content-rewriter",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "One-click content rewriter for DSH: rewrites text into multiple styles — Xiaohongshu, Zhihu, business email, concise, expanded, Twitter/X — tuned for Chinese social-media operations.\nInstall: `dsh plugin add github:jetheaven/dsh-content-rewriter`",
+  "intentEn": "One-click content rewriter for DSH: rewrites text into multiple styles — Xiaohongshu, Zhihu, business email, concise, expanded, Twitter/X — tuned for Chinese social-media operations.\nInstall: `dsh plugin add github:jetheaven/dsh-content-rewriter`",
+  "intentZh": "一键内容改写插件：把原文改写为小红书、知乎、商务邮件、精简版、扩写版、Twitter/X 等多种风格，面向中文社媒运营场景优化。\n安装：`dsh plugin add github:jetheaven/dsh-content-rewriter`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:04Z",
+  "updated_at": "2026-08-27T01:58:26Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "content",
+   "dsh-plugin",
+   "rewrite",
+   "social-media",
+   "xiaohongshu"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416891+00:00"
+ },
+ "jetheaven/dsh-translate-pro": {
+  "repo": "jetheaven/dsh-translate-pro",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Professional translation plugin for DSH: terminology consistency, domain selection (legal/medical/IT etc.) and tone control, with a glossary table attached to every translation.\nInstall: `dsh plugin add github:jetheaven/dsh-translate-pro`",
+  "intentEn": "Professional translation plugin for DSH: terminology consistency, domain selection (legal/medical/IT etc.) and tone control, with a glossary table attached to every translation.\nInstall: `dsh plugin add github:jetheaven/dsh-translate-pro`",
+  "intentZh": "专业翻译插件：支持术语一致、专业领域选择（法律/医学/IT 等）与语气调整，翻译后附带术语对照表，适合中英互译与文档本地化。\n安装：`dsh plugin add github:jetheaven/dsh-translate-pro`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:47Z",
+  "updated_at": "2026-08-27T01:58:37Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin",
+   "i18n",
+   "translation",
+   "translator"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416930+00:00"
+ },
+ "jetheaven/dsh-code-reviewer": {
+  "repo": "jetheaven/dsh-code-reviewer",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-tools",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "AI code review plugin for DSH: paste code to get a four-tier review — Critical (security/crash risks), Warning (logic/perf), Suggestion (style/maintainability), Good; each finding has line numbers, snippets and fix examples, with auto language detection.\nInstall: `dsh plugin add github:jetheaven/dsh-code-reviewer`",
+  "intentEn": "AI code review plugin for DSH: paste code to get a four-tier review — Critical (security/crash risks), Warning (logic/perf), Suggestion (style/maintainability), Good; each finding has line numbers, snippets and fix examples, with auto language detection.\nInstall: `dsh plugin add github:jetheaven/dsh-code-reviewer`",
+  "intentZh": "AI 代码审查插件：粘贴代码即可获得四维分级审查——致命（安全漏洞/崩溃隐患）、重要（逻辑错误/性能瓶颈）、建议（风格/可维护性）、亮点；每个问题标注行号与代码片段并给出修复示例，自动识别编程语言。\n安装：`dsh plugin add github:jetheaven/dsh-code-reviewer`",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-14T10:31:35Z",
+  "updated_at": "2026-08-27T01:58:24Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "code-review",
+   "dsh-plugin",
+   "linting",
+   "security"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.416977+00:00"
+ },
+ "ywleeo/dsh-vision-dashscope": {
+  "repo": "ywleeo/dsh-vision-dashscope",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "none",
+  "language": "Python",
+  "intent": "A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recognition & generation. Videos auto-upload to temporary OSS (up to 1GB) losslessly; mkv/avi containers recognized server-side; long audio falls back to fun-asr async transcription.",
+  "intentEn": "A DashScope (Alibaba Bailian) MCP plugin giving text-only agents image/video/audio recognition & generation. Videos auto-upload to temporary OSS (up to 1GB) losslessly; mkv/avi containers recognized server-side; long audio falls back to fun-asr async transcription.",
+  "intentZh": "基于阿里云百炼 DashScope 的 MCP server 插件，为纯文本 Agent 提供图片/视频/音频识别与生成能力。大视频/大文件自动走官方临时 OSS 直传（单文件上限 1GB），不压缩、不损画质；mkv/avi 等浏览器不可播容器也能识别；长音频自动降级为 fun-asr 异步转写。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "Python",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-19T08:36:16Z",
+  "updated_at": "2026-08-19T09:55:56Z",
+  "license": "NOASSERTION",
+  "open_issues": 0,
+  "topics": [
+   "dashscope",
+   "dsh-plugin",
+   "mcp"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.417033+00:00"
+ },
+ "TryDing-T/dsh-Plugin--ChineseChess": {
+  "repo": "TryDing-T/dsh-Plugin--ChineseChess",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-agent",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-api-remotes",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-layout",
+   "@deepseek-ai/dsh-client-ui-sidebar",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-typert-protocol",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A DeepSeek Harness Web Chinese-chess plugin with a standalone sidebar board. The Host owns rule and revision validation, while the DSH model chooses every black move. Includes new game, undo, resign, notation copy, retry on model failure, and cross-chat/tab continuation.",
+  "intentEn": "A DeepSeek Harness Web Chinese-chess plugin with a standalone sidebar board. The Host owns rule and revision validation, while the DSH model chooses every black move. Includes new game, undo, resign, notation copy, retry on model failure, and cross-chat/tab continuation.",
+  "intentZh": "DSH Web 中国象棋对弈插件：独立侧边栏棋盘，Host 负责完整棋规与版本校验，DSH 模型决定所有黑方落子；支持新局、悔棋、认输、棋谱复制、模型失败重试和跨聊天/标签页继续对局。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 2,
+  "forks": 0,
+  "created_at": "2026-08-19T05:26:23Z",
+  "updated_at": "2026-08-27T03:17:12Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness-plugin",
+   "deepseek-harness-plugins",
+   "dsh",
+   "dsh-plugin",
+   "dsh-plugin-market",
+   "dsh-plugin-marketplace",
+   "dsh-plugins"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.417089+00:00"
+ },
+ "AgentConnect/dsh-awiki": {
+  "repo": "AgentConnect/dsh-awiki",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "acp",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-agent",
+   "@deepseek-ai/dsh-agent-default-model",
+   "@deepseek-ai/dsh-api-remotes",
+   "@deepseek-ai/dsh-brand",
+   "@deepseek-ai/dsh-client-connection",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-layout",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-settings",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-invariants",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-settings",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-typert-protocol",
+   "@deepseek-ai/dsh-workspace",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A DeepSeek Harness plugin that gives Agents a persistent, discoverable, verifiable identity (Handle + DID) via the open Agent Network Protocol (ANP). Agents can read/send messages and attachments, use email, and authenticate external HTTP with that identity.",
+  "intentEn": "A DeepSeek Harness plugin that gives Agents a persistent, discoverable, verifiable identity (Handle + DID) via the open Agent Network Protocol (ANP). Agents can read/send messages and attachments, use email, and authenticate external HTTP with that identity.",
+  "intentZh": "DeepSeek Harness 的智能体原生身份与消息插件。基于开放协议 ANP 为 DSH Agent 接入长期存在、可发现、可验证的 Handle 与 DID 身份，支持私聊/群聊、附件、邮箱，以及用该身份认证外部 HTTP。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 12,
+  "forks": 0,
+  "created_at": "2026-08-14T17:35:04Z",
+  "updated_at": "2026-08-25T15:48:48Z",
+  "license": "MIT",
+  "open_issues": 1,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T08:11:23.417151+00:00"
  }
 }
