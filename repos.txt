@@ -1926,3 +1926,8 @@ youqishan/dsh-skin-3bridge
 Shizuku-keop/dsh-compat-guard
 Entity-Him/dsh-sky-skin
 Lichen455/band-notify
+xiaowei2025cqu23phy/dsh-desktop
+1e0zj/dsh-plugin-mall
+xiaoyuyu6420/dsh-backup
+huabai-flowerwhite/dsh-plugin-design
+huabai-flowerwhite/dsh-plugin-manager
