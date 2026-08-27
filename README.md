@@ -4,15 +4,15 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-26 ｜ 共 **1908** 个仓库 ｜ 真·DSH 插件 **1775** 个
+> 自动生成于 2026-08-27 ｜ 共 **1909** 个仓库 ｜ 真·DSH 插件 **1776** 个
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1908**
-- 真·DSH 插件：**1775**
+- 仓库总数：**1909**
+- 真·DSH 插件：**1776**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -20,7 +20,7 @@
 - **llm** — 165 个仓库，★91974
 - **utility** — 362 个仓库，★29901
 - **skills** — 53 个仓库，★23649
-- **tools** — 601 个仓库，★17242
+- **tools** — 602 个仓库，★17245
 - **orchestration** — 200 个仓库，★16408
 - **session** — 234 个仓库，★15174
 - **ui** — 202 个仓库，★7357
@@ -630,7 +630,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（601）
+### tools（602）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -946,6 +946,7 @@
 | [OoWJZZoO/dsh-read-image](https://github.com/OoWJZZoO/dsh-read-image) | (无描述) | (no description) | 3 | JavaScript | yes |
 | [Apageoflove/DSH-arena](https://github.com/Apageoflove/DSH-arena) | 本地优先的实验与评估工作台：同题多候选模型对比，成绩单/帕累托前沿/建议胜者/审计告警，数据全在本地，总开关+每模型独立开关控耗。 | Local-first experiment and evaluation workbench: run one task across candidate models, com | 3 | TypeScript | yes |
 | [LouisHaoL/dsh-timer-agent](https://github.com/LouisHaoL/dsh-timer-agent) | DSH 常驻定时任务引擎（参考 hermes-agent cron）：60 秒 ticker 按 cron 触发真实 agent 会话；支持钉住会话/项目 workdir/默认空间 | Host-resident cron engine for DeepSeek Harness (hermes-agent cron inspired): 60s ticker fi | 3 | TypeScript | yes |
+| [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) | DSH 插件：在 agent 动手实现大型模块之前，主动检索 AIGC Radar 精选的 18,000+ 个 500 星以上 GitHub AI 项目；结果以 Web UI 原生 | DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI p | 3 | TypeScript | yes |
 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | 通过 cc-connect 远程使用 DSH | Use DSH remotely via cc-connect | 2 | Go | yes |
 | [renat3u/dsh-paseo](https://github.com/renat3u/dsh-paseo) | DSH 的 paseo 插件扩展支持 | paseo plugin extension support for DSH | 2 | JavaScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
