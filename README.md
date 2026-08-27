@@ -4,21 +4,21 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-27 ｜ 共 **1924** 个仓库 ｜ 真·DSH 插件 **1788** 个
+> 自动生成于 2026-08-27 ｜ 共 **1925** 个仓库 ｜ 真·DSH 插件 **1789** 个
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1924**
-- 真·DSH 插件：**1788**
+- 仓库总数：**1925**
+- 真·DSH 插件：**1789**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
 - **llm** — 165 个仓库，★91974
-- **utility** — 367 个仓库，★29929
+- **utility** — 368 个仓库，★29929
 - **skills** — 53 个仓库，★23649
 - **tools** — 607 个仓库，★17260
 - **orchestration** — 200 个仓库，★16408
@@ -206,7 +206,7 @@
 | [Arnoldkevin/prismrelay-mcp](https://github.com/Arnoldkevin/prismrelay-mcp) | 以视觉为先的本地 MCP，通过 Agnes AI（BYOK）为纯文本智能体提供图像理解 | Vision-first local MCP that gives text-only Agents image understanding through Agnes AI (B | 0 | TypeScript | yes |
 | [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 
-### utility（367）
+### utility（368）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -577,6 +577,7 @@
 | [walnut-a/dsh-user-message-navigation](https://github.com/walnut-a/dsh-user-message-navigation) | DSH User Message Minimap（用户消息导航轨）— 长对话中的用户指令快速导航插件 | DSH User Message Minimap — a quick-navigation plugin for user commands in long conversatio | 0 | TypeScript | yes |
 | [ReachGa0/dsh-desktop](https://github.com/ReachGa0/dsh-desktop) | DeepSeek Harness（dsh web）的 Electron 桌面壳——在独立窗口中运行 harness，无需终端或浏览器 | Electron desktop shell for DeepSeek Harness (dsh web) — run the harness in a standalone wi | 0 | JavaScript | yes |
 | [Isilsolme/dsh-splash-launcher](https://github.com/Isilsolme/dsh-splash-launcher) | DSH Web GUI 的 Windows 一键启动器：无边框描边动画 + 后台拉起 dsh web，关窗自动停服务。 | One-click Windows launcher for the DeepSeek Harness (dsh) Web GUI with a stroke-by-stroke  | 0 | C# | yes |
+| [kober-basket/dsh-cachescope](https://github.com/kober-basket/dsh-cachescope) | DeepSeek Harness 的 Prompt Cache 可观测插件：逐次展示 Cache Read、未缓存输入、TTFT 与成本，并通过相邻逻辑输入对比标记稳定前缀、首个变 | A prompt-cache observability plugin for DeepSeek Harness. It reports per-attempt Cache Rea | 0 | TypeScript | yes |
 
 ### skills（53）
 
@@ -1072,9 +1073,9 @@
 | [LilycleHeart/liuli-theme](https://github.com/LilycleHeart/liuli-theme) | (无描述) | (no description) | 2 | TypeScript | yes |
 | [WolfGenerals/ncm-player](https://github.com/WolfGenerals/ncm-player) | (无描述) | (no description) | 2 | JavaScript | yes |
 | [yiqizhuapangxiema/harness-plugin-store-optimized](https://github.com/yiqizhuapangxiema/harness-plugin-store-optimized) | Harness 插件商店优化版：图形化浏览/搜索/一键安装 DSH 插件，评分评论、依赖拓扑、审计日志、质量门；本 fork 新增可配置插件下载目录、bundle 层冲突检测、pn | Optimized Harness plugin store: graphical browse, search and one-click install of DSH plug | 2 | JavaScript | yes |
-| [Wanbinyu/dsh-provider-probe](https://github.com/Wanbinyu/dsh-provider-probe) | DeepSeek Harness 的手动供应商探测插件，在用户主���触发时检查连通性、延迟、模型能力和常见失败原因，并提供可读的诊断结果。 | A manual provider probe for DeepSeek Harness. On explicit user action, it checks connectiv | 2 | TypeScript | yes |
+| [Wanbinyu/dsh-provider-probe](https://github.com/Wanbinyu/dsh-provider-probe) | DeepSeek Harness 的手动供应商探测插件，在用户主动触发时检查连通性、延迟、模型能力和常见失败原因，并提供可读的诊断结果。 | A manual provider probe for DeepSeek Harness. On explicit user action, it checks connectiv | 2 | TypeScript | yes |
 | [Wanbinyu/dsh-error-lens](https://github.com/Wanbinyu/dsh-error-lens) | DeepSeek Harness 的只读供应商错误诊断插件，对错误信息进行脱敏和分类，并提供可执行的排查建议，不读取提示词、模型回复或工具参数与结果。 | Read-only, redacted provider error diagnostics for DeepSeek Harness. It classifies failure | 2 | TypeScript | yes |
-| [Wanbinyu/dsh-concurrency-meter](https://github.com/Wanbinyu/dsh-concurrency-meter) | DeepSeek Harness 的只读请求并发监控插件，���示活动请求、峰值并发、执行结果和供应商分组状态，不读取提示词、模型回复或工具内容。 | Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, pe | 2 | TypeScript | yes |
+| [Wanbinyu/dsh-concurrency-meter](https://github.com/Wanbinyu/dsh-concurrency-meter) | DeepSeek Harness 的只读请求并发监控插件，显示活动请求、峰值并发、执行结果和供应商分组状态，不读取提示词、模型回复或工具内容。 | Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, pe | 2 | TypeScript | yes |
 | [Fisfzy/math-lean](https://github.com/Fisfzy/math-lean) | Lean 内核验证的数学推理插件 | Lean kernel-verified math reasoning plugin | 1 | TypeScript | yes |
 | [jumpserver-east/jumpserver-dsh](https://github.com/jumpserver-east/jumpserver-dsh) | jumpserver-dsh — DSH 插件（工具） | DeepSeek Harness plugin: manage JumpServer assets and operate on them through KoKo | 1 | TypeScript | yes |
 | [ben7am1n/dsh-browser](https://github.com/ben7am1n/dsh-browser) | dsh-browser — DSH 插件（工具） | Playwright-powered browser automation for DeepSeek Harness | 1 | TypeScript | yes |
@@ -1113,7 +1114,7 @@
 | [Babulubobo/dsh-codex-oauth](https://github.com/Babulubobo/dsh-codex-oauth) | 在 DeepSeek Harness 中使用你的 Codex 订阅 | use your codex subscription in deepseek harness | 1 | JavaScript | yes |
 | [zimai233/dsh-figma-to-lottie](https://github.com/zimai233/dsh-figma-to-lottie) | DeepSeek Harness 的 Figma/SVG 转 Lottie 动画编译器。将 SVG 路径与关键帧数据转为自包含的 .lottie.json 文件。 | Figma/SVG to Lottie animation compiler for DeepSeek Harness. Turn SVG paths and keyframe d | 1 | JavaScript | yes |
 | [AmaTsumeAkira/opencode-usage](https://github.com/AmaTsumeAkira/opencode-usage) | OpenCode Go 订阅额度徽章插件（dsh bundle） | OpenCode Go quota badge plugin for dsh | OpenCode Go quota-badge plugin (dsh bundle). | 1 | JavaScript | yes |
-| [Wanbinyu/dsh-plugin-git-inspect](https://github.com/Wanbinyu/dsh-plugin-git-inspect) | 为 DeepSeek Harness Agent 提供只读 Git 状态���差异、历史、提交、引用、blame、stash 和 worktree 检查工具；默认不修改文件、不提交 | Read-only Git inspection tools for DeepSeek Harness agents, covering status, diff, history | 1 | TypeScript | yes |
+| [Wanbinyu/dsh-plugin-git-inspect](https://github.com/Wanbinyu/dsh-plugin-git-inspect) | 为 DeepSeek Harness Agent 提供只读 Git 状态、差异、历史、提交、引用、blame、stash 和 worktree 检查工具；默认不修改文件、不提交代码 | Read-only Git inspection tools for DeepSeek Harness agents, covering status, diff, history | 1 | TypeScript | yes |
 | [mouliangyu/dsh-plugins](https://github.com/mouliangyu/dsh-plugins) | DeepSeek Harness 社区插件 | Community plugins for DeepSeek Harness | 1 | JavaScript | yes |
 | [miaobuao/dsh-document-parser](https://github.com/miaobuao/dsh-document-parser) | 由 LiteParse 驱动的 DeepSeek Harness 文档解析工具 | A DeepSeek Harness document parsing tool powered by LiteParse | 1 | TypeScript | yes |
 | [mitao-su/dsh-playwright-native](https://github.com/mitao-su/dsh-playwright-native) | 把原生 Playwright CLI 注册为 DeepSeek Harness 透传工具（dsh-plugin） | Register the native Playwright CLI as a pass-through tool for DeepSeek Harness (dsh-plugin | 1 | TypeScript | yes |
@@ -1190,7 +1191,7 @@
 | [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) | dsh 网页端指挥官模式：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。 | Commander mode for the DeepSeek Harness Web GUI: a one-click session header button injects | 1 | JavaScript | yes |
 | [Cho-Geer/dsh-specify-subagent-suite](https://github.com/Cho-Geer/dsh-specify-subagent-suite) | 五个常驻 DSH 子代理插件合并为一个 Cordis bundle：右侧 Agent 列表、子代理模板面板、一次性子代理 record 徽章，以及 subagent_pro 派遣工 | Five DSH subagent plugins in one Cordis bundle: right-side Agent list, subagent template p | 1 | JavaScript | yes |
 | [Shizuku-keop/dsh-compat-guard](https://github.com/Shizuku-keop/dsh-compat-guard) | DSH 兼容性治理工具：升级前置闸门、存储格式指纹、自动备份/回滚、会话迁移、profile 锁文件、插件×版本兼容矩阵 | Compatibility governance CLI + DSH plugin: upgrade pre-flight gate, storage-format fingerp | 1 | JavaScript | yes |
-| [eeyzs1/dsh-plugins](https://github.com/eeyzs1/dsh-plugins) | DeepSeek Harness 插件集：attach-files 在输入框加「添加文件」按钮浏览磁盘，以 @file:/@dir: 引用或展开内容加入对话；chime ��任务完 | A DeepSeek Harness plugin set: attach-files adds an "Add files" button to browse the disk  | 1 | JavaScript | yes |
+| [eeyzs1/dsh-plugins](https://github.com/eeyzs1/dsh-plugins) | DeepSeek Harness 插件集：attach-files 在输入框加「添加文件」按钮浏览磁盘，以 @file:/@dir: 引用或展开内容加入对话；chime 在任务完成 | A DeepSeek Harness plugin set: attach-files adds an "Add files" button to browse the disk  | 1 | JavaScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [lonelymoon87/dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | dsh-code-intel — DSH 插件（工具） | Symbol-aware code indexing and hybrid search for DeepSeek Harness. | 0 | TypeScript | yes |
 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | dsh-academic-research — DSH 插件（工具） | Evidence-grounded bilingual academic research plugin for DeepSeek Harness and OnPeople | 0 | TypeScript | yes |

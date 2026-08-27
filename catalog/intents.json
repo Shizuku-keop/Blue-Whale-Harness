@@ -29198,6 +29198,7 @@
   "dshCategory": "tools",
   "isDshPlugin": true,
   "dshSignals": [
+   "cordis.patch.yml",
    "@deepseek-ai/schemastery",
    "@deepseek-ai/cordis",
    "@deepseek-ai/dsh-llm",
@@ -29205,15 +29206,14 @@
    "@deepseek-ai/dsh-subprocess-local",
    "@deepseek-ai/dsh-system-prompt",
    "@deepseek-ai/dsh-tools",
-   "keyword-plugin",
    "keyword-dsh",
-   "readme-mentions-dsh"
+   "dsh-plugin-topic"
   ],
-  "manifestType": "package.json",
+  "manifestType": "cordis.patch.yml",
   "language": "TypeScript",
   "intent": "Read-only Git inspection tools for DeepSeek Harness agents, covering status, diff, history, commits, refs, blame, stash, and worktrees. It does not modify files or create commits.",
   "intentEn": "Read-only Git inspection tools for DeepSeek Harness agents, covering status, diff, history, commits, refs, blame, stash, and worktrees. It does not modify files or create commits.",
-  "intentZh": "为 DeepSeek Harness Agent 提供只读 Git 状态���差异、历史、提交、引用、blame、stash 和 worktree 检查工具；默认不修改文件、不提交代码。",
+  "intentZh": "为 DeepSeek Harness Agent 提供只读 Git 状态、差异、历史、提交、引用、blame、stash 和 worktree 检查工具；默认不修改文件、不提交代码。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
@@ -73955,9 +73955,21 @@
   "dshCategory": "utility",
   "isDshPlugin": true,
   "dshSignals": [
-   "readme-mentions-dsh"
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-client-locale",
+   "@deepseek-ai/dsh-client-runtime",
+   "@deepseek-ai/dsh-client-ui-conversation",
+   "@deepseek-ai/dsh-client-ui-primitives",
+   "@deepseek-ai/dsh-client-ui-slots",
+   "@deepseek-ai/dsh-invariants",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-session-projection",
+   "keyword-dsh",
+   "dsh-plugin-topic"
   ],
-  "manifestType": "none",
+  "manifestType": "cordis.patch.yml",
   "language": "TypeScript",
   "intent": "A local usage and cost plugin for DeepSeek Harness Web. It shows estimated per-model cost, token usage, session quota, and composer cost progress. Data stays local; estimates do not replace provider billing.",
   "intentEn": "A local usage and cost plugin for DeepSeek Harness Web. It shows estimated per-model cost, token usage, session quota, and composer cost progress. Data stays local; estimates do not replace provider billing.",
@@ -93689,7 +93701,7 @@
   "language": "TypeScript",
   "intent": "A manual provider probe for DeepSeek Harness. On explicit user action, it checks connectivity, latency, model capabilities, and common failure causes, then presents readable diagnostics.",
   "intentEn": "A manual provider probe for DeepSeek Harness. On explicit user action, it checks connectivity, latency, model capabilities, and common failure causes, then presents readable diagnostics.",
-  "intentZh": "DeepSeek Harness 的手动供应商探测插件，在用户主���触发时检查连通性、延迟、模型能力和常见失败原因，并提供可读的诊断结果。",
+  "intentZh": "DeepSeek Harness 的手动供应商探测插件，在用户主动触发时检查连通性、延迟、模型能力和常见失败原因，并提供可读的诊断结果。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
@@ -93797,7 +93809,7 @@
   "language": "TypeScript",
   "intent": "Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, peak concurrency, outcomes, and provider-group status without reading prompts, responses, or tool content.",
   "intentEn": "Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, peak concurrency, outcomes, and provider-group status without reading prompts, responses, or tool content.",
-  "intentZh": "DeepSeek Harness 的只读请求并发监控插件，���示活动请求、峰值并发、执行结果和供应商分组状态，不读取提示词、模型回复或工具内容。",
+  "intentZh": "DeepSeek Harness 的只读请求并发监控插件，显示活动请求、峰值并发、执行结果和供应商分组状态，不读取提示词、模型回复或工具内容。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
@@ -94057,7 +94069,7 @@
   "language": "JavaScript",
   "intent": "A DeepSeek Harness plugin set: attach-files adds an \"Add files\" button to browse the disk and insert @file:/@dir: references or expanded content; chime plays a chime when a task finishes or user input is needed, with goal-mode support and adjustable volume.",
   "intentEn": "A DeepSeek Harness plugin set: attach-files adds an \"Add files\" button to browse the disk and insert @file:/@dir: references or expanded content; chime plays a chime when a task finishes or user input is needed, with goal-mode support and adjustable volume.",
-  "intentZh": "DeepSeek Harness 插件集：attach-files 在输入框加「添加文件」按钮浏览磁盘，以 @file:/@dir: 引用或展开内容加入对话；chime ��任务完成或需用户选择时播放提示音，支持 goal 模式静默中间轮与音量调节。",
+  "intentZh": "DeepSeek Harness 插件集：attach-files 在输入框加「添加文件」按钮浏览磁盘，以 @file:/@dir: 引用或展开内容加入对话；chime 在任务完成或需用户选择时播放提示音，支持 goal 模式静默中间轮与音量调节。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
@@ -94079,7 +94091,7 @@
   "cloned": false,
   "compat": "unknown",
   "featured": false,
-  "analyzed_at": "2026-08-27T02:48:44.301Z"
+  "analyzed_at": "2026-08-27T03:16:20.919Z"
  },
  "777-Zen/dsh-capability-index": {
   "repo": "777-Zen/dsh-capability-index",
@@ -94126,5 +94138,46 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-27T02:53:11.134Z"
+ },
+ "kober-basket/dsh-cachescope": {
+  "repo": "kober-basket/dsh-cachescope",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "utility",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-session",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A prompt-cache observability plugin for DeepSeek Harness. It reports per-attempt Cache Read, uncached input, TTFT, and cost, and compares adjacent logical inputs to highlight stable prefixes and changed regions without modifying model requests.",
+  "intentEn": "A prompt-cache observability plugin for DeepSeek Harness. It reports per-attempt Cache Read, uncached input, TTFT, and cost, and compares adjacent logical inputs to highlight stable prefixes and changed regions without modifying model requests.",
+  "intentZh": "DeepSeek Harness 的 Prompt Cache 可观测插件：逐次展示 Cache Read、未缓存输入、TTFT 与成本，并通过相邻逻辑输入对比标记稳定前缀、首个变化及其下游区域；仅观察 llm/stream，不修改模型请求。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-26T09:18:18Z",
+  "updated_at": "2026-08-26T09:24:30Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-27T03:11:38.781Z"
  }
 }

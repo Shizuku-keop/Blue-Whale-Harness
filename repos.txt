@@ -1942,3 +1942,4 @@ Wanbinyu/wanbinyu-harness-toolbox
 SiriLee/dsh-rewind
 eeyzs1/dsh-plugins
 777-Zen/dsh-capability-index
+kober-basket/dsh-cachescope
