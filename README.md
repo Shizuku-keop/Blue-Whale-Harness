@@ -4,15 +4,15 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-27 ｜ 共 **1913** 个仓库 ｜ 真·DSH 插件 **1779** 个
+> 自动生成于 2026-08-27 ｜ 共 **1914** 个仓库 ｜ 真·DSH 插件 **1780** 个
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1913**
-- 真·DSH 插件：**1779**
+- 仓库总数：**1914**
+- 真·DSH 插件：**1780**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -20,7 +20,7 @@
 - **llm** — 165 个仓库，★91974
 - **utility** — 363 个仓库，★29914
 - **skills** — 53 个仓库，★23649
-- **tools** — 603 个仓库，★17251
+- **tools** — 604 个仓库，★17255
 - **orchestration** — 200 个仓库，★16408
 - **session** — 234 个仓库，★15174
 - **ui** — 203 个仓库，★7359
@@ -632,7 +632,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（603）
+### tools（604）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -840,6 +840,7 @@
 | [cocofhu/anime-find](https://github.com/cocofhu/anime-find) | DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。 | DeepSeek Harness anime-search plugin: search anime across multiple sources in-chat, show B | 4 | TypeScript | yes |
 | [Whatsmore-nf/dsh-pdf-edit](https://github.com/Whatsmore-nf/dsh-pdf-edit) | PDF 编辑插件：AI 只改文字不改样式，支持单页、批量、换版式，HTML 中转保留样式，高效处理大文件。 | PDF editor with AI text-only edits (styles unchanged): single-page, batch, layout switchin | 4 | TypeScript | yes |
 | [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) | DSH 插件市场：搜索 GitHub dsh-plugin 话题下的插件，安装前做适配与冲突预检，生命周期脚本逐包批准，失败自动回滚，集成在 Web 设置页。 | A DSH plugin marketplace in the Web settings page: search the GitHub dsh-plugin topic, pre | 4 | JavaScript | yes |
+| [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) | DSH 插件：在 agent 动手实现大型模块之前，主动检索 AIGC Radar 精选的 18,000+ 个 500 星以上 GitHub AI 项目；结果以 Web UI 原生 | DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI p | 4 | TypeScript | yes |
 | [coppynight/dsh-doctor](https://github.com/coppynight/dsh-doctor) | flutter-doctor 风格诊断与安全自动修复 | flutter-doctor-style diagnostics and safe auto-repair | 3 | JavaScript | yes |
 | [omdsh-dev/dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) | base64/hex/url 编解码 + 哈希工具 | base64/hex/url codec + hash tool | 3 | TypeScript | yes |
 | [omdsh-dev/dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) | JMESPath JSON 查询工具 | JMESPath JSON query tool | 3 | TypeScript | yes |

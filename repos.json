@@ -30315,5 +30315,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "Kaixxrua/dsh-aigc-radar",
+  "name": "dsh-aigc-radar",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 4,
+  "compat": "0.1.0-rc.6",
+  "desc_en": "DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI projects (500+ stars) before the agent builds large modules — native Web UI search cards, typed Code Mode output, no reinvented wheels.",
+  "desc_zh": "DSH 插件：在 agent 动手实现大型模块之前，主动检索 AIGC Radar 精选的 18,000+ 个 500 星以上 GitHub AI 项目；结果以 Web UI 原生搜索卡片呈现，支持 Code Mode 类型化调用，避免重复造轮子。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

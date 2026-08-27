@@ -1,6 +1,6 @@
 # Blue-Whale-Harness · DSH 插件总表（中英双语意图）
 
-> 自动生成于 2026-08-27 ｜ 共 **1913** 个仓库 ｜ 真·DSH 插件 **1779** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
+> 自动生成于 2026-08-27 ｜ 共 **1914** 个仓库 ｜ 真·DSH 插件 **1780** 个 ｜ 已克隆 **1780** 个 ｜ 源码总体积 **6119.6MB**（不含 .git）
 
 | 仓库 | 意图(中文) | Intent(English) | 分类 | 真DSH | 语言 | STAR | FORK | 大小 | 创建 | 更新 | License | 兼容 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -776,6 +776,7 @@
 | [Whatsmore-nf/dsh-pdf-edit](https://github.com/Whatsmore-nf/dsh-pdf-edit) | PDF 编辑插件：AI 只改文字不改样式，支持单页、批量、换版式，HTML 中转保留样式，高效处理大文件。 | PDF editor with AI text-only edits (styles unchanged): single-page, batch, layout switchin | tools | yes | TypeScript | 4 | 1 |  | 2026-08-20 | 2026-08-20 | MIT | unknown |
 | [1e0zj/dsh-plugin-mall](https://github.com/1e0zj/dsh-plugin-mall) | DSH 插件市场：搜索 GitHub dsh-plugin 话题下的插件，安装前做适配与冲突预检，生命周期脚本逐包批准，失败自动回滚，集成在 Web 设置页。 | A DSH plugin marketplace in the Web settings page: search the GitHub dsh-plugin topic, pre | tools | yes | JavaScript | 4 | 1 |  | 2026-08-15 | 2026-08-27 | MIT | unknown |
 | [huabai-flowerwhite/dsh-plugin-manager](https://github.com/huabai-flowerwhite/dsh-plugin-manager) | 面向 DeepSeek Harness（dsh）的第三方插件管理器：在设置页选择第三方插件库文件夹，可搜索其中所有第三方插件，并一键关闭/启动。 | Third‑party Plugin Manager for DeepSeek Harness (dsh). Select your third‑party plugin libr | utility | yes | JavaScript | 4 | 0 |  | 2026-08-21 | 2026-08-27 | MIT | unknown |
+| [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) | DSH 插件：在 agent 动手实现大型模块之前，主动检索 AIGC Radar 精选的 18,000+ 个 500 星以上 GitHub AI 项目；结果以 Web UI 原生 | DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI p | tools | yes | TypeScript | 4 | 0 |  | 2026-08-18 | 2026-08-27 | MIT | 0.1.0-rc.6 |
 | [coppynight/dsh-doctor](https://github.com/coppynight/dsh-doctor) | flutter-doctor 风格诊断与安全自动修复 | flutter-doctor-style diagnostics and safe auto-repair | tools | yes | JavaScript | 3 | 0 | 106KB | 2026-08-13 | 2026-08-13 | BSD-3-Clause | unknown |
 | [omdsh-dev/dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) | base64/hex/url 编解码 + 哈希工具 | base64/hex/url codec + hash tool | tools | yes | TypeScript | 3 | 0 | 124KB | 2026-08-06 | 2026-08-14 | MIT | unknown |
 | [omdsh-dev/dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) | JMESPath JSON 查询工具 | JMESPath JSON query tool | tools | yes | TypeScript | 3 | 0 | 129KB | 2026-08-05 | 2026-08-14 | MIT | unknown |

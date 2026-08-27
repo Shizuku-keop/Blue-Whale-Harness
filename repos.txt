@@ -1931,3 +1931,4 @@ xiaowei2025cqu23phy/dsh-desktop
 xiaoyuyu6420/dsh-backup
 huabai-flowerwhite/dsh-plugin-design
 huabai-flowerwhite/dsh-plugin-manager
+Kaixxrua/dsh-aigc-radar

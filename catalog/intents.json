@@ -93559,5 +93559,63 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-27T01:45:39.842Z"
+ },
+ "Kaixxrua/dsh-aigc-radar": {
+  "repo": "Kaixxrua/dsh-aigc-radar",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-agent",
+   "@deepseek-ai/dsh-code-runtime",
+   "@deepseek-ai/dsh-invariants",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-scope",
+   "@deepseek-ai/dsh-session",
+   "@deepseek-ai/dsh-system-prompt",
+   "@deepseek-ai/dsh-timeout",
+   "@deepseek-ai/dsh-tools",
+   "@deepseek-ai/dsh-user-approval",
+   "@deepseek-ai/schemastery",
+   "keyword-plugin",
+   "keyword-dsh",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI projects (500+ stars) before the agent builds large modules — native Web UI search cards, typed Code Mode output, no reinvented wheels.",
+  "intentEn": "DeepSeek Harness plugin that proactively searches AIGC Radar's curated 18,000+ GitHub AI projects (500+ stars) before the agent builds large modules — native Web UI search cards, typed Code Mode output, no reinvented wheels.",
+  "intentZh": "DSH 插件：在 agent 动手实现大型模块之前，主动检索 AIGC Radar 精选的 18,000+ 个 500 星以上 GitHub AI 项目；结果以 Web UI 原生搜索卡片呈现，支持 Code Mode 类型化调用，避免重复造轮子。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "dsh-tools",
+   "dsh-session",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": "dist/index.mjs",
+  "stars": 4,
+  "forks": 0,
+  "created_at": "2026-08-18T01:34:53Z",
+  "updated_at": "2026-08-27T01:41:31Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "aigc",
+   "deepseek-harness",
+   "dsh-plugin",
+   "mcp"
+  ],
+  "cloned": false,
+  "compat": "0.1.0-rc.6",
+  "featured": false,
+  "analyzed_at": "2026-08-27T02:14:29.083Z"
  }
 }
