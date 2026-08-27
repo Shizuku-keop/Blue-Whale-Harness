@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "updated": "2026-08-25T07:05:00Z",
+  "generator": "dsh-compat-guard local-matrix.ps1 (2026-08-25)",
+  "dshVersions": ["0.1.0-rc.7", "0.1.0-rc.8", "0.1.1-rc.1", "0.1.1-rc.2"],
+  "storageFormats": {
+    "0.1.1-rc.2": {
+      "sessionFormat": "zstd-jsonl",
+      "projcacheVersion": 3,
+      "verifiedAt": "2026-08-25T05:50:00Z",
+      "evidence": "dsh-guard status fingerprint on Windows 10: 107+ sessions, all zstd magic 28 B5 2F FD; storages/session_projcache.json unit.version=3"
+    },
+    "0.1.1-rc.1": {
+      "sessionFormat": "unknown",
+      "projcacheVersion": null,
+      "verifiedAt": "2026-08-25T07:00:00Z",
+      "evidence": "not yet fingerprinted; plugin boot smoke passed on this version"
+    },
+    "0.1.0-rc.8": {
+      "sessionFormat": "unknown",
+      "projcacheVersion": null,
+      "verifiedAt": "2026-08-25T07:00:00Z",
+      "evidence": "not yet fingerprinted; community reports a storage format change vs rc.7 (data-loss incident) — treat as UNKNOWN until fingerprinted"
+    },
+    "0.1.0-rc.7": {
+      "sessionFormat": "unknown",
+      "projcacheVersion": null,
+      "verifiedAt": "2026-08-25T07:00:00Z",
+      "evidence": "not yet fingerprinted; community reports a SQLite-based session store era — layout must be confirmed before any migration targets it"
+    }
+  },
+  "plugins": {
+    "dsh-better-sidebar": {
+      "0.1.1-rc.2": {
+        "status": "pass",
+        "testedAt": "2026-08-25T06:55:10Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0 (tree mount + --help exit)",
+        "pluginVersion": "0.15.2"
+      },
+      "0.1.1-rc.1": {
+        "status": "pass",
+        "testedAt": "2026-08-25T06:56:13Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0",
+        "pluginVersion": "0.15.2"
+      },
+      "0.1.0-rc.8": {
+        "status": "pass",
+        "testedAt": "2026-08-25T06:57:59Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0 (plugin API compatible; storage-format safety on rc.8 still UNKNOWN — gate on storageFormats, not plugin status)",
+        "pluginVersion": "0.15.2"
+      },
+      "0.1.0-rc.7": {
+        "status": "pass",
+        "testedAt": "2026-08-25T07:00:34Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0",
+        "pluginVersion": "0.15.2"
+      }
+    },
+    "dsh-mnemon": {
+      "0.1.1-rc.2": {
+        "status": "pass",
+        "testedAt": "2026-08-25T06:55:10Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0",
+        "pluginVersion": "0.2.16"
+      },
+      "0.1.1-rc.1": {
+        "status": "pass",
+        "testedAt": "2026-08-25T06:56:13Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0",
+        "pluginVersion": "0.2.16"
+      },
+      "0.1.0-rc.8": {
+        "status": "pass",
+        "testedAt": "2026-08-25T06:57:59Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0 (plugin API compatible; storage-format safety on rc.8 still UNKNOWN)",
+        "pluginVersion": "0.2.16"
+      },
+      "0.1.0-rc.7": {
+        "status": "pass",
+        "testedAt": "2026-08-25T07:00:34Z",
+        "by": "local-matrix (Shizuku-keop Windows 10, pnpm 11, isolated DSH_HOME)",
+        "evidence": "plugin-install:ok boot:0",
+        "pluginVersion": "0.2.16"
+      }
+    }
+  }
+}
