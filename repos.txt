@@ -1958,3 +1958,10 @@ jetheaven/dsh-code-reviewer
 ywleeo/dsh-vision-dashscope
 TryDing-T/dsh-Plugin--ChineseChess
 AgentConnect/dsh-awiki
+LOrz-3/pocket-dsh
+QIANLING-0831/dsh-memory-plus
+QinLuza/dsh-file-undo
+jasen215/dsh-continual-harness
+evil7/deepSea
+rayadesune/DeepSeek-Harness-chat-billing
+OLDnana1/dsh-theme-edgerunners
