@@ -4,7 +4,7 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-27 ｜ 共 **1940** 个仓库 ｜ 真·DSH 插件 **1804** 个
+> 自动生成于 2026-08-27 ｜ 共 **1940** 个仓库 ｜ 真·DSH 插件 **1804** 个 | QQ Group:839509497
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
