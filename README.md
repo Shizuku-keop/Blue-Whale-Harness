@@ -4,24 +4,24 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-27 ｜ 共 **1947** 个仓库 ｜ 真·DSH 插件 **1810** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
+> 自动生成于 2026-08-28 ｜ 共 **1955** 个仓库 ｜ 真·DSH 插件 **1818** 个 | QQ Group:839509497 |Tg Group: [http://t.me/deepseekdsh](http://t.me/deepseekdsh)
 
 
 ![频道](https://leenkcool.github.io/pindaoh.png)
 
 ## 统计
 
-- 仓库总数：**1947**
-- 真·DSH 插件：**1810**
+- 仓库总数：**1955**
+- 真·DSH 插件：**1818**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
 - **llm** — 165 个仓库，★101293
-- **utility** — 372 个仓库，★66618
+- **utility** — 375 个仓库，★66624
 - **session** — 236 个仓库，★27296
 - **skills** — 53 个仓库，★25583
-- **tools** — 616 个仓库，★22804
+- **tools** — 621 个仓库，★22839
 - **orchestration** — 201 个仓库，★19489
 - **ui** — 208 个仓库，★15330
 - **uncategorized** — 1 个仓库，★3779
@@ -206,7 +206,7 @@
 | [chenhaolove89/dsh-ccswitch-import](https://github.com/chenhaolove89/dsh-ccswitch-import) | DeepSeek Harness 插件：从 CCSWITCH 批量导入模型供应商 + visual_describe 视觉描述工具 | DeepSeek Harness plugin: bulk-import model providers from CCSWITCH + a visual_describe vis | 0 | JavaScript | yes |
 | [yugbin/dsh-prompt-order-fix](https://github.com/yugbin/dsh-prompt-order-fix) | 为 DeepSeek Harness 提供确定的 system-prompt section 排序——修复跨重启因同序 section 排序漂移导致的 KV 缓存失效。 | Deterministic system-prompt section ordering for DeepSeek Harness — fixes KV-cache invalid | 0 | TypeScript | yes |
 
-### utility（372）
+### utility（375）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -535,6 +535,9 @@
 | [sjh9714/dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) | 看得见 Agent 到底改了什么。一个会话里所有文件改动，一屏看完再决定要不要提交。 | See what the agent actually changed. Every file it wrote this session, in one review panel | 2 | TypeScript | yes |
 | [Lichen455/band-notify](https://github.com/Lichen455/band-notify) | DSH 插件：每轮对话结束时，通过 ntfy 把完成提醒推送到你的手机 / 小米手环 10 Pro 上。 | DeepSeek Harness plugin that pushes a notification to your phone / Xiaomi Mi Band 10 Pro ( | 2 | JavaScript | yes |
 | [kober-basket/dsh-cachescope](https://github.com/kober-basket/dsh-cachescope) | DeepSeek Harness 的 Prompt Cache 可观测插件：逐次展示 Cache Read、未缓存输入、TTFT 与成本，并通过相邻逻辑输入对比标记稳定前缀、首个变 | A prompt-cache observability plugin for DeepSeek Harness. It reports per-attempt Cache Rea | 2 | TypeScript | yes |
+| [taxueseek/dsh-snippets](https://github.com/taxueseek/dsh-snippets) | 极简片段/命令收藏箱：把常用命令、网址、提示词存成片段，一条调用即可找回；JSONL 存储，5 个工具，零依赖。 | A minimal snippets toolbox for DeepSeek Harness: save frequently used commands, URLs and p | 2 | TypeScript | yes |
+| [taxueseek/dsh-healthcheck](https://github.com/taxueseek/dsh-healthcheck) | 环境体检插件：检测磁盘、内存、网络延迟、~/.dsh 目录膨胀与插件版本落后，带历史基线趋势对比；全程只读，不删任何文件。 | Environment health check for DeepSeek Harness: monitors disk, memory, network latency, ~/. | 2 | TypeScript | yes |
+| [taxueseek/dsh-plugin-guard](https://github.com/taxueseek/dsh-plugin-guard) | 插件安全门卫 + 诊所：安装前静态审计、安装后哈希锁定校验，支持同类插件检索与机械化排毒（detox）；全程从不执行目标插件。 | Security gate and clinic for DSH plugins: static audit before install, hash-lock verificat | 2 | TypeScript | yes |
 | [BeAChanger/dsh-openclaw-acp](https://github.com/BeAChanger/dsh-openclaw-acp) | dsh-openclaw-acp — DSH 插件（其他） | DeepSeek Harness bundle for OpenClaw and WeChat over ACP | 1 | JavaScript | yes |
 | [kazecreator/dsh-plugins](https://github.com/kazecreator/dsh-plugins) | DeepSeek Harness（dsh）插件单体仓库——含 dsh-im（Telegram 与微信 IM 桥） | Monorepo of DeepSeek Harness (dsh) plugins — including dsh-im (Telegram & WeChat IM bridge | 1 | JavaScript | yes |
 | [Mongfayi/dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) | dsh-local-filetree — DSH 插件（其他） | File tree panel for the DSH Web UI: the right details column shows the current session wor | 1 | JavaScript | yes |
@@ -882,7 +885,7 @@
 | [kuailexiaozixin/tkinter-desktop](https://github.com/kuailexiaozixin/tkinter-desktop) | Tkinter/ttk 原生桌面应用全生命周期技能（MVC + pygubu .ui + SQLite + PyInstaller） | A full-lifecycle skill for native Tkinter/ttk desktop apps (MVC + pygubu .ui + SQLite + Py | 0 | Python | no |
 | [kuailexiaozixin/fasthtml-desktop](https://github.com/kuailexiaozixin/fasthtml-desktop) | FastHTML + pywebview 桌面应用全生命周期技能（本地 HTTP + WebView2 + PyInstaller） | A full-lifecycle skill for FastHTML + pywebview desktop apps (local HTTP + WebView2 + PyIn | 0 | Python | no |
 
-### tools（616）
+### tools（621）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -949,6 +952,7 @@
 | [biociao/dsh-science](https://github.com/biociao/dsh-science) | (无描述) | (no description) | 29 | JavaScript | yes |
 | [omdsh-dev/dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check) | 扫描插件仓库清单协议/patch 格式/构建陷阱 | Scan plugin repo manifest protocol / patch format / build traps | 28 | TypeScript | yes |
 | [omdsh-dev/dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) | 零依赖工具包合集（time/encoding/json/csv/regex） | Zero-dep toolkit collection | 28 | TypeScript | yes |
+| [taxueseek/dsh-files](https://github.com/taxueseek/dsh-files) | 会话隔离的文件上传插件：拖入文件生成彩色输入卡片，read_document 工具直接读文本 / PDF / DOCX / XLSX，带内容嗅探与 LRU 缓存，会话之间文件互不可 | Session-isolated file upload for DeepSeek Harness: drop files onto colorful composer cards | 28 | TypeScript | yes |
 | [chaos-03x/dsh-agy](https://github.com/chaos-03x/dsh-agy) | DeepSeek Harness 的 Google Antigravity（agy）OAuth 认证 + 模型访问插件：多账号池、429 轮换、设备指纹、CL…… | Google Antigravity (agy) OAuth auth + model access plugin for DeepSeek Harness: multi-acco | 26 | TypeScript | yes |
 | [834063245-creator/HoloGram](https://github.com/834063245-creator/HoloGram) | 3D 代码依赖拓扑图生成器（14 语言） | 3D code dependency graph generator (14 languages) | 25 | TypeScript | yes |
 | [lzszq/dsh-scholar](https://github.com/lzszq/dsh-scholar) | dsh-scholar（文献相关） | dsh-scholar (literature) | 25 | TypeScript | yes |
@@ -1259,6 +1263,7 @@
 | [akslcw/dsh-negative-ledger](https://github.com/akslcw/dsh-negative-ledger) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [LilycleHeart/liuli-theme](https://github.com/LilycleHeart/liuli-theme) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [Whatsmore-nf/dsh-pdf-edit](https://github.com/Whatsmore-nf/dsh-pdf-edit) | PDF 编辑插件：AI 只改文字不改样式，支持单页、批量、换版式，HTML 中转保留样式，高效处理大文件。 | PDF editor with AI text-only edits (styles unchanged): single-page, batch, layout switchin | 3 | TypeScript | yes |
+| [H97y/dsh-devflow](https://github.com/H97y/dsh-devflow) | DeepSeek Harness 的自动开发流水线插件：自动按项目规范处理绝大多数决策，仅需人工裁决的进入等待队列，页面答复后自动恢复。所有状态存于 <root>/.devflow | DeepSeek Harness Auto-Dev Pipeline Plugin: Automatically handles most decisions per projec | 3 | TypeScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
 | [omdsh-dev/sandbox-mxc](https://github.com/omdsh-dev/sandbox-mxc) | 微软跨平台沙盒支持 | Microsoft cross-platform sandbox support | 2 | TypeScript | yes |
 | [omdsh-dev/web-components](https://github.com/omdsh-dev/web-components) | web-components 支持 | web-components support | 2 | TypeScript | yes |
@@ -1378,6 +1383,7 @@
 | [Wanbinyu/dsh-error-lens](https://github.com/Wanbinyu/dsh-error-lens) | DeepSeek Harness 的只读供应商错误诊断插件，对错误信息进行脱敏和分类，并提供可执行的排查建议，不读取提示词、模型回复或工具参数与结果。 | Read-only, redacted provider error diagnostics for DeepSeek Harness. It classifies failure | 2 | TypeScript | yes |
 | [Wanbinyu/dsh-concurrency-meter](https://github.com/Wanbinyu/dsh-concurrency-meter) | DeepSeek Harness 的只读请求并发监控插件，显示活动请求、峰值并发、执行结果和供应商分组状态，不读取提示词、模型回复或工具内容。 | Read-only request concurrency monitoring for DeepSeek Harness, showing active requests, pe | 2 | TypeScript | yes |
 | [TryDing-T/dsh-Plugin--ChineseChess](https://github.com/TryDing-T/dsh-Plugin--ChineseChess) | DSH Web 中国象棋对弈插件：独立侧边栏棋盘，Host 负责完整棋规与版本校验，DSH 模型决定所有黑方落子；支持新局、悔棋、认输、棋谱复制、模型失败重试和跨聊天/标签页继续对 | A DeepSeek Harness Web Chinese-chess plugin with a standalone sidebar board. The Host owns | 2 | TypeScript | yes |
+| [taxueseek/taxue-dsh-artisan](https://github.com/taxueseek/taxue-dsh-artisan) | 一体化视觉创作插件：图像提示词反推（画幅/气质/风格/构图/光色九步锚点还原）、七维诊断优化、元提示词编译；生图接 Gemini、OpenAI、Seedream、Grok、订阅通道 | Visual creation plugin: reverse-engineers images into structured prompts (nine-step anchor | 2 | TypeScript | yes |
 | [Fisfzy/math-lean](https://github.com/Fisfzy/math-lean) | Lean 内核验证的数学推理插件 | Lean kernel-verified math reasoning plugin | 1 | TypeScript | yes |
 | [lin-cheng-lab/dsh-plugin-doctor](https://github.com/lin-cheng-lab/dsh-plugin-doctor) | DSH 插件体检：安装前检查 peer 版本兼容性，防止 rc 不匹配崩溃 🩺 | dsh-plugin-doctor — DSH plugin (tools) | 1 | TypeScript | yes |
 | [fff122/dsh-prompt-presets](https://github.com/fff122/dsh-prompt-presets) | dsh-prompt-presets — DSH 插件（工具） | Local reusable prompt presets for DeepSeek Harness. | 1 | TypeScript | yes |
@@ -1475,6 +1481,8 @@
 | [jetheaven/dsh-content-rewriter](https://github.com/jetheaven/dsh-content-rewriter) | 一键内容改写插件：把原文改写为小红书、知乎、商务邮件、精简版、扩写版、Twitter/X 等多种风格，面向中文社媒运营场景优化。 安装：`dsh plugin add github | One-click content rewriter for DSH: rewrites text into multiple styles — Xiaohongshu, Zhih | 1 | TypeScript | yes |
 | [jetheaven/dsh-translate-pro](https://github.com/jetheaven/dsh-translate-pro) | 专业翻译插件：支持术语一致、专业领域选择（法律/医学/IT 等）与语气调整，翻译后附带术语对照表，适合中英互译与文档本地化。 安装：`dsh plugin add github:j | Professional translation plugin for DSH: terminology consistency, domain selection (legal/ | 1 | TypeScript | yes |
 | [jetheaven/dsh-code-reviewer](https://github.com/jetheaven/dsh-code-reviewer) | AI 代码审查插件：粘贴代码即可获得四维分级审查——致命（安全漏洞/崩溃隐患）、重要（逻辑错误/性能瓶颈）、建议（风格/可维护性）、亮点；每个问题标注行号与代码片段并给出修复示例， | AI code review plugin for DSH: paste code to get a four-tier review — Critical (security/c | 1 | TypeScript | yes |
+| [wannanbigpig/dsh-usage-stats](https://github.com/wannanbigpig/dsh-usage-stats) | DeepSeek Harness web 用量与计费插件：官方余额、Token 用量、贡献热图与按小时计费统计。 | Balance, token usage, contribution heatmap & per-hour cost stats for dsh web. | 1 | JavaScript | yes |
+| [Shizuku-keop/dsh-plugin-console](https://github.com/Shizuku-keop/dsh-plugin-console) | Cordis 插件期望状态对账器：解决「重启后插件不加载」。plugins.intent.json 声明期望插件集合（放 profile 外），dsh-plugin-sync CL | Cordis plugin desired-state reconciler: fixes plugins that silently fail to load after res | 1 | JavaScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) | Qwen-MM-Plugins 支持 | Qwen-MM-Plugins support | 0 | TypeScript | yes |
 | [Mingxi2077/dsh-plugin-review](https://github.com/Mingxi2077/dsh-plugin-review) | dsh-plugin-review — DSH 插件（工具） | dsh-plugin-review — a DSH plugin (tool). | 0 | JavaScript | yes |

@@ -1965,3 +1965,11 @@ jasen215/dsh-continual-harness
 evil7/deepSea
 rayadesune/DeepSeek-Harness-chat-billing
 OLDnana1/dsh-theme-edgerunners
+taxueseek/taxue-dsh-artisan
+taxueseek/dsh-files
+taxueseek/dsh-snippets
+taxueseek/dsh-healthcheck
+taxueseek/dsh-plugin-guard
+wannanbigpig/dsh-usage-stats
+Shizuku-keop/dsh-plugin-console
+H97y/dsh-devflow
