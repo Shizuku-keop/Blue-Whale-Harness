@@ -95517,6 +95517,43 @@
   "featured": false,
   "analyzed_at": "2026-08-28T12:39:26.087Z"
  },
+ "Shizuku-keop/dsh-launch-doctor": {
+   "repo": "Shizuku-keop/dsh-launch-doctor",
+   "lists": [
+    "plugin"
+   ],
+   "dshCategory": "tools",
+   "isDshPlugin": true,
+   "dshSignals": [
+    "keyword-dsh",
+    "readme-mentions-dsh"
+   ],
+   "manifestType": null,
+   "language": "JavaScript",
+   "intent": "Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0-24.11.1 launch-failure family, loader resolveSync shape probe via --expose-internals child, __DSH_BOOT__ entries integrity, preload links + client-modules bootstrap script, /plugins route 200). Auth token auto-discovery from ~/.dsh/web-<port>.log. 21 node:test green; verified against Node 24.11.1 (broken) and 24.19.0 (healthy). Companion to deepseek-harness discussion #4968.",
+   "intentEn": "Zero-dependency dsh web launch diagnostics CLI: five checks (Node version range flags 24.0-24.11.1 launch-failure family, loader resolveSync shape probe via --expose-internals child, __DSH_BOOT__ entries integrity, preload links + client-modules bootstrap script, /plugins route 200). Auth token auto-discovery from ~/.dsh/web-<port>.log. 21 node:test green; verified against Node 24.11.1 (broken) and 24.19.0 (healthy). Companion to deepseek-harness discussion #4968.",
+   "intentZh": "\u96f6\u4f9d\u8d56 dsh web \u542f\u52a8\u8bca\u65ad CLI\uff1a\u4e94\u9879\u68c0\u67e5\uff08Node \u7248\u672c\u533a\u95f4\u2014\u2014\u6807\u8bb0 24.0-24.11.1 \u542f\u52a8\u5931\u8d25\u65cf\uff1bloader resolveSync \u5f62\u72b6\u63a2\u6d4b\u2014\u2014--expose-internals \u5b50\u8fdb\u7a0b\uff1b__DSH_BOOT__ entries \u5b8c\u6574\u6027\uff1bpreload \u94fe\u63a5 + client-modules \u5f15\u5bfc\u811a\u672c\uff1b/plugins \u8def\u7531 200\uff09\u3002token \u4ece ~/.dsh/web-<port>.log \u81ea\u52a8\u53d1\u73b0\u300221 \u9879 node:test \u5168\u7eff\uff1b\u5728 Node 24.11.1\uff08\u574f\uff09\u4e0e 24.19.0\uff08\u597d\uff09\u771f\u673a\u9a8c\u8bc1\u3002\u914d\u5957 deepseek-harness \u8ba8\u8bba #4968\u3002",
+   "zhSource": "native",
+   "enSource": "native",
+   "needsReview": false,
+   "techStack": [
+    "JavaScript",
+    "esm"
+   ],
+   "keyDeps": [],
+   "entry": null,
+   "stars": 0,
+   "forks": 0,
+   "created_at": "2026-08-29T00:00:00Z",
+   "updated_at": "2026-08-29T00:00:00Z",
+   "license": "MIT",
+   "open_issues": 0,
+   "topics": [],
+   "cloned": false,
+   "compat": "unknown",
+   "featured": false,
+   "analyzed_at": "2026-08-29T00:00:00Z"
+ },
  "H97y/dsh-devflow": {
   "repo": "H97y/dsh-devflow",
   "lists": [
@@ -95568,3 +95605,4 @@
   "analyzed_at": "2026-08-28T12:39:26.087Z"
  }
 }
+

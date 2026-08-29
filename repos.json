@@ -30301,6 +30301,22 @@
   ]
  },
  {
+  "repo": "Shizuku-keop/dsh-launch-doctor",
+  "name": "dsh-launch-doctor",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Zero-dependency dsh web launch diagnostics CLI: Node version range (flags 24.0-24.11.1 launch-failure family), loader resolveSync shape probe, __DSH_BOOT__ entries integrity, preload/script presence, /plugins route; token auto-discovery from ~/.dsh/web-<port>.log",
+  "desc_zh": "零依赖 dsh web 启动诊断 CLI：Node 版本区间（标记 24.0-24.11.1 启动失败族）、loader resolveSync 形状探测、__DSH_BOOT__ entries 完整性、preload/script 存在性、/plugins 路由；token 从 ~/.dsh/web-<port>.log 自动发现",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
   "repo": "Lichen455/band-notify",
   "name": "band-notify",
   "category": "utility",
@@ -30333,3 +30349,4 @@
   ]
  }
 ]
+

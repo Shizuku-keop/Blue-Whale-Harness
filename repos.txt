@@ -1973,3 +1973,4 @@ taxueseek/dsh-plugin-guard
 wannanbigpig/dsh-usage-stats
 Shizuku-keop/dsh-plugin-console
 H97y/dsh-devflow
+Shizuku-keop/dsh-launch-doctor
